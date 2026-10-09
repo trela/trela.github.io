@@ -1,0 +1,17 @@
+{% comment %}
+  grid of research thrust cards from _data/thrusts.yaml
+{% endcomment %}
+<div class="thrust-grid">
+  {% for thrust in site.data.thrusts %}
+    <a
+      class="thrust-card"
+      id="{{ thrust.id }}"
+      href="{{ "publications" | relative_url }}/?search={{ thrust.search | uri_escape }}"
+      data-tooltip="See related publications"
+    >
+      <span class="thrust-icon">{% include icon.html icon=thrust.icon %}</span>
+      <span class="thrust-title">{{ thrust.title }}</span>
+      <span class="thrust-summary">{{ thrust.summary }}</span>
+    </a>
+  {% endfor %}
+</div>

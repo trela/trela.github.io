@@ -1,0 +1,5200 @@
+- type: journal
+  title: 'A TRAP for SAT: On the Imperviousness of a Transistor-Level Programmable Fabric to Satisfiability-Based Attacks'
+  authors:
+  - A. Fowler
+  - M. Shayan
+  - M. Shihab
+  - T. Broadfoot
+  - P. Beerel
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: IACR Transactions on Cryptographic Hardware and Embedded Systems (T.CHES)
+  date: '2025-01-01'
+  doi: 10.46586/tches.v2025.i2.579-603
+  buttons:
+  - type: doi
+    link: https://doi.org/10.46586/tches.v2025.i2.579-603
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ches25.pdf
+  link: https://doi.org/10.46586/tches.v2025.i2.579-603
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Modeling Bidirectional Switches for Enabling Logic Equivalence Checking in a Transistor-Level Programmable Fabric
+  authors:
+  - A. Jain
+  - T. Broadfoot
+  - '**Y. Makris**'
+  - C. Sechen
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2025-01-01'
+  doi: 10.1109/tcad.2024.3434450
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2024.3434450
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad25b.pdf
+  link: https://doi.org/10.1109/tcad.2024.3434450
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Physically Secure Logic Locking With Nanomagnet Logic
+  authors:
+  - A. Edwards
+  - N. Hassan
+  - J. Arzate
+  - A. Chin
+  - D. Bhattacharya
+  - M. Shihab
+  - P. Zhou
+  - X. Hu
+  - J. Atulasimha
+  - '**Y. Makris**'
+  - J. Friedman
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2025-01-01'
+  doi: 10.1109/tcad.2024.3434362
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2024.3434362
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad25a.pdf
+  link: https://doi.org/10.1109/tcad.2024.3434362
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Can Llamas Learn the Language of Test?
+  authors:
+  - C. Vasileiou
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2025-01-01'
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'FREEDOM: FPGA-based Hardware Redaction Emulator'
+  authors:
+  - C. Sathe
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  publisher: Proceedings of the International Symposium on Field-Programmable Custom Computing Machines (FCCM 2025)
+  date: '2025-01-01'
+  doi: 10.1109/fccm62733.2025.00027
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/fccm62733.2025.00027
+  link: https://doi.org/10.1109/fccm62733.2025.00027
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Efficient and Secure Cloud-based Split Logic Synthesis
+  authors:
+  - C. Sathe
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
+  date: '2025-01-01'
+  doi: 10.1145/3658617.3697769
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/3658617.3697769
+  link: https://doi.org/10.1145/3658617.3697769
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Enhancing Metrology to E-test Correlation Model Accuracy through Process Expertise Integration
+  authors:
+  - C-Y. Chang
+  - M. Nigh
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2025-01-01'
+  doi: 10.1109/vts65138.2025.11022777
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts65138.2025.11022777
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts25.pdf
+  link: https://doi.org/10.1109/vts65138.2025.11022777
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: FPGA-based Hardware Redaction Bitstream Fuzzing Attack
+  authors:
+  - C. Sathe
+  - D. Chandrasekara
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  publisher: Proceedings of the IEEE Asian-Pacific Design Automation Conference (ASP-DAC)
+  date: '2025-01-01'
+  doi: 10.1109/dcas65331.2025.11045493
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dcas65331.2025.11045493
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/aspdac25.pdf
+  link: https://doi.org/10.1109/dcas65331.2025.11045493
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Design Obfuscation and Performance Locking Solutions for Mixed-Signal, Analog and RF ICs
+  authors:
+  - P. Mishra
+  - A. Marshall
+  - '**Y. Makris**'
+  publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for Security and Trust, CRC Press
+  date: '2025-01-01'
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Security Verification for Next-generation SoCs
+  authors:
+  - S. Niftah
+  - A. Srivastava
+  - '**Y. Makris**'
+  - K. Basu
+  publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for Security and Trust, CRC Press
+  date: '2025-01-01'
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: The History, Landscape, and Outlook of Human Cell Line Authentication and Security
+  authors:
+  - E. Harbut
+  - '**Y. Makris**'
+  - A. Pertsemlidis
+  - L. Bleris
+  publisher: SLAS Discovery
+  date: '2024-01-01'
+  doi: 10.1016/j.slasd.2024.100194
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1016/j.slasd.2024.100194
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/slas24.pdf
+  link: https://doi.org/10.1016/j.slasd.2024.100194
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Bit-by-Bit: Investigating the Vulnerabilities of Binary Neural Networks to Adversarial Bit Flipping'
+  authors:
+  - S. Kundu
+  - S. Das
+  - S. Karmakar
+  - A. Raha
+  - S. Kundu
+  - '**Y. Makris**'
+  - K. Basu
+  publisher: Transactions on Machine Learning Research
+  date: '2024-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tmlr24.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/tmlr24.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Generation and Evaluation of Synthetic Process Control Monitoring Data
+  authors:
+  - M. Nigh
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2024-01-01'
+  doi: 10.1109/itc51657.2024.00042
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc51657.2024.00042
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc24.pdf
+  link: https://doi.org/10.1109/itc51657.2024.00042
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'NSPG: Natural language Processing-based Security Property Generator for Hardware Security Assurance'
+  authors:
+  - X. Meng
+  - A. Srivastava
+  - A. Arunachalam
+  - A. Ray
+  - P. Silva
+  - R. Psiakis
+  - '**Y. Makris**'
+  - K. Basu
+  publisher: Proceedings of the ACM/IEEE Design Automation Conference
+  date: '2024-01-01'
+  doi: 10.1145/3649329.3656255
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/3649329.3656255
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date24.pdf
+  link: https://doi.org/10.1145/3649329.3656255
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 19-GHz VCO with Phase Noise of-117 dBc/Hz at 1-MHz Offset Using an Array of Near Minimum Size Transistors and Intelligent Post Fabrication Selection
+  authors:
+  - F. Jalalibidgoli
+  - '**Y. Makris**'
+  - K. K. O.
+  publisher: Proceedings of the IEEE/MTT-S International Microwave Symposium (IMS)
+  date: '2024-01-01'
+  doi: 10.1109/ims40175.2024.10600340
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ims40175.2024.10600340
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ims24.pdf
+  link: https://doi.org/10.1109/ims40175.2024.10600340
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Testing a Transistor-Level Programmable Fabric: Challenges and Solutions'
+  authors:
+  - A. Jain
+  - T. Broadfoot
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2024-01-01'
+  doi: 10.1109/vts60656.2024.10538901
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts60656.2024.10538901
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts24b.pdf
+  link: https://doi.org/10.1109/vts60656.2024.10538901
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On the Sensitivity of Analog Artificial Neural Network Models to Process Variation
+  authors:
+  - N. Afroz
+  - A. Sayem
+  - G. Volanis
+  - D. Maliuk
+  - H. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2024-01-01'
+  doi: 10.1109/vts60656.2024.10538718
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts60656.2024.10538718
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts24a.pdf
+  link: https://doi.org/10.1109/vts60656.2024.10538718
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Statistical Methods for Detecting Recycled Electronics: From ICs to PCBs and Beyond'
+  authors:
+  - K. Huang
+  - Y. Liu
+  - N. Korolija
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: IEEE Design & Test of Computers
+  date: '2023-01-01'
+  doi: 10.1109/mdat.2023.3283349
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdat.2023.3283349
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt23.pdf
+  link: https://doi.org/10.1109/mdat.2023.3283349
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Unlocking Hardware Security Assurance: The potential of LLMs'
+  authors:
+  - X. Meng
+  - A. Srivastava
+  - A. Arunachalam
+  - A. Ray
+  - P. Silva
+  - R. Psiakis
+  - '**Y. Makris**'
+  - K. Basu
+  publisher: arXiv:2308:11042
+  date: '2023-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/arxiv23.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/arxiv23.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'FuncTeller: How Well Does eFPGA Hide Functionality?'
+  authors:
+  - Z. Han
+  - M. Shayan
+  - A. Dixit
+  - M. Shihab
+  - '**Y. Makris**'
+  - JV Rajendran
+  publisher: in USENIX Security
+  date: '2023-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/usenix23.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/usenix23.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Machine Learning-Based Adaptive Outlier Detection For Underkill Reduction In Analog/RF IC Testing
+  authors:
+  - V. Niranjan
+  - D. Neethirajan
+  - D. Webster
+  - A. Nahar
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2023-01-01'
+  doi: 10.1109/vts56346.2023.10140005
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts56346.2023.10140005
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts23.pdf
+  link: https://doi.org/10.1109/vts56346.2023.10140005
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'MANTIS: Machine Learning-Based Approximate Modeling of Redacted Integrated Circuits'
+  authors:
+  - C. Sathe
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
+  date: '2023-01-01'
+  doi: 10.23919/date56975.2023.10136971
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date56975.2023.10136971
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date23b.pdf
+  link: https://doi.org/10.23919/date56975.2023.10136971
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Quo Vadis Signal? Automated Directionality extraction for Post-Programming Verification of a Transistor-Level Programmable Fabric
+  authors:
+  - A. Jain
+  - T. Broadfoot
+  - '**Y. Makris**'
+  - C. Sechen
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
+  date: '2023-01-01'
+  doi: 10.23919/date56975.2023.10136928
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date56975.2023.10136928
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date23a.pdf
+  link: https://doi.org/10.23919/date56975.2023.10136928
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Genetic Physical Unclonable Functions in Human Cells
+  authors:
+  - Y. Li
+  - M. Bidmeshki
+  - T. Kang
+  - C. Nowak
+  - '**Y. Makris**'
+  - L. Bleris
+  publisher: Science Advances
+  date: '2022-01-01'
+  doi: 10.1126/sciadv.abm4106
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1126/sciadv.abm4106
+  - type: link
+    text: Publisher
+    link: https://www.science.org/doi/full/10.1126/sciadv.abm4106
+  link: https://doi.org/10.1126/sciadv.abm4106
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Phase Noise Reduction in LC VCO’s Using an Array of Cross-Coupled Nanoscale MOSFETs and Intelligent Post-Fabrication Selection
+  authors:
+  - P. Yelleswarapu
+  - A. Jha
+  - R. Willis
+  - '**Y. Makris**'
+  - K. K. O
+  publisher: IEEE Transactions on Microwave Theory and Techniques
+  date: '2022-01-01'
+  doi: 10.1109/tmtt.2022.3164949
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tmtt.2022.3164949
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tmt22.pdf
+  link: https://doi.org/10.1109/tmtt.2022.3164949
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Physically and Algorithmically Secure Logic Locking with Hybrid CMOS-Nanomagnet Logic
+  authors:
+  - A. Edwards
+  - N. Hassan
+  - D. Bhattacharya
+  - M. Shihab
+  - P. Zhou
+  - X. Hu
+  - J. Atulasimha
+  - '**Y. Makris**'
+  - J. Friedman
+  publisher: Bulletin of the American Physical Society
+  date: '2022-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: https://meetings.aps.org/Meeting/MAR22/Session/Z51.8
+  link: https://meetings.aps.org/Meeting/MAR22/Session/Z51.8
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Efficient CNN-Based Super Resolution Algorithms for mmWave Mobile Radar Imaging
+  authors:
+  - C. Vasileiou
+  - J. Smith
+  - S. Thiagarajan
+  - M. Nigh
+  - '**Y. Makris**'
+  - M. Torlak
+  publisher: Proceedings of the IEEE International Conference on Image Processing (ICIP)
+  date: '2022-01-01'
+  doi: 10.1109/icip46576.2022.9897190
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/icip46576.2022.9897190
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/icip22.pdf
+  link: https://doi.org/10.1109/icip46576.2022.9897190
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Reducing Underkill Using Unsupervised Machine Learning-Based Method in Analog/RF IC Testing
+  authors:
+  - V. Niranjan
+  - D. Neethirajan
+  - A. Nahar
+  - D. Webster
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2022-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon22.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon22.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Defect Tolerance Framework for Improving Yield
+  authors:
+  - S. Thiagarajan
+  - S. Natarajan
+  - '**Y. Makris**'
+  publisher: Proceedings of the ACM/IEEE Design Automation Conference
+  date: '2022-01-01'
+  doi: 10.1145/3489517.3530534
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/3489517.3530534
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dac22.pdf
+  link: https://doi.org/10.1145/3489517.3530534
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Physically and Algorithmically Secure Logic Locking with Hybrid CMOS/Nanomagnet Logic Circuits
+  authors:
+  - A. J. Edwards
+  - N. Hassan
+  - D. Bhattacharya
+  - M. Shihab. P. Zhou
+  - X. Hu
+  - J. Atulasimha
+  - '**Y. Makris**'
+  - J. Friedman
+  publisher: Proceedings of the IEEE Design, Automation & Test in Europe Conference (DATE)
+  date: '2022-01-01'
+  doi: 10.23919/date54114.2022.9774629
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date54114.2022.9774629
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date22.pdf
+  link: https://doi.org/10.23919/date54114.2022.9774629
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Machine Learning-Based Overkill Reduction through Inter-Test Correlation
+  authors:
+  - D. Neethirajan
+  - V. Niranjan
+  - R. Willis
+  - A. Nahar
+  - D. Webster
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2022-01-01'
+  doi: 10.1109/vts52500.2021.9794170
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts52500.2021.9794170
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts22.pdf
+  link: https://doi.org/10.1109/vts52500.2021.9794170
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'MTBoM: Metal Trace to Bill of Materials Generation for PCB Reverse Engineering'
+  authors:
+  - L. Nahar
+  - J. Rajendran
+  - '**Y. Makris**'
+  - C. Sechen
+  publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
+  date: '2022-01-01'
+  doi: 10.1109/dcas53974.2022.9845644
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dcas53974.2022.9845644
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dcas22a.pdf
+  link: https://doi.org/10.1109/dcas53974.2022.9845644
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Toward Accurate Timing Analysis for Transistor-Level Programmable Fabrics
+  authors:
+  - Q. Huang
+  - J. Tian
+  - T. Broadfoot
+  - X. Xu
+  - B. Hu
+  - M. Shihab
+  - A. Jain
+  - V. Salimath
+  - '**Y. Makris**'
+  - C. Sechen
+  publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
+  date: '2022-01-01'
+  award: Best Paper Award
+  doi: 10.1109/dcas53974.2022.9845530
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dcas53974.2022.9845530
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dcas22b.pdf
+  link: https://doi.org/10.1109/dcas53974.2022.9845530
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Investigating the Effect of different eFPGAs fabrics on Logic Locking through HW Redaction
+  authors:
+  - C. Sathe
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
+  date: '2022-01-01'
+  doi: 10.1109/dcas53974.2022.9845535
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dcas53974.2022.9845535
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dcas22c.pdf
+  link: https://doi.org/10.1109/dcas53974.2022.9845535
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: 'Hardware-Induced Covert Channels in Wireless Networks: Risks and Remedies'
+  authors:
+  - K. Subramani
+  - A. Antonopoulos
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: In S. Jajodia, R. Samarati and M. Yung (Editors), Encyclopedia of Cryptography, Security and Privacy, Springer
+  date: '2022-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: https://www.springer.com/gp/book/9783030715205
+  link: https://www.springer.com/gp/book/9783030715205
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: patent
+  title: Field Programmable Transistor Arrays
+  publisher: Patent US 11,362,362 (continuation) · Issued Jun. 28, 2022
+  date: '2022-01-01'
+  tags:
+  - patent
+  plugin: sources.py
+  file: sources.yaml
+- type: patent
+  title: Methods for Generating Integrated Circuit (IC) Layout Synthetic Patterns and Related Computer Program Products
+  publisher: Patent US 11,449,658 · Issued Sep. 20, 2022
+  date: '2022-01-01'
+  tags:
+  - patent
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Provenance Attestation of Human Cells Using Physical Unclonable Functions
+  authors:
+  - Y. Li
+  - M. Bidmeshki
+  - T. Kang
+  - C. Nowak
+  - '**Y. Makris**'
+  - L. Bleris
+  publisher: bioRxiv
+  date: '2021-01-01'
+  doi: 10.2139/ssrn.3887803
+  buttons:
+  - type: doi
+    link: https://doi.org/10.2139/ssrn.3887803
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/bioRxiv21.pdf
+  - type: external
+    text: Supplement
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/supplementary.pdf
+  link: https://doi.org/10.2139/ssrn.3887803
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'TPE: A Hardware-Based TLB Profiling Expert for Workload Reconstruction'
+  authors:
+  - L. Zhou
+  - Y. Zhang
+  - '**Y. Makris**'
+  publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+  date: '2021-01-01'
+  doi: 10.1109/jetcas.2021.3077442
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/jetcas.2021.3077442
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetcas21a.pdf
+  link: https://doi.org/10.1109/jetcas.2021.3077442
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Proof-Carrying Hardware-Based Information Flow Tracking in Analog/Mixed-Signal Designs
+  authors:
+  - M. Bidmeshki
+  - An. Antonopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+  date: '2021-01-01'
+  doi: 10.1109/jetcas.2021.3075098
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/jetcas.2021.3075098
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetcas21b.pdf
+  link: https://doi.org/10.1109/jetcas.2021.3075098
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: On Improving Hotspot Detection Through Synthetic Pattern-Based Database Enhancement
+  authors:
+  - G. R. Reddy
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T.CAD)
+  date: '2021-01-01'
+  doi: 10.1109/tcad.2021.3049285
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2021.3049285
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad21.pdf
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/arxiv20.pdf
+  link: https://doi.org/10.1109/tcad.2021.3049285
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Improved Static Hand Gesture Classification on Deep Convolutional Neural Networks Using Novel Sterile Training Technique
+  authors:
+  - J. W. Smith
+  - S. Thiagarajan
+  - R. Willis
+  - '**Y. Makris**'
+  - M. Torlak
+  publisher: IEEE Access
+  date: '2021-01-01'
+  doi: 10.1109/access.2021.3051454
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/access.2021.3051454
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/access21.pdf
+  link: https://doi.org/10.1109/access.2021.3051454
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Bias Busters: Robustifying DL-based Lithographic Hotspot Detectors Against Backdooring Attacks'
+  authors:
+  - K. Liu
+  - B. Tan
+  - G. Rajavendra Reddy
+  - S. Garg
+  - '**Y. Makris**'
+  - R. Karri
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2021-01-01'
+  doi: 10.1109/tcad.2020.3033749
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2020.3033749
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad21-nyu.pdf
+  link: https://doi.org/10.1109/tcad.2020.3033749
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Machine-Learning Based Overkill Reduction using Correlation within the Probe Tests
+  authors:
+  - V. Niranjan
+  - D. Neethirajan
+  - A. Nahar
+  - D. Webster
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2021-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon21.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon21.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Secure Logic Locking with Strain-Protected Nanomagnet Logic
+  authors:
+  - N. Hassan
+  - A. J. Edwards
+  - D. Bhattacharya
+  - M. M. Shihab
+  - V. Venkat
+  - P. Zhou
+  - X. Hu
+  - S. Kundu
+  - A. P. Kuruvila
+  - K. Basu
+  - J. Atulasimha
+  - '**Y. Makris**'
+  - J. S. Friedman
+  publisher: Proceedings of the Design Automation Conference (DAC)
+  date: '2021-01-01'
+  doi: 10.1109/dac18074.2021.9586258
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dac18074.2021.9586258
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dac21.pdf
+  link: https://doi.org/10.1109/dac18074.2021.9586258
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Functional Locking through Omission: From HLS to Obfuscated Design'
+  authors:
+  - Z. Wang
+  - M. Shayan
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2021-01-01'
+  doi: 10.1109/iccd53106.2021.00095
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd53106.2021.00095
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd21.pdf
+  link: https://doi.org/10.1109/iccd53106.2021.00095
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Trim Time Reduction in Analog/RF ICs Based on Inter-Trim Correlation
+  authors:
+  - V. Niranjan
+  - D. Neethirajan
+  - C. Xanthopoulos
+  - E. De La Rosa
+  - C. Alleyne
+  - S. Mier
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2021-01-01'
+  award: Best Paper Award Candidate
+  doi: 10.1109/vts50974.2021.9441034
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts50974.2021.9441034
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts21.pdf
+  link: https://doi.org/10.1109/vts50974.2021.9441034
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: patent
+  title: Genetic Physical Unclonable Functions and Methods of Use Thereof
+  publisher: Patent PCT/US2021/033108 · Filed May 18, 2021
+  date: '2021-01-01'
+  tags:
+  - patent
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Hunting Security Bugs in SoC Designs: Lessons Learned'
+  authors:
+  - M. Bidmeshki
+  - Y
+  - Zhang
+  - M. Zaman
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: IEEE Design & Test of Computers (D&T)
+  date: '2020-01-01'
+  doi: 10.1109/mdat.2020.3013727
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdat.2020.3013727
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt20b.pdf
+  link: https://doi.org/10.1109/mdat.2020.3013727
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Amplitude-Modulating Analog/RF Hardware Trojans in Wireless Networks: Risks and Remedies'
+  authors:
+  - K. S. Subramani
+  - N. Helal
+  - A. Antonopoulos
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
+  date: '2020-01-01'
+  doi: 10.1109/tifs.2020.2990792
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tifs.2020.2990792
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tifs20.pdf
+  link: https://doi.org/10.1109/tifs.2020.2990792
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Automated Die Inking
+  authors:
+  - C. Xanthopoulos
+  - A. Neckerman
+  - P. List
+  - K.-P. Tschernay
+  - P. Sarson
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Device and Materials Reliability (T. DMR)
+  date: '2020-01-01'
+  doi: 10.1109/tdmr.2020.2994291
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tdmr.2020.2994291
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tdmr20.pdf
+  link: https://doi.org/10.1109/tdmr.2020.2994291
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: A Hardware-Based Architecture-Neutral Framework for Real-Time IoT Workload Forensics
+  authors:
+  - L. Zhou
+  - Y
+  - Hu
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computers (T. COMP)
+  date: '2020-01-01'
+  doi: 10.1109/tc.2020.3000237
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2020.3000237
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp20.pdf
+  link: https://doi.org/10.1109/tc.2020.3000237
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Hardware-based Real-time Workload Forensics
+  authors:
+  - Y. Zhang
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: IEEE Design & Test of Computers (D&T)
+  date: '2020-01-01'
+  doi: 10.1109/mdat.2020.2968260
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdat.2020.2968260
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt20a.pdf
+  link: https://doi.org/10.1109/mdat.2020.2968260
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Hardware-Based Detection of Spectre Attacks: A Machine Learning Approach'
+  authors:
+  - Y. Zhang
+  - '**Y. Makris**'
+  publisher: Proceedings of the EEE Asian Hardware–Oriented Security and Trust Symposium (Asian-HOST)
+  date: '2020-01-01'
+  doi: 10.1109/asianhost51057.2020.9358255
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/asianhost51057.2020.9358255
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ahost21.pdf
+  link: https://doi.org/10.1109/asianhost51057.2020.9358255
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Defect Tolerance Estimation and Netlist Optimization for Digital Designs
+  authors:
+  - S. Thiagarajan
+  - S. Natarajan
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2020-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon20.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon20.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'CASPER: CAD Framework for a Novel Transistor-Level Programmable Fabric'
+  authors:
+  - M. Shihab
+  - B. Ramanidharan
+  - G. Rajavendra Reddy
+  - J. Tian
+  - W. Swartz
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  date: '2020-01-01'
+  doi: 10.1109/iscas45731.2020.9181074
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iscas45731.2020.9181074
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas20.pdf
+  link: https://doi.org/10.1109/iscas45731.2020.9181074
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'DECOY: DEflection-Driven HLS-Based Computation Partitioning for Obfuscating Intellectual PropertY'
+  authors:
+  - J. Chen
+  - M. Zaman
+  - '**Y. Makris**'
+  - R. D. Blanton
+  - S. Mitra
+  - B. Carrion Schafer
+  publisher: Proceedings of the ACM Design Automation Conference (DAC)
+  date: '2020-01-01'
+  doi: 10.1109/dac18072.2020.9218519
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dac18072.2020.9218519
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dac20.pdf
+  link: https://doi.org/10.1109/dac18072.2020.9218519
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'ATTEST: Application-Agnostic Testing of a Novel Transistor-Level Programmable Fabric'
+  authors:
+  - M. Shihab
+  - B. Ramanidharan
+  - S. Tellakula
+  - G. Rajavendra Reddy
+  - J. Tian
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2020-01-01'
+  doi: 10.1109/vts48691.2020.9107561
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts48691.2020.9107561
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts20.pdf
+  link: https://doi.org/10.1109/vts48691.2020.9107561
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Range Controlled Floating-Gate Transistors: A Unified Solution for Unlocking and Calibrating Analog ICs'
+  authors:
+  - S. G. R. Nimmalapudi
+  - G. Volanis
+  - Y. Lu
+  - A. Antonopoulos
+  - A. Marshall
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
+  date: '2020-01-01'
+  doi: 10.23919/date48585.2020.9116251
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date48585.2020.9116251
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date20b.pdf
+  link: https://doi.org/10.23919/date48585.2020.9116251
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: An Efficient MILP-Based Aging-Aware Floorplanner for Multi-Context Coarse-Grained Runtime Reconfigurable FPGA
+  authors:
+  - B. Hu
+  - M. Shihab
+  - '**Y. Makris**'
+  - B. C. Schaefer
+  - C. Sechen
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
+  date: '2020-01-01'
+  doi: 10.23919/date48585.2020.9116537
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date48585.2020.9116537
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date20a.pdf
+  link: https://doi.org/10.23919/date48585.2020.9116537
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: patent
+  title: Field Programmable Transistor Arrays
+  publisher: Patent US 10,855,285 (continuation) · Issued Dec. 1, 2020
+  date: '2020-01-01'
+  tags:
+  - patent
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'CAPE: A Cross-Layer Framework for Accurate Microprocessor Power Estimation'
+  authors:
+  - M. Zaman
+  - M. Shihab
+  - A. Coskun
+  - '**Y. Makris**'
+  publisher: 'Integration: The VLSI Journal (JVLSI)'
+  date: '2019-01-01'
+  doi: 10.1016/j.vlsi.2019.05.002
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1016/j.vlsi.2019.05.002
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vlsi19.pdf
+  link: https://doi.org/10.1016/j.vlsi.2019.05.002
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Demonstrating and Mitigating the Risk of a FEC-based Hardware Trojan in Wireless Networks
+  authors:
+  - K. Subramani
+  - A. Antonopoulos
+  - A. Abotabl
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
+  date: '2019-01-01'
+  doi: 10.1109/tifs.2019.2900906
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tifs.2019.2900906
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tifs19.pdf
+  link: https://doi.org/10.1109/tifs.2019.2900906
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Design Space Exploration For Hotspot Detection
+  authors:
+  - G. Rajavendra Reddy
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Workshop on Microprocessor Test and Verification (MTV)
+  date: '2019-01-01'
+  doi: 10.1109/mtv48867.2019.00022
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mtv48867.2019.00022
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/mtv19.pdf
+  link: https://doi.org/10.1109/mtv48867.2019.00022
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Extending the Lifetime of Coarse-Grained Runtime Reconfigurable FPGAs by Balancing Processing Element Usage
+  authors:
+  - B. Hu
+  - M. Shihab
+  - '**Y. Makris**'
+  - B. C. Schaefer
+  - C. Sechen
+  publisher: Proceedings of the International Conference on Field-Programmable Technology (ICFPT)
+  date: '2019-01-01'
+  doi: 10.1109/icfpt47387.2019.00050
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/icfpt47387.2019.00050
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/fpt19.pdf
+  link: https://doi.org/10.1109/icfpt47387.2019.00050
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Revisiting Capacitor-Based Trojan Design and Detection
+  authors:
+  - M. Bidmeshki
+  - K. Subramani
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2019-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd19.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd19.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'VIPER: A Versatile and Intuitive Pattern GenERator for Early Design Space Exploration'
+  authors:
+  - G. Rajavendra Reddy
+  - M. Bidmeshki
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2019-01-01'
+  doi: 10.1109/itc44170.2019.9000169
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc44170.2019.9000169
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc19b.pdf
+  link: https://doi.org/10.1109/itc44170.2019.9000169
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'IPP: Subtle Anomaly Detection of Microscopic Probes using Deep Learning Based Image Completion'
+  authors:
+  - K. Schaub
+  - K. Ikeda
+  - I. Leventhal
+  - '**Y. Makris**'
+  - C. Xanthopoulos
+  - D. Neethirajan
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2019-01-01'
+  doi: 10.1109/itc44170.2019.9000126
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc44170.2019.9000126
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc19a.pdf
+  link: https://doi.org/10.1109/itc44170.2019.9000126
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Machine Learning-Based Hotspot Detection: Fallacies, Pitfalls and Marching Orders'
+  authors:
+  - G. Rajavendra Reddy
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2019-01-01'
+  doi: 10.1109/iccad45719.2019.8942128
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad45719.2019.8942128
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad19.pdf
+  link: https://doi.org/10.1109/iccad45719.2019.8942128
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Wafer-Level Adaptive Vmin Calibration Seed Forecasting using Inter-Vmin Correlation
+  authors:
+  - D. Neethirajan
+  - C. Xanthopoulos
+  - S. Boddikurapati
+  - A. Nahar
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2019-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon19b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon19b.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'VIPER: A Versatile and Intuitive Pattern GenERator for Early Design Space Exploration'
+  authors:
+  - G. Rajavendra Reddy
+  - M. Bidmeshki
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2019-01-01'
+  doi: 10.1109/itc44170.2019.9000169
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc44170.2019.9000169
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon19b.pdf
+  link: https://doi.org/10.1109/itc44170.2019.9000169
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Post-Production Calibration of Analog/RF ICs: Recent Developments and A Fully Integrated Solution'
+  authors:
+  - A. Antonopoulos
+  - G. Volanis
+  - Y. Lu
+  - '**Y. Makris**'
+  publisher: Proceedings of the International Conference on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design (SMACD)
+  date: '2019-01-01'
+  doi: 10.1109/smacd.2019.8795278
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/smacd.2019.8795278
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/smacd19.pdf
+  link: https://doi.org/10.1109/smacd.2019.8795278
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Trusted and Secure Design of Analog/RF ICs: Recent Developments'
+  authors:
+  - K. Subramani
+  - G. Volanis
+  - M. Bidmeshki
+  - A. Antonopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the International On-Line Test Symposium (IOLTS)
+  date: '2019-01-01'
+  doi: 10.1109/iolts.2019.8854461
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iolts.2019.8854461
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts19b.pdf
+  link: https://doi.org/10.1109/iolts.2019.8854461
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Automated Die Inking through On-line Machine Learning
+  authors:
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  - K.-P. Tschernay
+  - A. Neckermann
+  - P. List
+  - P. Sarson
+  publisher: Proceedings of the International On-Line Test Symposium (IOLTS)
+  date: '2019-01-01'
+  doi: 10.1109/iolts.2019.8854373
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iolts.2019.8854373
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts19a.pdf
+  link: https://doi.org/10.1109/iolts.2019.8854373
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Functional Obfuscation of Hardware Accelerators through Selective Partial Design Extraction onto an Embedded FPGA
+  authors:
+  - B. Hu
+  - J. Tian
+  - M. Shihab
+  - G. Rajavendra Reddy
+  - W. Swartz
+  - '**Y. Makris**'
+  - B. Carrion Schaefer
+  - C. Sechen
+  publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
+  date: '2019-01-01'
+  doi: 10.1145/3299874.3317992
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/3299874.3317992
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/glsvlsi19.pdf
+  link: https://doi.org/10.1145/3299874.3317992
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Machine Learning-based Noise Classification and Decomposition in RF Transceivers
+  authors:
+  - D. Neethirajan
+  - C. Xanthopoulos
+  - K. Subramani
+  - K. Schaub
+  - I. Leventhal
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2019-01-01'
+  doi: 10.1109/vts.2019.8758674
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2019.8758674
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts19c.pdf
+  link: https://doi.org/10.1109/vts.2019.8758674
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware-based Real-time Workload Forensics via Frame-level TLB Profiling
+  authors:
+  - Y. Zhang
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2019-01-01'
+  doi: 10.1109/vts.2019.8758626
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2019.8758626
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts19b.pdf
+  link: https://doi.org/10.1109/vts.2019.8758626
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Analog Performance Locking through Neural Network-Based Biasing
+  authors:
+  - G. Volanis
+  - Y. Lu
+  - S. Nimmalapudi
+  - A. Antonopoulos
+  - A. Marshall
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2019-01-01'
+  doi: 10.1109/vts.2019.8758657
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2019.8758657
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts19a.pdf
+  link: https://doi.org/10.1109/vts.2019.8758657
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Wafer-Level Adaptive Vmin Calibration Seed Forecasting
+  authors:
+  - C. Xanthopoulos
+  - D. Neethirajan
+  - S. Boddikurapati
+  - A. Nahar
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
+  date: '2019-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date19b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/date19b.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Design obfuscation with Selective Post-Fabrication Transistor-level Programming
+  authors:
+  - M. Shihab
+  - J. Tian
+  - G. Rajavendra Reddy
+  - B. Hu
+  - W. Swartz Jr.
+  - B. Carrion Schaefer
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
+  date: '2019-01-01'
+  doi: 10.23919/date.2019.8714856
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date.2019.8714856
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date19a.pdf
+  link: https://doi.org/10.23919/date.2019.8714856
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: patent
+  title: Field Programmable Transistor Arrays
+  publisher: Patent US 10,511,308 · Issued Dec. 17, 2019
+  date: '2019-01-01'
+  tags:
+  - patent
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Hardware Dithering: A Run-Time Trojan Neutralization Method for Wireless Cryptographic ICs'
+  authors:
+  - C. Kapatsori
+  - Y. Liu
+  - A. Antonopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2018-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc18b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc18b.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On the Use of Bayesian Networks for Resource-Efficient Self-Calibration of Analog/RF ICs
+  authors:
+  - M. Andraud
+  - L. Galindez
+  - Y. Lu
+  - '**Y. Makris**'
+  - M. Verhelst
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2018-01-01'
+  doi: 10.1109/test.2018.8624893
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2018.8624893
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc18a.pdf
+  link: https://doi.org/10.1109/test.2018.8624893
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Pattern Matching Rule Ranking Through Design of Experiments and Silicon Validation
+  authors:
+  - G. Rajavendra Reddy
+  - J. Wallner
+  - K. Babich
+  - '**Y. Makris**'
+  publisher: Proceedings of the ASM International Symposium for Test and Failure Analysis (ISTFA)
+  date: '2018-01-01'
+  doi: 10.31399/asm.cp.istfa2018p0443
+  buttons:
+  - type: doi
+    link: https://doi.org/10.31399/asm.cp.istfa2018p0443
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/istfa18.pdf
+  link: https://doi.org/10.31399/asm.cp.istfa2018p0443
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Towards a Cross-Layer Framework for Accurate Power Modeling of Microprocessor Designs
+  authors:
+  - M. Zaman
+  - M. Shihab
+  - A. Coskun
+  - '**Y. Makris**'
+  publisher: Proceedings of the International Symposium on Power and Timing Modeling, Optimization and Simulation (PATMOS)
+  date: '2018-01-01'
+  doi: 10.1109/patmos.2018.8464153
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/patmos.2018.8464153
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/patmos18.pdf
+  link: https://doi.org/10.1109/patmos.2018.8464153
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Wafer-Level Adaptive Vmin Seed Forecasting
+  authors:
+  - D. Neethirajan
+  - C. Xanthopoulos
+  - S. Boddikurapati
+  - A. Nahar
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2018-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon18b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon18b.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hotspot Detection Through Clustering Based Root Cause Learning
+  authors:
+  - G. Rajavendra Reddy
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2018-01-01'
+  award: Top-10 Student Presentations Award
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon18a.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon18a.pdf
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Enhanced Hotspot Detection Through Synthetic Pattern Generation and Design of Experiments
+  authors:
+  - G. Rajavendra Reddy
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2018-01-01'
+  doi: 10.1109/vts.2018.8368646
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2018.8368646
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts18.pdf
+  link: https://doi.org/10.1109/vts.2018.8368646
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware-Assisted Rootkit Detection via On-line Statistical Fingerprinting of Process Execution
+  authors:
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2018-01-01'
+  doi: 10.23919/date.2018.8342267
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date.2018.8342267
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date18a.pdf
+  link: https://doi.org/10.23919/date.2018.8342267
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Towards Provably-Secure Performance Locking
+  authors:
+  - M. Zaman
+  - A. Sengupta
+  - D. Liu
+  - O. Sinanoglu
+  - '**Y. Makris**'
+  - J. Rajendran
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2018-01-01'
+  doi: 10.23919/date.2018.8342269
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date.2018.8342269
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date18b.pdf
+  link: https://doi.org/10.23919/date.2018.8342269
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Gaussian Process-Based Wafer-Level Correlation Modeling and its Applications
+  authors:
+  - N. Kupp
+  - K. Huang
+  - A. Ahmadi
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  publisher: In A. Elfadel, D. Bonning and X. Li (Editors), Machine Learning in VLSI Computer-Aided Design, Springer
+  date: '2018-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: https://www.springer.com/gp/book/9783030046651
+  link: https://www.springer.com/gp/book/9783030046651
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Trusted Analog/Mixed-Signal/RF ICs: A Survey and a Perspective'
+  authors:
+  - A. Antonopoulos
+  - C. Kapatsori
+  - '**Y. Makris**'
+  publisher: IEEE Design & Test of Computers (D&T)
+  date: '2017-01-01'
+  doi: 10.1109/mdat.2017.2728366
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdat.2017.2728366
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt17.pdf
+  link: https://doi.org/10.1109/mdat.2017.2728366
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Yield Forecasting Across Semiconductor Fabrication Plants and Design Generations
+  authors:
+  - A. Ahmadi
+  - H.-G. Stratigopoulos
+  - K. Huang
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - J. M. Carulli
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2017-01-01'
+  doi: 10.1109/tcad.2017.2669861
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2017.2669861
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad17.pdf
+  link: https://doi.org/10.1109/tcad.2017.2669861
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Data Secrecy Protection through Information Flow Tracking in Proof-Carrying Hardware IP (Part I: Framework Fundamentals)'
+  authors:
+  - Y. Jin
+  - X. Guo
+  - R. G. Dutta
+  - M. Bidmeshki
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
+  date: '2017-01-01'
+  doi: 10.1109/tifs.2017.2707323
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tifs.2017.2707323
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tifs17a.pdf
+  link: https://doi.org/10.1109/tifs.2017.2707323
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Data Secrecy Protection through Information Flow Tracking in Proof-Carrying Hardware IP (Part II: Framework Automation)'
+  authors:
+  - M. Bidmeshki
+  - X. Guo
+  - R. G. Dutta
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
+  date: '2017-01-01'
+  doi: 10.1109/tifs.2017.2707327
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tifs.2017.2707327
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tifs17b.pdf
+  link: https://doi.org/10.1109/tifs.2017.2707327
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Silicon Demonstration of Hardware Trojan Design and Detection in Wireless Cryptographic ICs
+  authors:
+  - Y. Liu
+  - Y. Jin
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Very Large Scale Integration (T.VLSI)
+  date: '2017-01-01'
+  doi: 10.1109/tvlsi.2016.2633348
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tvlsi.2016.2633348
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tvlsi17.pdf
+  link: https://doi.org/10.1109/tvlsi.2016.2633348
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'ACE: Adaptive Channel Estimation for Detecting Analog/RF Trojans in WLAN Transceivers'
+  authors:
+  - K. Subramani
+  - A. Antonopoulos
+  - A. Abotabl
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2017-01-01'
+  doi: 10.1109/iccad.2017.8203848
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad.2017.8203848
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad17.pdf
+  link: https://doi.org/10.1109/iccad.2017.8203848
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Automated Die Inking: A Pattern Recognition-Based Approach'
+  authors:
+  - C. Xanthopoulos
+  - P. Sarson
+  - H Reiter
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2017-01-01'
+  doi: 10.1109/test.2017.8242040
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2017.8242040
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc17.pdf
+  link: https://doi.org/10.1109/test.2017.8242040
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Enhanced Hotspot Detection Through Synthetic Hotspot Generation and Design of Experiments
+  authors:
+  - G. Rajavendra Reddy
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2017-01-01'
+  award: Best-in-Session Award
+  doi: 10.1109/vts.2018.8368646
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2018.8368646
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon17.pdf
+  link: https://doi.org/10.1109/vts.2018.8368646
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Wafer-Level Adaptive Trim Seed Forecasting
+  authors:
+  - C. Xanthopoulos
+  - A. Ahmadi
+  - S. Boddikurapati
+  - A. Nahar
+  - B. Orr
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  date: '2017-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas17.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas17.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Security and Trust in the Analog/Mixed-Signal/RF Domain: A Survey and a Perspective'
+  authors:
+  - A. Antonopoulos
+  - C. Kapatsori
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE European Test Symposium (ETS)
+  date: '2017-01-01'
+  doi: 10.1109/ets.2017.7968235
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ets.2017.7968235
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ets17.pdf
+  link: https://doi.org/10.1109/ets.2017.7968235
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: What to Lock? Functional and Parametric Locking
+  authors:
+  - M. Yasin
+  - A. Sengupta
+  - B. Carrion Schaefer
+  - '**Y. Makris**'
+  - O. Sinanoglu
+  - J. Rajendran
+  publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
+  date: '2017-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/glsvlsi17.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/glsvlsi17.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'INFECT: INconspicuous FEC-based Trojan: A Hardware Attack on an 802.11a/g Wireless Network'
+  authors:
+  - K. Subramani
+  - A. Antonopoulos
+  - A. Abotabl
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
+  date: '2017-01-01'
+  doi: 10.1109/hst.2017.7951804
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2017.7951804
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host17.pdf
+  link: https://doi.org/10.1109/hst.2017.7951804
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Knob Non-Idealities in Learning-Based Post-Production Tuning of Analog/RF ICs: Impact & Remedies'
+  authors:
+  - Y. Lu
+  - G. Volanis
+  - K. Subramani
+  - A. Antonopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2017-01-01'
+  doi: 10.1109/vts.2017.7928952
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2017.7928952
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts17.pdf
+  link: https://doi.org/10.1109/vts.2017.7928952
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware-based On-line Intrusion Detection via System Call Routine Fingerprinting
+  authors:
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2017-01-01'
+  doi: 10.23919/date.2017.7927236
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date.2017.7927236
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date17a.pdf
+  link: https://doi.org/10.23919/date.2017.7927236
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Information Flow Tracking in Analog/Mixed-Signal Designs through Proof-Carrying Hardware IP
+  authors:
+  - M. Bidmeshki
+  - A. Antonopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2017-01-01'
+  doi: 10.23919/date.2017.7927268
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date.2017.7927268
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date17b.pdf
+  link: https://doi.org/10.23919/date.2017.7927268
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Field Programmable Transistor Array Featuring Single-Cycle Partial/Full Dynamic Reconfiguration
+  authors:
+  - J. Tian
+  - G. Rajavendra Reddy
+  - J. Wang
+  - W. Swartz Jr.
+  - '**Y. Makris**'
+  - C. Sechen
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2017-01-01'
+  doi: 10.23919/date.2017.7927200
+  buttons:
+  - type: doi
+    link: https://doi.org/10.23919/date.2017.7927200
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date17c.pdf
+  link: https://doi.org/10.23919/date.2017.7927200
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Hardware Trojans in Analog, Mixed-Signal and RF ICs
+  authors:
+  - A. Antonopoulos
+  - C. Kapatsori
+  - '**Y. Makris**'
+  publisher: 'In S. Bhunia and M. Tehranipoor (Editors), The Hardware Trojan War: Attacks, Myths, and Defenses, Springer'
+  date: '2017-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: http://www.springer.com/us/book/9783319685106
+  link: http://www.springer.com/us/book/9783319685106
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Toward Silicon-Based Cognitive Neuromorphic ICs - A Survey
+  authors:
+  - G. Volanis
+  - A. Antonopoulos
+  - A. Hatzopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Design & Test of Computers (D&T)
+  date: '2016-01-01'
+  doi: 10.1109/mdat.2016.2545159
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdat.2016.2545159
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt16.pdf
+  link: https://doi.org/10.1109/mdat.2016.2545159
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware-based Workload Forensics and Malware Detection in Microprocessors
+  authors:
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: Proceeding of the iEEE International Workshop on Microprocessor/SoC Test and Verification (MTV)
+  date: '2016-01-01'
+  doi: 10.1109/mtv.2016.20
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mtv.2016.20
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/mtv16.pdf
+  link: https://doi.org/10.1109/mtv.2016.20
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Machine Learning Approach to Fab-of-Origin Attestation
+  authors:
+  - A. Ahmadi
+  - M. Bidmeshki
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  date: '2016-01-01'
+  doi: 10.1145/2966986.2966992
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/2966986.2966992
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad16.pdf
+  link: https://doi.org/10.1145/2966986.2966992
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Harnessing Process Variations for Optimizing Wafer-Level Probe-Test Flow
+  authors:
+  - A. Ahmadi
+  - C. Xanthopoulos
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2016-01-01'
+  doi: 10.1109/test.2016.7805835
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2016.7805835
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc16.pdf
+  link: https://doi.org/10.1109/test.2016.7805835
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware-Based Attacks to Compromise the Cryptographic Security of an Election System
+  authors:
+  - M. Bidmeshki
+  - G. Rajavendra Reddy
+  - L. Zhou
+  - J. Rajendran
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2016-01-01'
+  doi: 10.1109/iccd.2016.7753274
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2016.7753274
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd16.pdf
+  link: https://doi.org/10.1109/iccd.2016.7753274
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Harnessing Process Variation Signature for Dynamic Selection of Probe-Test Flow
+  authors:
+  - A. Ahmadi
+  - C. Xanthopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2016-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon16.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon16.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: -197dBc/Hz FOM 4.3-GHz VCO Using an Addressable Array of Minimum-Sized NMOS Cross-Coupled Transistor Pairs in 65-nm CMOS
+  authors:
+  - A. Jha
+  - A. Ahmadi
+  - S. Kshattry
+  - T. Cao
+  - K. Liao
+  - G. Yeap
+  - '**Y. Makris**'
+  - K. K. O
+  publisher: Proceedings of the IEEE Symposium on VLSI Circuits (VLSI-Circuits)
+  date: '2016-01-01'
+  doi: 10.1109/vlsic.2016.7573540
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vlsic.2016.7573540
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vlsi16.pdf
+  link: https://doi.org/10.1109/vlsic.2016.7573540
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Harnessing Fabrication Process Signature for Predicting Yield Across Designs
+  authors:
+  - A. Ahmadi
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  date: '2016-01-01'
+  doi: 10.1109/iscas.2016.7527386
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iscas.2016.7527386
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas16.pdf
+  link: https://doi.org/10.1109/iscas.2016.7527386
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Hardware-Based Workload Forensics: Process Reconstruction via TLB Monitoring'
+  authors:
+  - L. Zhou
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust (HOST), pp. 167-172
+  date: '2016-01-01'
+  doi: 10.1109/hst.2016.7495577
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2016.7495577
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host16.pdf
+  link: https://doi.org/10.1109/hst.2016.7495577
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Wafer-Level Process Variation-Driven Probe-Test Flow Selection for Test Cost Reduction in Analog/RF ICs
+  authors:
+  - A. Ahmadi
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2016-01-01'
+  award: Best Paper Award Candidate
+  doi: 10.1109/vts.2016.7477263
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2016.7477263
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts16a.pdf
+  link: https://doi.org/10.1109/vts.2016.7477263
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On-Die Learning-Based Self-Calibration of Analog/RF ICs
+  authors:
+  - G. Volanis
+  - D. Maliuk
+  - Y. Lu
+  - K. Subramani
+  - A. Antonopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2016-01-01'
+  doi: 10.1109/vts.2016.7477297
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2016.7477297
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts16.pdf
+  link: https://doi.org/10.1109/vts.2016.7477297
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Multiple-Bit Upset Protection in Microprocessor Memory Arrays using Vulnerability-based Parity Optimization and Interleaving
+  authors:
+  - M. Maniatakos
+  - M. Michael
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Very Large Scale of Integration Systems (T.VLSI)
+  date: '2015-01-01'
+  doi: 10.1109/tvlsi.2014.2365032
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tvlsi.2014.2365032
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tvlsi15.pdf
+  link: https://doi.org/10.1109/tvlsi.2014.2365032
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Revisiting Vulnerability Analysis in Modern Microprocessors
+  authors:
+  - M. Maniatakos
+  - M. Michael
+  - C. Tirumurti
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computers (TCOMP)
+  date: '2015-01-01'
+  doi: 10.1109/tc.2014.2375232
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2014.2375232
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp15.pdf
+  link: https://doi.org/10.1109/tc.2014.2375232
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'An Experimentation Platform for On-chip Integration of Analog Neural Networks: A Pathway to Trusted and Robust Analog/RF ICs'
+  authors:
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Neural Networks and Learning Systems (T.NNLS)
+  date: '2015-01-01'
+  doi: 10.1109/tnnls.2014.2354406
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tnnls.2014.2354406
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tnnls15.pdf
+  link: https://doi.org/10.1109/tnnls.2014.2354406
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Recycled IC Detection based on Statistical Methods
+  authors:
+  - K. Huang
+  - N. Korolja
+  - J. M. Carulli Jr.
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2015-01-01'
+  doi: 10.1109/tcad.2015.2409267
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2015.2409267
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad15.pdf
+  link: https://doi.org/10.1109/tcad.2015.2409267
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Low-Cost Analog/RF IC Testing through Combined Intra- and Inter-Die Correlation Models
+  authors:
+  - K. Huang
+  - N. Kupp
+  - C. Xanthopoulos
+  - J. M. Carulli Jr.
+  - '**Y. Makris**'
+  publisher: Special Issue on Speeding up Analog Integration and Test for Mixed-signal SOCs of the IEEE Design & Test of Computers (D&T)
+  date: '2015-01-01'
+  doi: 10.1109/mdat.2014.2361721
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdat.2014.2361721
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt15.pdf
+  link: https://doi.org/10.1109/mdat.2014.2361721
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Yield Forecasting in Fab-to-Fab Production Migration Based on Bayesian Model Fusion
+  authors:
+  - A. Ahmadi
+  - H. Stratigopoulos
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  date: '2015-01-01'
+  doi: 10.1109/iccad.2015.7372543
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad.2015.7372543
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad15.pdf
+  link: https://doi.org/10.1109/iccad.2015.7372543
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Comparative Study of One-Shot Statistical Calibration Methods for Analog / RF ICs
+  authors:
+  - Y. Lu
+  - K. Subramani
+  - H. Huang
+  - N. Kupp
+  - K. Huang
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2015-01-01'
+  doi: 10.1109/test.2015.7342415
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2015.7342415
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc15b.pdf
+  link: https://doi.org/10.1109/test.2015.7342415
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Concurrent Hardware Trojan Detection in Wireless Cryptographic ICs
+  authors:
+  - Y. Liu
+  - G. Volanis
+  - K. Huang
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2015-01-01'
+  doi: 10.1109/test.2015.7342386
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2015.7342386
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc15a.pdf
+  link: https://doi.org/10.1109/test.2015.7342386
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Reliability Enhancement of Multi-core Processors Using Machine-Learning Techniques
+  authors:
+  - M. Zaman
+  - A. Ahmadi
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2015-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon15.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon15.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Silicon Demonstration of Statistical Post-Production Tuning
+  authors:
+  - Y. Lu
+  - K. Subramani
+  - H. Huang
+  - N. Kupp
+  - '**Y. Makris**'
+  publisher: Proceedings of the International Symposium on VLSI (ISVLSI)
+  date: '2015-01-01'
+  doi: 10.1109/isvlsi.2015.50
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/isvlsi.2015.50
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/isvlsi15.pdf
+  link: https://doi.org/10.1109/isvlsi.2015.50
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Workload Characterization and Prediction: A Pathway to Reliable Multi-core Systems'
+  authors:
+  - M. Zaman
+  - A. Ahmadi
+  - '**Y. Makris**'
+  publisher: Proceedings of the International On-Line Test Symposium (IOLTS)
+  date: '2015-01-01'
+  doi: 10.1109/iolts.2015.7229843
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iolts.2015.7229843
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts15.pdf
+  link: https://doi.org/10.1109/iolts.2015.7229843
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Toward Automatic Proof Generation for Information Flow Policies in Third-Party Hardware IP
+  authors:
+  - M. Bidmeshki
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust (HOST)
+  date: '2015-01-01'
+  doi: 10.1109/hst.2015.7140256
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2015.7140256
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host15.pdf
+  link: https://doi.org/10.1109/hst.2015.7140256
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'VeriCoq: a Verilog-to-Coq Converter for Proof-Carrying Hardware Automation'
+  authors:
+  - M. Bidmeshki
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  date: '2015-01-01'
+  doi: 10.1109/iscas.2015.7168562
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iscas.2015.7168562
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas15.pdf
+  link: https://doi.org/10.1109/iscas.2015.7168562
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Yield Prognosis for Fab-to-Fab Product Migration
+  authors:
+  - A. Ahmadi
+  - K. Huang
+  - A. Nahar
+  - B. Orr
+  - M. Pas
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2015-01-01'
+  award: Best Paper Award
+  doi: 10.1109/vts.2015.7116261
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2015.7116261
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts15.pdf
+  link: https://doi.org/10.1109/vts.2015.7116261
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Hardware Trojan Detection in Analog/RF Integrated Circuits
+  authors:
+  - Y. Jin
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: In C. H. Chang, M. Potkonjak (Editors), Secure System Design and Trustable Computing, Springer
+  date: '2015-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: http://www.springer.com/us/book/9783319149707
+  link: http://www.springer.com/us/book/9783319149707
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Machine Learning-Based BIST in Analog/RF ICs
+  authors:
+  - D. Maliuk
+  - H. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: In T. Noulis, M. Soma (Editors), Mixed-Signal Circuits, CRC Press
+  date: '2015-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: https://www.crcpress.com/Mixed-Signal-Circuits/Noulis/9781482260625
+  link: https://www.crcpress.com/Mixed-Signal-Circuits/Noulis/9781482260625
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor Supply Chain'
+  authors:
+  - U. Guinn
+  - K. Huang
+  - D. DiMase
+  - J. M. Carulli Jr.
+  - M. Tehranipoor
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE (P.IEEE)
+  date: '2014-01-01'
+  doi: 10.1109/jproc.2014.2332291
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/jproc.2014.2332291
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/pieee14.pdf
+  link: https://doi.org/10.1109/jproc.2014.2332291
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Spatiotemporal Wafer-level Correlation Modeling with Progressive Sampling: A Pathway to HVM Yield Estimation'
+  authors:
+  - A. Ahmadi
+  - K. Huang
+  - S. Natarajan
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2014-01-01'
+  doi: 10.1109/test.2014.7035325
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2014.7035325
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc14a.pdf
+  link: https://doi.org/10.1109/test.2014.7035325
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: IC Laser Trimming Speed-Up through Wafer-level Spatial Correlation Modeling
+  authors:
+  - C. Xanthopoulos
+  - K. Huang
+  - A. Poonawala
+  - A. Nahar
+  - B. Orr
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2014-01-01'
+  doi: 10.1109/test.2014.7035329
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2014.7035329
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc14b.pdf
+  link: https://doi.org/10.1109/test.2014.7035329
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'On-chip intelligence: A pathway to self-testable, tunable, and trusted analog/RF ICs'
+  authors:
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: Proceedings of IEEE Midwest Symposium on Circuits and Systems (MWSCAS)
+  date: '2014-01-01'
+  doi: 10.1109/mwscas.2014.6908605
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mwscas.2014.6908605
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/mwscas14.pdf
+  link: https://doi.org/10.1109/mwscas.2014.6908605
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware Trojan detection through golden chip-free statistical side-channel fingerprinting
+  authors:
+  - Y. Liu
+  - K. Huang
+  - '**Y. Makris**'
+  publisher: Proceedings of the ACM/IEEE Design Automation Conference (DAC)
+  date: '2014-01-01'
+  doi: 10.1145/2593069.2593147
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/2593069.2593147
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dac14.pdf
+  link: https://doi.org/10.1145/2593069.2593147
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: An Analog Non-Volatile Neural Network Platform for Prototyping RF BIST Solutions
+  authors:
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2014-01-01'
+  doi: 10.7873/date2014.381
+  buttons:
+  - type: doi
+    link: https://doi.org/10.7873/date2014.381
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date14.pdf
+  link: https://doi.org/10.7873/date2014.381
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: On the Impact of Performance Faults in Modern Microprocessors
+  authors:
+  - N. Karimi
+  - M. Maniatakos
+  - C. Tirumurti
+  - '**Y. Makris**'
+  publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA), Springer'
+  date: '2013-01-01'
+  doi: 10.1007/s10836-013-5360-5
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1007/s10836-013-5360-5
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetta13.pdf
+  link: https://doi.org/10.1007/s10836-013-5360-5
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Low-cost Concurrent Error Detection for Floating Point Unit (FPU) Controllers
+  authors:
+  - M. Maniatakos
+  - P. Kudva
+  - B. Fleischer
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computers (TCOMP)
+  date: '2013-01-01'
+  doi: 10.1109/tc.2012.81
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2012.81
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp13.pdf
+  link: https://doi.org/10.1109/tc.2012.81
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Proof-Carrying Based Framework for Trusted Microprocessor IP
+  authors:
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the ACM/IEEE Design Automation Conference (ICCAD)
+  date: '2013-01-01'
+  doi: 10.1109/iccad.2013.6691208
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad.2013.6691208
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad13a.pdf
+  link: https://doi.org/10.1109/iccad.2013.6691208
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Hardware Trojans in Wireless Cryptographic ICs: Silicon Demonstration & Detection Method Evaluation'
+  authors:
+  - Y. Liu
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the ACM/IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2013-01-01'
+  doi: 10.1109/iccad.2013.6691149
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad.2013.6691149
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad13b.pdf
+  link: https://doi.org/10.1109/iccad.2013.6691149
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Process Monitoring through Wafer-level Spatial Variation Decomposition
+  authors:
+  - K. Huang
+  - N. Kupp
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2013-01-01'
+  doi: 10.1109/test.2013.6651901
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2013.6651901
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc13b.pdf
+  link: https://doi.org/10.1109/test.2013.6651901
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Counterfeit Electronics: A Rising Threat in the Semiconductor Manufacturing Industry'
+  authors:
+  - K. Huang
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2013-01-01'
+  doi: 10.1109/test.2013.6651880
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2013.6651880
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc13a.pdf
+  link: https://doi.org/10.1109/test.2013.6651880
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Post-Deployment IC Trust Evaluation Architecture
+  authors:
+  - Y. Jin
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE On-Line Test Symposium (IOLTS)
+  date: '2013-01-01'
+  doi: 10.1109/iolts.2013.6604083
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iolts.2013.6604083
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts13b.pdf
+  link: https://doi.org/10.1109/iolts.2013.6604083
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Challenges and Benefits of Multiple Bit Upset (MBU) Vulnerability Analysis in Modern Microprocessors
+  authors:
+  - M. Maniatakos
+  - M. Michael
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE On-Line Test Symposium (IOLTS)
+  date: '2013-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts13a.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts13a.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Cycle Accurate Information Assurance by Proof Carrying-Based Signal Sensitivity Tracing
+  authors:
+  - Y. Jin
+  - B. Yang
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
+  date: '2013-01-01'
+  doi: 10.1109/hst.2013.6581573
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2013.6581573
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host13.pdf
+  link: https://doi.org/10.1109/hst.2013.6581573
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Reconciling the IC Test and Security Dichotomy
+  authors:
+  - O. Sinanoglu
+  - N. Karimi
+  - J. Rajendran
+  - R. Karri
+  - Y. Jin
+  - K. Huang
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE European Test Symposium (ETS)
+  date: '2013-01-01'
+  doi: 10.1109/ets.2013.6569368
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ets.2013.6569368
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ets13b.pdf
+  link: https://doi.org/10.1109/ets.2013.6569368
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On Combining Alternate Test with Spatial Correlation Modeling in Analog/RF ICs
+  authors:
+  - K. Huang
+  - N. Kupp
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE European Test Symposium (ETS)
+  date: '2013-01-01'
+  doi: 10.1109/ets.2013.6569358
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ets.2013.6569358
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ets13a.pdf
+  link: https://doi.org/10.1109/ets.2013.6569358
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Handling Discontinuous Effects in Modeling Spatial Correlation of Wafer-level Analog/RF Tests
+  authors:
+  - K. Huang
+  - N. Kupp
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2013-01-01'
+  award: Best Paper Award
+  doi: 10.7873/date.2013.123
+  buttons:
+  - type: doi
+    link: https://doi.org/10.7873/date.2013.123
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date13b.pdf
+  link: https://doi.org/10.7873/date.2013.123
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: AVF-driven Parity Optimization for MBU Protection of In-core Memory Arrays
+  authors:
+  - M. Maniatakos
+  - M. Michael
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2013-01-01'
+  doi: 10.7873/date.2013.301
+  buttons:
+  - type: doi
+    link: https://doi.org/10.7873/date.2013.301
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date13a.pdf
+  link: https://doi.org/10.7873/date.2013.301
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Analog Implementation of Ontogenic Neural Networks for RF Built-In Self-Test
+  authors:
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: Presented at the IEEE Test and Validation of High-Speed Analog Circuits
+  date: '2013-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tvhsac13.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/tvhsac13.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Global Signal Vulnerability (GSV) Analysis for Selective State Element Hardening on Modern Microprocessors
+  authors:
+  - M. Maniatakos
+  - C. Tirumurti
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computers (TCOMP)
+  date: '2012-01-01'
+  doi: 10.1109/tc.2011.172
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2011.172
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp12.pdf
+  link: https://doi.org/10.1109/tc.2011.172
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Applying the Model-View-Controller Paradigm to Adaptive Test
+  authors:
+  - N. Kupp
+  - '**Y. Makris**'
+  publisher: Special Issue on Yield Learning of the IEEE Design and Test of Computers (D&T)
+  date: '2012-01-01'
+  doi: 10.1109/mdt.2011.2179370
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdt.2011.2179370
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt12.pdf
+  link: https://doi.org/10.1109/mdt.2011.2179370
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'Proof-Carrying Hardware Intellectual Property: A Pathway to Trusted Module Acquisition'
+  authors:
+  - E. Love
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Special Issue on Integrated Circuits and System Security of the IEEE Transactions on Information Forensics and Security (TIFS)
+  date: '2012-01-01'
+  doi: 10.1109/tifs.2011.2160627
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tifs.2011.2160627
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tifs12.pdf
+  link: https://doi.org/10.1109/tifs.2011.2160627
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Integrated Optimization of Semiconductor Manufacturing: A Machine Learning Approach'
+  authors:
+  - N. Kupp
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2012-01-01'
+  doi: 10.1109/test.2012.6401531
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2012.6401531
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc12c.pdf
+  link: https://doi.org/10.1109/test.2012.6401531
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Spatial Estimation of Wafer Measurement Parameters Using Gaussian Process Models
+  authors:
+  - N. Kupp
+  - K. Huang
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2012-01-01'
+  doi: 10.1109/test.2012.6401545
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2012.6401545
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc12b.pdf
+  link: https://doi.org/10.1109/test.2012.6401545
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Vulnerability-Based Interleaving for Multi-Bit Upset (MBU) Protection in Modern Microprocessors
+  authors:
+  - M. Maniatakos
+  - M. Michael
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2012-01-01'
+  doi: 10.1109/test.2012.6401594
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2012.6401594
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc12a.pdf
+  link: https://doi.org/10.1109/test.2012.6401594
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Spatial Correlation Modeling For Probe Test Cost Reduction in RF Devices
+  authors:
+  - N. Kupp
+  - K. Huang
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2012-01-01'
+  doi: 10.1145/2429384.2429390
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/2429384.2429390
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad12.pdf
+  link: https://doi.org/10.1145/2429384.2429390
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Parametric Counterfeit IC Detection via Support Vector Machines
+  authors:
+  - K. Huang
+  - J. Carulli
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Defect and Fault Tolerance Symposium (DFTS)
+  date: '2012-01-01'
+  doi: 10.1109/dft.2012.6378191
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dft.2012.6378191
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dfts12.pdf
+  link: https://doi.org/10.1109/dft.2012.6378191
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Exposing Vulnerabilities of Untrusted Computing Platforms
+  authors:
+  - Y. Jin
+  - M. Maniatakos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2012-01-01'
+  doi: 10.1109/iccd.2012.6378629
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2012.6378629
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd12.pdf
+  link: https://doi.org/10.1109/iccd.2012.6378629
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Reconfigurable Dual-Mode Weight Storage Analog Neural Network Experimentation Platform
+  authors:
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  date: '2012-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas12.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas12.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Proof Carrying-Based Information Flow Tracking for Data Secrecy Protection and Hardware Trust
+  authors:
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2012-01-01'
+  doi: 10.1109/vts.2012.6231062
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2012.6231062
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts12b.pdf
+  link: https://doi.org/10.1109/vts.2012.6231062
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Towards a Fully Stand-Alone Analog/RF BIST: A Cost-Effective Implementation of a Neural Classifier'
+  authors:
+  - D. Maliuk
+  - N. Kupp
+  - '**Y. Makris**'
+  publisher: ''
+  date: '2012-01-01'
+  doi: 10.1109/vts.2012.6231081
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2012.6231081
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts12a.pdf
+  link: https://doi.org/10.1109/vts.2012.6231081
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Post-Deployment Trust Evaluation in Wireless Cryptographic ICs
+  authors:
+  - Y. Jin
+  - D. Maliuk
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2012-01-01'
+  doi: 10.1109/date.2012.6176636
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/date.2012.6176636
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date12.pdf
+  link: https://doi.org/10.1109/date.2012.6176636
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Checkers for On-line Self-Testing of Analog Circuits
+  authors:
+  - H. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: In K. Iniewski (Editor), Advanced Circuits for Emerging Technologies, John Wiley & Sons
+  date: '2012-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: http://onlinelibrary.wiley.com/book/10.1002/9781118181508
+  link: http://onlinelibrary.wiley.com/book/10.1002/9781118181508
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Improving Analog and RF Device Yield through Performance Calibration
+  authors:
+  - N. Kupp
+  - H. Huang
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: IEEE Design and Test of Computers (D&T)
+  date: '2011-01-01'
+  doi: 10.1109/mdt.2010.119
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/mdt.2010.119
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt11.pdf
+  link: https://doi.org/10.1109/mdt.2010.119
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: A Workload-Cognizant Concurrent Error Detection Method for a Modern Microprocessor Controller
+  authors:
+  - N. Karimi
+  - M. Maniatakos
+  - C. Tirumurti
+  - A. Jas
+  - '**Y. Makris**'
+  publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent On-Line Testing and Error/Fault Resilience of Digital Systems
+  date: '2011-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp10b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp10b.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Instruction-Level Impact Analysis of Low-Level Errors in a Modern Microprocessor Controller
+  authors:
+  - M. Maniatakos
+  - N. Karimi
+  - C. Tirumurti
+  - A. Jas
+  - '**Y. Makris**'
+  publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent On-Line Testing and Error/Fault Resilience of Digital Systems
+  date: '2011-01-01'
+  doi: 10.1109/tc.2010.60
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2010.60
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp10a.pdf
+  link: https://doi.org/10.1109/tc.2010.60
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'PSCML: Pseudo-Static Current Mode Logic'
+  authors:
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Electronics, Circuits and Systems (ICECS)
+  date: '2011-01-01'
+  doi: 10.1109/icecs.2011.6122209
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/icecs.2011.6122209
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/icecs11.pdf
+  link: https://doi.org/10.1109/icecs.2011.6122209
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On Proving the Performance of Alternative RF Tests
+  authors:
+  - N. Kupp
+  - H.-G. Stratigopoulos
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2011-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad11.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad11.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Is Single-Scheme Trojan Prevention Sufficient?
+  authors:
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2011-01-01'
+  doi: 10.1109/iccd.2011.6081415
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2011.6081415
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd11.pdf
+  link: https://doi.org/10.1109/iccd.2011.6081415
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Feature Selection Methods For Analog and RF Test: A Case Study'
+  authors:
+  - N. Kupp
+  - H. Stratigopoulos
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2011-01-01'
+  award: Best-in-Session Award
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon11.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon11.pdf
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Enhancing Security via Provably Trustworthy Hardware Intellectual Property
+  authors:
+  - E. Love
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust (HOST)
+  date: '2011-01-01'
+  doi: 10.1109/hst.2011.5954988
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2011.5954988
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host11.pdf
+  link: https://doi.org/10.1109/hst.2011.5954988
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: AVF Analysis Acceleration via Hierarchical SFI
+  authors:
+  - M. Maniatakos
+  - C. Tirumurti
+  - A. Jas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE European Test Symposium (ETS)
+  date: '2011-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ets11.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/ets11.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'PPM-Accuracy Error Estimates for Low-Cost Analog Test: A Case Study'
+  authors:
+  - N. Kupp
+  - H. Stratigopoulos
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Mixed Signals, Sensors, and Systems Workshop (IMS3TW)
+  date: '2011-01-01'
+  award: Best Student Paper Award
+  doi: 10.1109/ims3tw.2011.15
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ims3tw.2011.15
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ims3tw11.pdf
+  link: https://doi.org/10.1109/ims3tw.2011.15
+  tags:
+  - conference
+  - award
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Exponent Monitoring for Low-Cost Concurrent Error Detection in FPU Control Logic
+  authors:
+  - M. Maniatakos
+  - P. Kudva
+  - B. Fleischer
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2011-01-01'
+  doi: 10.1109/vts.2011.5783727
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2011.5783727
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts11.pdf
+  link: https://doi.org/10.1109/vts.2011.5783727
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Correlating Inline Data with Final Test Outcomes in Analog/RF Devices
+  authors:
+  - N. Kupp
+  - M. Slamani
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2011-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date11.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/date11.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Design for Hardware Trust
+  authors:
+  - Y. Jin
+  - E. Love
+  - '**Y. Makris**'
+  publisher: In M. Tehranipoor, C. Wang (Editors), Introduction to Hardware Security and Trust, Springer
+  date: '2011-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8079-3
+  link: http://www.springer.com/engineering/circuits+&+systems/book/978-1-4419-8079-3
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Hardware Trojans in Wireless Cryptographic Integrated Circuits
+  authors:
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Special issue of IEEE Design & Test of Computers (D&T) on Verifying Physical Trustworthiness of Integrated Circuits and Systems
+  date: '2010-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt10.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/dt10.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: RF Specification Test Compaction using Learning Machines
+  authors:
+  - H-G. Stratigopoulos
+  - P. Drineas
+  - M. Slamani
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Very Large Scale Integration (T.VLSI)
+  date: '2010-01-01'
+  doi: 10.1109/tvlsi.2009.2017196
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tvlsi.2009.2017196
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tvlsi10.pdf
+  link: https://doi.org/10.1109/tvlsi.2009.2017196
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'DFTT: Design for Trojan Test'
+  authors:
+  - Y. Jin
+  - N. Kupp
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Electronics Circuits and Systems (ICECS)
+  date: '2010-01-01'
+  doi: 10.1109/icecs.2010.5724725
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/icecs.2010.5724725
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/icecs10.pdf
+  link: https://doi.org/10.1109/icecs.2010.5724725
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Analog Neural Network Design for RF Built-In Self-Test
+  authors:
+  - D. Maliuk
+  - H. Stratigopoulos
+  - H. Huang
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2010-01-01'
+  doi: 10.1109/test.2010.5699272
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2010.5699272
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc10b.pdf
+  link: https://doi.org/10.1109/test.2010.5699272
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Post-Production Performance Calibration in Analog/RF Devices
+  authors:
+  - N. Kupp
+  - H. Huang
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2010-01-01'
+  doi: 10.1109/test.2010.5699225
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2010.5699225
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc10a.pdf
+  link: https://doi.org/10.1109/test.2010.5699225
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: An Analog VLSI Implementation of a Multilayer Perceptron and its Application Towards Built-In Self-Test in Analog Circuits
+  authors:
+  - D. Maliuk
+  - H. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International On-Line Test Symposium (IOLTS)
+  date: '2010-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts10.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts10.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Workload-Driven Selective Hardening of Control State Elements in Modern Microprocessors
+  authors:
+  - M. Maniatakos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2010-01-01'
+  doi: 10.1109/vts.2010.5469589
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2010.5469589
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts10.pdf
+  link: https://doi.org/10.1109/vts.2010.5469589
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: On Boosting the Accuracy of Non-RF to RF Correlation-Based Specification Test Compaction
+  authors:
+  - N. Kupp
+  - P. Drineas
+  - M. Slamani
+  - '**Y. Makris**'
+  publisher: Journal of Electronic Testing Theory and Applications (JETTA)
+  date: '2009-01-01'
+  doi: 10.1007/s10836-009-5113-7
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1007/s10836-009-5113-7
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetta09.pdf
+  link: https://doi.org/10.1007/s10836-009-5113-7
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Parity-Based Concurrent Error Detection with Bounded-Latency in Finite State Machines
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Kuwait Journal of Science and Engineering (KJSE)
+  date: '2009-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/kjse09.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/kjse09.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Soft Error Tolerance and Mitigation in Asynchronous Burst Mode Circuits
+  authors:
+  - S. Almukhaizim
+  - F. Shi
+  - E. Love
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Very Large Scale Integration (T.VLSI)
+  date: '2009-01-01'
+  doi: 10.1109/tvlsi.2009.2014381
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tvlsi.2009.2014381
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tvlsi09.pdf
+  link: https://doi.org/10.1109/tvlsi.2009.2014381
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Enhancing Simulation Accuracy through Advanced Hazard Detection in Asynchronous Circuits
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computers (T.COMP)
+  date: '2009-01-01'
+  doi: 10.1109/tc.2008.141
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2008.141
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp09.pdf
+  link: https://doi.org/10.1109/tc.2008.141
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Impact Analysis of Performance Faults in Modern Microprocessors
+  authors:
+  - N. Karimi
+  - M. Maniatakos
+  - C. Tirumurti
+  - A. Jas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2009-01-01'
+  doi: 10.1109/iccd.2009.5413171
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2009.5413171
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd09.pdf
+  link: https://doi.org/10.1109/iccd.2009.5413171
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Post-Production Tuning in Analog and RF Devices
+  authors:
+  - N. Kupp
+  - H. Huang
+  - '**Y. Makris**'
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  date: '2009-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon09.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/techcon09.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Experiences in Hardware Trojan Design and Implementation
+  authors:
+  - Y. Jin
+  - N. Kupp
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security and Trust (HOST)
+  date: '2009-01-01'
+  doi: 10.1109/hst.2009.5224971
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2009.5224971
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host09.pdf
+  link: https://doi.org/10.1109/hst.2009.5224971
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Instruction-Level Impact Comparison of RT- vs. Gate-Level Faults in a Modern Microprocessor Controller
+  authors:
+  - M. Maniatakos
+  - N. Karimi
+  - C. Tirumurti
+  - A. Jas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2009-01-01'
+  doi: 10.1109/vts.2009.32
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2009.32
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts09.pdf
+  link: https://doi.org/10.1109/vts.2009.32
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Enrichment of Limited Training Sets in Machine Learning-Based Analog/RF Test
+  authors:
+  - H-G. Stratigopoulos
+  - S. Mir
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2009-01-01'
+  doi: 10.1109/date.2009.5090931
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/date.2009.5090931
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date09.pdf
+  link: https://doi.org/10.1109/date.2009.5090931
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Error Moderation in Low-Cost Machine Learning-Based Analog/RF Testing
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2008-01-01'
+  doi: 10.1109/tcad.2007.907232
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2007.907232
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad08.pdf
+  link: https://doi.org/10.1109/tcad.2007.907232
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: A Novel Soft Error Rate (SER) Reduction Methodology through Addition of Gate-Level Functional Redundancy
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Reliability (T. REL)
+  date: '2008-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/trel08.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/trel08.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On the Correlation between Controller Faults and Instruction-Level Errors in a Modern Microprocessor
+  authors:
+  - N. Karimi
+  - M. Maniatakos
+  - A. Jas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2008-01-01'
+  doi: 10.1109/test.2008.4700613
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2008.4700613
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc08.pdf
+  link: https://doi.org/10.1109/test.2008.4700613
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Design and Evaluation of a Timestamp-Based Concurrent Error Detection Method (CED) in a Modern Microprocessor Controller
+  authors:
+  - M. Maniatakos
+  - N. Karimi
+  - '**Y. Makris**'
+  - A. Jas
+  - C. Tirumurti
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  date: '2008-01-01'
+  doi: 10.1109/dft.2008.59
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dft.2008.59
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dfts08.pdf
+  link: https://doi.org/10.1109/dft.2008.59
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On the Minimization of Potential Transient Errors and SER in Logic Circuits using SPFD
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  - Y.-S. Yang
+  - A. Veneris
+  publisher: Proceedings of the IEEE International On-Line Testing Symposium (IOLTS)
+  date: '2008-01-01'
+  doi: 10.1109/iolts.2008.16
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iolts.2008.16
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts08.pdf
+  link: https://doi.org/10.1109/iolts.2008.16
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Hardware Trojan Detection using Path Delay Fingerprint
+  authors:
+  - Y. Jin
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security and Trust (HOST)
+  date: '2008-01-01'
+  doi: 10.1109/hst.2008.4559049
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/hst.2008.4559049
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/host08.pdf
+  link: https://doi.org/10.1109/hst.2008.4559049
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Confidence Estimation in Non-RF to RF Correlation-Based Specification Test Compaction
+  authors:
+  - N. Kupp
+  - P. Drineas
+  - M. Slamani
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE European Test Symposium (ETS)
+  date: '2008-01-01'
+  doi: 10.1109/ets.2008.31
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ets.2008.31
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ets08.pdf
+  link: https://doi.org/10.1109/ets.2008.31
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Statistical Approach to Characterizing and Testing Functionalized Nanowires
+  authors:
+  - J. Dardig
+  - H-G. Stratigopoulos
+  - E. Stern
+  - M. Reed
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2008-01-01'
+  doi: 10.1109/vts.2008.19
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2008.19
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts08.pdf
+  link: https://doi.org/10.1109/vts.2008.19
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Coping with Soft Errors in Asynchronous Burst-Mode Machines
+  authors:
+  - S. Almukhaizim
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)
+  date: '2008-01-01'
+  doi: 10.1109/async.2008.15
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/async.2008.15
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/async08.pdf
+  link: https://doi.org/10.1109/async.2008.15
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Concurrent Error Detection Methods for Asynchronous Burst Mode Machines
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computers (T. COMP)
+  date: '2007-01-01'
+  doi: 10.1109/tc.2007.1025
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tc.2007.1025
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcomp07.pdf
+  link: https://doi.org/10.1109/tc.2007.1025
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: On the Identification of Modular Test Requirements for Low-Cost Hierarchical Test Path Construction
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: 'Integration: The VLSI Journal (JVLSI)'
+  date: '2007-01-01'
+  doi: 10.1016/j.vlsi.2006.01.002
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1016/j.vlsi.2006.01.002
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jvlsi07.pdf
+  link: https://doi.org/10.1016/j.vlsi.2006.01.002
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Non-RF to RF Test Correlation Using Learning Machines: A Case Study'
+  authors:
+  - H-G. D. Stratigopoulos
+  - P. Drineas
+  - M. Slamani
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2007-01-01'
+  doi: 10.1109/vts.2007.41
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2007.41
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts07.pdf
+  link: https://doi.org/10.1109/vts.2007.41
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: book-chapter
+  title: Circuit-Level Approaches to Soft Error Mitigation
+  authors:
+  - '**Y. Makris**'
+  - section 8.4
+  publisher: In L. T. Wang, C. E. Stroud, and N. A. Touba (Editors), System on-Chip Test Architectures, Morgan-Kaufman Publishers
+  date: '2007-01-01'
+  buttons:
+  - type: link
+    text: Publisher
+    link: http://www.elsevier.com/wps/find/bookdescription.cws_home/713243/description
+  link: http://www.elsevier.com/wps/find/bookdescription.cws_home/713243/description
+  tags:
+  - book-chapter
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: An Adaptive Checker for the Fully Differential Analog Code
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Journal of Solid-State Circuits (JSSC)
+  date: '2006-01-01'
+  doi: 10.1109/jssc.2006.874272
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/jssc.2006.874272
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jssc06.pdf
+  link: https://doi.org/10.1109/jssc.2006.874272
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Entropy-Driven Parity Tree Selection for Low-Cost Concurrent Error Detection
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2006-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad06b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad06b.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Concurrent Error Detection in Linear Analog Circuits
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2006-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad06a.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad06a.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Testing Delay Faults in Asynchronous Handshake Circuits
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2006-01-01'
+  doi: 10.1109/iccad.2006.320085
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad.2006.320085
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad06.pdf
+  link: https://doi.org/10.1109/iccad.2006.320085
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Seamless Integration of SER in Rewiring-Based Design Space Exploration
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  - Y.-S. Yang
+  - A. Veneris
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2006-01-01'
+  doi: 10.1109/test.2006.297682
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2006.297682
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc06.pdf
+  link: https://doi.org/10.1109/test.2006.297682
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Bridging the Accuracy of Functional and Machine-Learning-Based Mixed-Signal Testing
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2006-01-01'
+  doi: 10.1109/vts.2006.24
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2006.24
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts06.pdf
+  link: https://doi.org/10.1109/vts.2006.24
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Transistor-Level Test Strategy for C2MOS MOUSETRAP Asynchronous Pipelines
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)
+  date: '2006-01-01'
+  doi: 10.1109/async.2006.7
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/async.2006.7
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/async06a.pdf
+  link: https://doi.org/10.1109/async.2006.7
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Low-Overhead Testing of Delay Faults in High-Speed Asynchronous Pipelines
+  authors:
+  - G. Gill
+  - A. Agiwal
+  - M. Singh
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)
+  date: '2006-01-01'
+  doi: 10.1109/async.2006.20
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/async.2006.20
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/async06b.pdf
+  link: https://doi.org/10.1109/async.2006.20
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Berger-Code-Based Concurrent Error Detection in Asynchronous Burst-Mode Machines
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2006-01-01'
+  doi: 10.1109/date.2006.243984
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/date.2006.243984
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date06.pdf
+  link: https://doi.org/10.1109/date.2006.243984
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Non-Linear Decision Boundaries for Testing Analog Circuits
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  date: '2005-01-01'
+  doi: 10.1109/tcad.2005.855835
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tcad.2005.855835
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tcad05.pdf
+  link: https://doi.org/10.1109/tcad.2005.855835
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Compaction-Based Concurrent Error Detection for Digital Circuits
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Microelectronics Journal (MJ)
+  date: '2005-01-01'
+  doi: 10.1016/j.mejo.2005.03.009
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1016/j.mejo.2005.03.009
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/mej05.pdf
+  link: https://doi.org/10.1016/j.mejo.2005.03.009
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Test Generation for Ultra-High-Speed Asynchronous Pipelines
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  - S. M. Nowick
+  - M. Singh
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2005-01-01'
+  doi: 10.1109/test.2005.1584067
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2005.1584067
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc05.pdf
+  link: https://doi.org/10.1109/test.2005.1584067
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Constructive Derivation of Analog Specification Test Criteria
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2005-01-01'
+  doi: 10.1109/vts.2005.36
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2005.36
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts05.pdf
+  link: https://doi.org/10.1109/vts.2005.36
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Generating Decision Regions in Analog Measurement Spaces
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
+  date: '2005-01-01'
+  doi: 10.1145/1057661.1057684
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/1057661.1057684
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/glsvlsi05.pdf
+  link: https://doi.org/10.1145/1057661.1057684
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Concurrent Error Detection in Asynchronous Burst-Mode Controllers
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2005-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date05.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/date05.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'SPIN-PAC: Test Compaction for Speed-Independent Circuits'
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Asian South Pacific Design Automation Conference (ASP-DAC)
+  date: '2005-01-01'
+  doi: 10.1109/aspdac.2005.1466132
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/aspdac.2005.1466132
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/aspdac05.pdf
+  link: https://doi.org/10.1109/aspdac.2005.1466132
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: An Analog Checker with Input-Relative Tolerance for Duplicate Signals
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA)'
+  date: '2004-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetta04.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetta04.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Enhancing Reliability of RTL Controller-Datapath Circuits via Invariant-Based Concurrent Test
+  authors:
+  - '**Y. Makris**'
+  - I. Bayraktaroglu
+  - A. Orailoglu
+  publisher: IEEE Transactions on Reliability (T. REL)
+  date: '2004-01-01'
+  doi: 10.1109/tr.2004.829175
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/tr.2004.829175
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/trel04.pdf
+  link: https://doi.org/10.1109/tr.2004.829175
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'SPIN-TEST: Automatic Test Pattern Generation for Speed-Independent Circuits'
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  date: '2004-01-01'
+  doi: 10.1109/iccad.2004.1382703
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad.2004.1382703
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccad04.pdf
+  link: https://doi.org/10.1109/iccad.2004.1382703
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'SPIN-SIM: Logic and Fault Simulation for Speed-Independent Circuits'
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2004-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc04.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc04.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Compiler-Based Frame Formation for Static Optimization
+  authors:
+  - F. Shi
+  - S. Almukhaizim
+  - P. C. Lin
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2004-01-01'
+  doi: 10.1109/iccd.2004.1347963
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2004.1347963
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd04.pdf
+  link: https://doi.org/10.1109/iccd.2004.1347963
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Fault Simulation and Random Test Generation for Speed Independent Circuits
+  authors:
+  - F. Shi
+  - '**Y. Makris**'
+  publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
+  date: '2004-01-01'
+  doi: 10.1145/988952.988984
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/988952.988984
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/glsvlsi04.pdf
+  link: https://doi.org/10.1145/988952.988984
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Cost-Driven Selection of Parity Trees
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2004-01-01'
+  doi: 10.1109/vtest.2004.1299259
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vtest.2004.1299259
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts04.pdf
+  link: https://doi.org/10.1109/vtest.2004.1299259
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Concurrent Error Detection for Combinational and Sequential Logic via Output Compaction
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Quality Electronic Design (ISQED)
+  date: '2004-01-01'
+  doi: 10.1109/isqed.2004.1283716
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/isqed.2004.1283716
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/isqed04.pdf
+  link: https://doi.org/10.1109/isqed.2004.1283716
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On Concurrent Error Detection with Bounded Latency in FSMs
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2004-01-01'
+  doi: 10.1109/date.2004.1268910
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/date.2004.1268910
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date04.pdf
+  link: https://doi.org/10.1109/date.2004.1268910
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Roving Concurrent Error Detection for Logic Circuits
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Presented at the IEEE North Atlantic Test Workshop
+  date: '2004-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/natw04.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/natw04.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: 'SPaRe: Selective Partial Replication for Concurrent Fault Detection in FSMs'
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: IEEE Transactions on Instrumentation and Measurement (T. I &M)
+  date: '2003-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/tim03.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/tim03.pdf
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Low-Cost Convolutional Code Based Concurrent Error Detection in FSMs
+  authors:
+  - K. Rokas
+  - '**Y. Makris**'
+  - D. Gizopoulos
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  date: '2003-01-01'
+  doi: 10.1109/dftvs.2003.1250130
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dftvs.2003.1250130
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dfts03b.pdf
+  link: https://doi.org/10.1109/dftvs.2003.1250130
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Fault Tolerant Design of Combinational and Sequential Logic based on a Parity Check Code
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  date: '2003-01-01'
+  doi: 10.1109/dftvs.2003.1250156
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dftvs.2003.1250156
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dfts03a.pdf
+  link: https://doi.org/10.1109/dftvs.2003.1250156
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Cost-Effective Graceful Degradation in Speculative Processor Subsystems: The Branch Prediction Case'
+  authors:
+  - S. Almukhaizim
+  - T. Verdel
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2003-01-01'
+  doi: 10.1109/iccd.2003.1240894
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2003.1240894
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd03a.pdf
+  link: https://doi.org/10.1109/iccd.2003.1240894
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Independent Test Sequence Compaction through Integer Programming
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
+  date: '2003-01-01'
+  doi: 10.1109/iccd.2003.1240924
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccd.2003.1240924
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iccd03b.pdf
+  link: https://doi.org/10.1109/iccd.2003.1240924
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Concurrent Error Detection in Linear Analog Circuits Using State Estimation
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '2003-01-01'
+  doi: 10.1109/test.2003.1271105
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.2003.1271105
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc03.pdf
+  link: https://doi.org/10.1109/test.2003.1271105
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: An Analog Checker with Input-Relative Tolerance for Duplicate Signals
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE On-Line Testing Symposium (IOLTS)
+  date: '2003-01-01'
+  doi: 10.1109/olt.2003.1214367
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/olt.2003.1214367
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts03b.pdf
+  link: https://doi.org/10.1109/olt.2003.1214367
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: On Compaction-Based Concurrent Error Detection
+  authors:
+  - S. Almukhaizim
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE On-Line Testing Symposium (IOLTS)
+  date: '2003-01-01'
+  doi: 10.1109/olt.2003.1214383
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/olt.2003.1214383
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iolts03a.pdf
+  link: https://doi.org/10.1109/olt.2003.1214383
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: An Analog Checker with Dynamically Adjustable Error Threshold for Fully Differential Circuits
+  authors:
+  - H-G. D. Stratigopoulos
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2003-01-01'
+  doi: 10.1109/vtest.2003.1197653
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vtest.2003.1197653
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts03.pdf
+  link: https://doi.org/10.1109/vtest.2003.1197653
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Concurrent Fault Detection in Random Combinational Logic
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Quality Electronic Design (ISQED)
+  date: '2003-01-01'
+  doi: 10.1109/isqed.2003.1194770
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/isqed.2003.1194770
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/isqed03.pdf
+  link: https://doi.org/10.1109/isqed.2003.1194770
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Non-Intrusive Concurrent Error Detection in FSMs through State/Output Compaction and Monitoring via Parity Trees
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '2003-01-01'
+  doi: 10.1109/date.2003.1253783
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/date.2003.1253783
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date03.pdf
+  link: https://doi.org/10.1109/date.2003.1253783
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'SPaRe: Selective Partial Replication for Concurrent Fault Detection in FSMs'
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Conference on VLSI Design (VLSI)
+  date: '2003-01-01'
+  doi: 10.1109/icvd.2003.1183132
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/icvd.2003.1183132
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vlsid03.pdf
+  link: https://doi.org/10.1109/icvd.2003.1183132
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Fault Tolerant Design of Random Logic based on a Parity Check Code
+  authors:
+  - S. Almukhaizim
+  - '**Y. Makris**'
+  publisher: Presented at the IEEE European Test Workshop
+  date: '2003-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw03b.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw03b.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: On the Compaction of Independent Test Sequences for Sequential Circuits
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Presented at the IEEE European Test Workshop, Maastricht
+  date: '2003-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw03a.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw03a.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: Fast Hierarchical Test Path Construction for Circuits with DFT-Free Controller-Datapath Interface
+  authors:
+  - '**Y. Makris**'
+  - J. Collins
+  - A. Orailoglu
+  publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA)'
+  date: '2002-01-01'
+  doi: 10.1023/a:1013723905896
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1023/a:1013723905896
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetta02.pdf
+  link: https://doi.org/10.1023/a:1013723905896
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Non-Intrusive Design of Concurrently Self-Testable FSMs
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE Asian Test Symposium (ATS)
+  date: '2002-01-01'
+  doi: 10.1109/ats.2002.1181681
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ats.2002.1181681
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ats02b.pdf
+  link: https://doi.org/10.1109/ats.2002.1181681
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Test Requirement Analysis for Low Cost Hierarchical Test Path Construction
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE Asian Test Symposium (ATS)
+  date: '2002-01-01'
+  doi: 10.1109/ats.2002.1181700
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/ats.2002.1181700
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ats02a.pdf
+  link: https://doi.org/10.1109/ats.2002.1181700
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'Duplication-Based Concurrent Error Detection in Asynchronous Circuits: Shortcomings and Remedies'
+  authors:
+  - T. Verdel
+  - '**Y. Makris**'
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  date: '2002-01-01'
+  doi: 10.1109/dftvs.2002.1173531
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dftvs.2002.1173531
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dfts02.pdf
+  link: https://doi.org/10.1109/dftvs.2002.1173531
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Reducing Hierarchical Test Path Cost via Modular Test Requirement Analysis
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Presented at the IEEE European Test Workshop
+  date: '2002-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw02.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw02.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Non-Intrusive Design of Concurrently Self-Testable FSMs
+  authors:
+  - P. Drineas
+  - '**Y. Makris**'
+  publisher: Presented at the IEEE North Atlantic Test Workshop
+  date: '2002-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/natw02.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/natw02.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Efficient Transparency Extraction and Utilization in Hierarchical Test
+  authors:
+  - '**Y. Makris**'
+  - V. Patel
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2001-01-01'
+  doi: 10.1109/vts.2001.923446
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts.2001.923446
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts01.pdf
+  link: https://doi.org/10.1109/vts.2001.923446
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Test Requirement Analysis for Low Cost Hierarchical Test Path Construction
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Presented at the IEEE International Workshop of RTL Test Generation
+  date: '2001-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/wrtl01.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/wrtl01.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Fast Hierarchical Test Path Construction for Controller-Datapath Circuits without DFT
+  authors:
+  - '**Y. Makris**'
+  - J. Collins
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE Asian Test Symposium (ATS)
+  date: '2000-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/ats00.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/ats00.pdf
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: How to Avoid Random Walks in Hierarchical Test Path Identification
+  authors:
+  - '**Y. Makris**'
+  - J. Collins
+  - A. Orailoglu
+  publisher: Formal Proceedings of the IEEE European Test Workshop (ETW)
+  date: '2000-01-01'
+  doi: 10.1109/etw.2000.873787
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/etw.2000.873787
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw00.pdf
+  link: https://doi.org/10.1109/etw.2000.873787
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Modular Test Generation and Concurrent Transparency-Based Test Translation Using Gate-Level ATPG
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  - P. Vishakantaiah
+  publisher: Proceedings of the IEEE Custom Integrated Circuits Conference (CICC)
+  date: '2000-01-01'
+  doi: 10.1109/cicc.2000.852621
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/cicc.2000.852621
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/cicc00.pdf
+  link: https://doi.org/10.1109/cicc.2000.852621
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Transparency-Based Hierarchical Test Generation for Modular RTL Designs
+  authors:
+  - '**Y. Makris**'
+  - J. Collins
+  - A. Orailoglu
+  - P. Vishakantaiah
+  publisher: Proceedings of the IEEE International Symposium of Circuits and Systems (ISCAS)
+  date: '2000-01-01'
+  doi: 10.1109/iscas.2000.856422
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iscas.2000.856422
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/iscas00.pdf
+  link: https://doi.org/10.1109/iscas.2000.856422
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Invariance-Based On-Line Test for RTL Controller-Datapath Circuits
+  authors:
+  - '**Y. Makris**'
+  - I. Bayraktaroglu
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
+  date: '2000-01-01'
+  doi: 10.1109/vtest.2000.843879
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vtest.2000.843879
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/vts00.pdf
+  link: https://doi.org/10.1109/vtest.2000.843879
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: How to Avoid Random Walks in Hierarchical Test Path Identification
+  authors:
+  - '**Y. Makris**'
+  - J. Collins
+  - A. Orailoglu
+  publisher: Presented at the IEEE European Test Workshop
+  date: '2000-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw00w.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/etw00w.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Exploiting Off-Line Hierarchical Test Paths in Module Diagnosis and On-Line Test
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Presented at the IEEE Latin American Test Workshop
+  date: '2000-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/latw00.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/latw00.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml
+- type: journal
+  title: RTL Test Justification and Propagation Analysis for Modular Designs
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA)'
+  date: '1999-01-01'
+  doi: 10.1023/a:1008301720070
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1023/a:1008301720070
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/jetta99.pdf
+  link: https://doi.org/10.1023/a:1008301720070
+  tags:
+  - journal
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: A Module Diagnosis and Design-for-Debug Methodology based on Hierarchical Test Paths
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  date: '1999-01-01'
+  doi: 10.1109/dftvs.1999.802901
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/dftvs.1999.802901
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/dfts99.pdf
+  link: https://doi.org/10.1109/dftvs.1999.802901
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Property-Based Testability Analysis for Hierarchical RTL Designs
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE International Conference on Electronics Circuits and Systems (ICECS)
+  date: '1999-01-01'
+  doi: 10.1109/icecs.1999.813423
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/icecs.1999.813423
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/icecs99.pdf
+  link: https://doi.org/10.1109/icecs.1999.813423
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: 'TRANSPARENT: A System for RTL Testability Analysis, DFT Guidance and Hierarchical Test Generation'
+  authors:
+  - '**Y. Makris**'
+  - J. Collins
+  - A. Orailoglu
+  - P. Vishakantaiah
+  publisher: Proceedings of the IEEE Custom Integrated Circuits Conference (CICC)
+  date: '1999-01-01'
+  doi: 10.1109/cicc.1999.777265
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/cicc.1999.777265
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/cicc99.pdf
+  link: https://doi.org/10.1109/cicc.1999.777265
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: Channel-Based Behavioral Test Synthesis for Improved Module Reachability
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  date: '1999-01-01'
+  doi: 10.1145/307418.307506
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/307418.307506
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/date99.pdf
+  link: https://doi.org/10.1145/307418.307506
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: conference
+  title: DFT Guidance Through RTL Test Justification and Propagation Analysis
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Proceedings of the IEEE International Test Conference (ITC)
+  date: '1998-01-01'
+  doi: 10.1109/test.1998.743211
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/test.1998.743211
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itc98.pdf
+  link: https://doi.org/10.1109/test.1998.743211
+  tags:
+  - conference
+  plugin: sources.py
+  file: sources.yaml
+- type: workshop
+  title: Property-Based RTL Test Justification and Propagation Analysis
+  authors:
+  - '**Y. Makris**'
+  - A. Orailoglu
+  publisher: Presented at the IEEE International Test Synthesis Workshop
+  date: '1998-01-01'
+  buttons:
+  - type: pdf
+    link: https://personal.utdallas.edu/~yiorgos.makris/papers/itsw98.pdf
+  link: https://personal.utdallas.edu/~yiorgos.makris/papers/itsw98.pdf
+  tags:
+  - workshop
+  plugin: sources.py
+  file: sources.yaml

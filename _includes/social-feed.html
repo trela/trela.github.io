@@ -1,0 +1,58 @@
+{% comment %}
+  selected posts from Instagram, X and LinkedIn, listed in _data/social.yaml.
+  shows follow buttons for the accounts configured in _config.yaml links.
+{% endcomment %}
+{% assign posts = site.data.social %}
+{% assign limit = include.limit | default: 6 %}
+{% capture follow %}{% include follow.html %}{% endcapture %}
+
+{% if posts.size > 0 or follow contains "button" %}
+  {% if include.section %}{% include section.html %}{% endif %}
+  {% if include.title != false %}
+    <h2>{% include icon.html icon="fa-solid fa-hashtag" %}From our socials</h2>
+  {% endif %}
+
+  {{ follow }}
+
+  {% if posts.size > 0 %}
+    <div class="social-grid">
+      {% for post in posts limit: limit %}
+        <div class="social-item">
+          {% if post.platform == "instagram" %}
+            <blockquote
+              class="instagram-media"
+              data-instgrm-permalink="{{ post.url }}"
+              data-instgrm-version="14"
+            ><a href="{{ post.url }}">View this post on Instagram</a></blockquote>
+          {% elsif post.platform == "x" or post.platform == "twitter" %}
+            <blockquote class="twitter-tweet" data-dnt="true">
+              <a href="{{ post.url | replace: "://x.com/", "://twitter.com/" }}">View this post on X</a>
+            </blockquote>
+          {% elsif post.platform == "linkedin" %}
+            {% if post.url contains "/embed/" %}
+              {% assign embed = post.url %}
+            {% else %}
+              {% assign activity = post.url | regex_scan: "activity[-:](\d+)" %}
+              {% assign embed = "https://www.linkedin.com/embed/feed/update/urn:li:activity:" | append: activity %}
+            {% endif %}
+            <iframe
+              src="{{ embed }}"
+              class="linkedin-embed"
+              title="LinkedIn post"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% assign platforms = posts | map: "platform" | join: "," %}
+    {% if platforms contains "instagram" %}
+      <script async src="https://www.instagram.com/embed.js"></script>
+    {% endif %}
+    {% if platforms contains "x" or platforms contains "twitter" %}
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {% endif %}
+  {% endif %}
+{% endif %}

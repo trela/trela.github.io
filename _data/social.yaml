@@ -1,0 +1,17 @@
+# Selected social media posts shown in the "From our socials" section on the home and news pages.
+# Paste the public URL of each post you want to feature, newest first.
+#   platform: instagram | x | linkedin
+#   url: link to the post
+#     instagram: https://www.instagram.com/p/<id>/
+#     x:         https://x.com/<handle>/status/<id>
+#     linkedin:  the post's URL (https://www.linkedin.com/posts/...activity-<id>...) or
+#                the src of LinkedIn's "Embed this post" code (https://www.linkedin.com/embed/feed/update/urn:li:share:<id>)
+#
+# Example:
+# - platform: instagram
+#   url: https://www.instagram.com/p/ABC123/
+# - platform: x
+#   url: https://x.com/your-handle/status/1234567890
+# - platform: linkedin
+#   url: https://www.linkedin.com/embed/feed/update/urn:li:share:1234567890
+[]

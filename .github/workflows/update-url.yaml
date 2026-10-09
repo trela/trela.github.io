@@ -1,0 +1,61 @@
+name: update-url
+run-name: Update site after URL change
+
+on:
+  # called by on-pages
+  workflow_call:
+    outputs:
+      files-changed:
+        value: ${{ jobs.update-url.outputs.files-changed }}
+
+  # run manually by user
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-url:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Pages URL
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Checkout main branch contents
+        uses: actions/checkout@v7
+
+      - name: Update README
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { readFileSync, writeFileSync } = require("fs");
+            const file = "README.md";
+            let contents = readFileSync(file).toString();
+            const find = /\*\*\[.*\]\(.*\)\*\*/;
+            const host = "${{ steps.pages.outputs.host }}";
+            const path = "${{ steps.pages.outputs.base_path }}";
+            const url = "${{ steps.pages.outputs.base_url }}";
+            const replace = `**[${host}${path}](${url})**`;
+            if (contents.match(find))
+              contents = contents.replace(find, replace);
+            else
+              contents = `Visit ${replace} 🚀\n\n` + contents;
+            writeFileSync(file, contents);
+
+      - name: Check if README changed
+        id: files-changed
+        uses: tj-actions/verify-changed-files@v20
+        with:
+          files: |
+            README.md
+
+      - name: Commit changed files
+        if: steps.files-changed.outputs.files_changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Update URL"
+
+    outputs:
+      files-changed: ${{ steps.files-changed.outputs.files_changed }}

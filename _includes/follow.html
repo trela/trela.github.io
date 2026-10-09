@@ -1,0 +1,15 @@
+{% comment %}
+  follow buttons for the social accounts configured under links in _config.yaml
+{% endcomment %}
+{% assign social_keys = "instagram,x,linkedin,youtube,github,huggingface" | split: "," %}
+{% capture follow %}
+  {% for key in social_keys %}
+    {% assign value = site.links[key] %}
+    {% if value %}
+      {% include button.html type=key link=value %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% if follow contains "button" %}
+  <div class="center follow">{{ follow }}</div>
+{% endif %}

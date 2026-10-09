@@ -1,0 +1,29 @@
+{% comment %}
+  grid of project cards from _data/projects.yaml, with optional code/dataset/model buttons
+{% endcomment %}
+<div class="project-grid">
+  {% for project in site.data.projects %}
+    <div class="project-card">
+      <div class="project-head">
+        <span class="project-icon">{% include icon.html icon=project.icon %}</span>
+        <div>
+          <a class="project-title" href="{{ project.link | relative_url }}">{{ project.title }}</a>
+          {% if project.subtitle %}
+            <span class="project-subtitle">{{ project.subtitle }}</span>
+          {% endif %}
+        </div>
+      </div>
+      <p>{{ project.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% if project.buttons.size > 0 %}
+        <div class="citation-buttons">
+          {% for button in project.buttons %}
+            {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      <a class="project-more" href="{{ project.link | relative_url }}">
+        Related publications {% include icon.html icon="fa-solid fa-arrow-right" %}
+      </a>
+    </div>
+  {% endfor %}
+</div>

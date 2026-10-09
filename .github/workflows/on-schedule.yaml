@@ -1,0 +1,24 @@
+name: on-schedule
+run-name: On schedule
+
+on:
+  # run periodically
+  schedule:
+    - cron: "0 0 * * 1"
+
+  # run manually by user
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-citations:
+    # only run on user instance of template, not template itself
+    if: github.repository != 'greenelab/lab-website-template'
+    uses: ./.github/workflows/update-citations.yaml
+    secrets: inherit
+    with:
+      open-pr: true

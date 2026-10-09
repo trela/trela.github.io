@@ -1,0 +1,29 @@
+{% comment %}
+  headline numbers; counts are computed from the data files
+{% endcomment %}
+{% assign journals = site.data.citations | where: "type", "journal" %}
+{% assign conferences = site.data.citations | where: "type", "conference" %}
+{% assign awards = site.data.citations | where_exp: "c", "c.award" %}
+{% assign alumni = site.data.alumni | map: "name" | uniq %}
+<div class="stats">
+  <div class="stat">
+    <span class="stat-number">{{ site.data.citations.size }}</span>
+    <span class="stat-label">publications</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number">{{ journals.size }}</span>
+    <span class="stat-label">journal articles</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number">{{ conferences.size }}</span>
+    <span class="stat-label">conference papers</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number">$19.7M</span>
+    <span class="stat-label">sponsored research</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number">{{ alumni.size }}</span>
+    <span class="stat-label">alumni in academia &amp; industry</span>
+  </div>
+</div>

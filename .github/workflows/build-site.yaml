@@ -1,0 +1,48 @@
+name: build-site
+run-name: Build live site
+
+on:
+  # called from on-push/on-pages
+  workflow_call:
+
+  # run manually by user
+  workflow_dispatch:
+
+env:
+  PREVIEWS_FOLDER: preview
+
+permissions:
+  contents: write
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch contents
+        uses: actions/checkout@v7
+
+      - name: Install Ruby packages
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Get Pages URL
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Set root URL
+        run: |
+          printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
+
+      - name: Build live version of site
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+
+      - name: Commit live site to Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        with:
+          folder: _site
+          clean-exclude: ${{ env.PREVIEWS_FOLDER }}
+          force: false

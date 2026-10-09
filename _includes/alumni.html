@@ -1,0 +1,24 @@
+{% comment %}
+  alumni cards for one degree group, e.g. include alumni.html degree="phd"
+{% endcomment %}
+{% assign people = site.data.alumni | where: "degree", include.degree %}
+<div class="alumni-grid">
+  {% for person in people %}
+    <div class="alumni-card">
+      <img
+        src="{{ person.image | default: "images/fallback.svg" | relative_url }}"
+        alt="{{ person.name }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+      <div>
+        <span class="alumni-name">{{ person.name }}</span>
+        <span class="alumni-detail">{{ person.detail }}</span>
+        <span class="alumni-topic">{{ person.topic }}</span>
+        {% if person.position %}
+          <span class="alumni-position">{% include icon.html icon="fa-solid fa-briefcase" %}{{ person.position }}</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

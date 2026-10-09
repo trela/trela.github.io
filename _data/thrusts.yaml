@@ -1,0 +1,26 @@
+# Research thrusts shown on the home and research pages.
+- id: hardware-security
+  title: Hardware Security & Trust
+  icon: fa-solid fa-shield-halved
+  summary: Detecting hardware Trojans and counterfeit ICs, protecting hardware IP through transistor-level programmable fabrics and logic locking, and certifying third-party IP with proof-carrying hardware.
+  search: trojan
+- id: ai-for-test
+  title: AI for Test & Manufacturing
+  icon: fa-solid fa-microchip
+  summary: Machine learning and statistical methods that cut test cost, improve yield, find lithographic hotspots, and, most recently, use large language models to generate tests for integrated circuits.
+  search: test
+- id: analog-rf
+  title: Trusted Analog/RF & On-Die Learning
+  icon: fa-solid fa-tower-broadcast
+  summary: Self-test and self-calibration of analog/RF ICs, analog neural networks on die, and defenses against malicious hardware that opens covert channels in wireless networks.
+  search: analog
+- id: bio-security
+  title: Bio-Security & Provenance
+  icon: fa-solid fa-dna
+  summary: Physical unclonable functions in living cells and DNA storage, and provenance attestation that spans silicon chips, biological cells and beyond.
+  search: unclonable
+- id: reliable-processors
+  title: Reliable & Secure Processors
+  icon: fa-solid fa-memory
+  summary: Hardware-based malware detection, workload execution forensics, and workload-cognizant error detection and resilience for modern microprocessors.
+  search: microprocessor

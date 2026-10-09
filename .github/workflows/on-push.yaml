@@ -1,0 +1,26 @@
+name: on-push
+run-name: On push to main
+
+on:
+  # run on commit to main branch
+  push:
+    branches:
+      - main
+      - master
+
+  # run manually by user
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-citations:
+    uses: ./.github/workflows/update-citations.yaml
+    secrets: inherit
+
+  build-site:
+    needs: update-citations
+    uses: ./.github/workflows/build-site.yaml

@@ -1,0 +1,53 @@
+# Projects shown as cards on the research page.
+# Add artifacts with buttons, for example:
+#   buttons:
+#     - type: code
+#       link: https://github.com/<org>/<repo>
+#     - type: model
+#       link: https://huggingface.co/<org>/<model>
+#     - type: dataset
+#       link: https://huggingface.co/datasets/<org>/<dataset>
+- title: Generative AI for Test
+  subtitle: SRC, 2025 to 2028
+  icon: fa-solid fa-wand-magic-sparkles
+  description: Can large language models learn the "language of test"? We train and evaluate LLMs that read circuit netlists and generate test patterns for integrated circuits, alongside commercial ATPG tools.
+  link: publications/?search="Language of Test"
+  tags:
+    - ai-for-test
+- title: TRAP
+  subtitle: Transistor-level programmable fabrics, NSF
+  icon: fa-solid fa-lock
+  description: A transistor-level programmable fabric that redacts critical parts of a design from the foundry, protecting hardware IP and withstanding SAT-based attacks.
+  link: publications/?search=TRAP
+  tags:
+    - hardware-security
+- title: CHAMELEON
+  subtitle: Analog on-die neural networks, NSF/ANR
+  icon: fa-solid fa-brain
+  description: Understanding and mitigating errors in analog implementations of on-die neural networks, including their resilience to radiation-based model perturbation attacks.
+  link: publications/?search="Neural Network"
+  tags:
+    - analog-rf
+- title: Covert channels in NextG wireless
+  subtitle: NSF RINGS and CHEST
+  icon: fa-solid fa-satellite-dish
+  description: Risks and remedies for hardware Trojans that hide information in the transmission margins of wireless ICs, with an experimentation platform for research and training.
+  link: publications/?search="Wireless"
+  tags:
+    - analog-rf
+    - hardware-security
+- title: Genetic PUFs
+  subtitle: Science Advances 2022, NSF CBET
+  icon: fa-solid fa-dna
+  description: Physical unclonable functions engineered into human cells for cell-line authentication, and PUF-based probes for secure access to DNA storage.
+  link: publications/?search="Unclonable"
+  tags:
+    - bio-security
+- title: IC provenance attestation
+  subtitle: AFRL/Northrop Grumman and TI
+  icon: fa-solid fa-fingerprint
+  description: Statistical fingerprints of the fabrication process that reveal where and when a chip was made, catching recycled and counterfeit electronics from ICs to PCBs.
+  link: publications/?search="Recycled"
+  tags:
+    - hardware-security
+    - ai-for-test
