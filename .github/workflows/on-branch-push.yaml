@@ -1,0 +1,61 @@
+name: on-branch-push
+run-name: Preview branch ${{ github.ref_name }}
+
+# build every feature branch and publish it to <site>/preview/<branch>/
+# so work can be reviewed before it is merged into main
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - master
+      - gh-pages
+
+  # run manually by user
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: branch-preview-${{ github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  preview-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch contents
+        uses: actions/checkout@v7
+
+      - name: Install Ruby packages
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Get Pages URL
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Make folder name from branch
+        run: |
+          slug=$(printf "%s" "${{ github.ref_name }}" | tr -c 'A-Za-z0-9._-' '-')
+          printf "\nSLUG=%s" "$slug" >> "$GITHUB_ENV"
+
+      - name: Build preview version of site
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}/preview/${{ env.SLUG }}"
+
+      - name: Deploy preview to Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        with:
+          folder: _site
+          target-folder: preview/${{ env.SLUG }}
+          commit-message: "Deploy preview of branch ${{ github.ref_name }}"
+          force: false
+
+      - name: Show preview link
+        run: |
+          echo "Preview: ${{ steps.pages.outputs.base_url }}/preview/${{ env.SLUG }}/" >> "$GITHUB_STEP_SUMMARY"

@@ -77,6 +77,12 @@ The home and news pages embed the posts listed there with each platform's offici
 Selecting posts by hand keeps the site free of API keys.
 Automatic syncing would need platform API access: an Instagram Business or Creator account with a Graph API token, a paid X API tier, and LinkedIn has no open API for page posts.
 
+## Branches and previews
+
+- `main` is the live site: every push to `main` rebuilds and deploys it.
+- Any other branch is published as a preview at `https://trela.github.io/preview/<branch>/` on every push, so changes can be reviewed before merging. Delete a preview by removing its folder from the `gh-pages` branch.
+- Pull requests into `main` also get their own preview at `/preview/pr-<number>/`.
+
 ## Previewing locally
 
 Requires Ruby 3.1 and Bundler:
