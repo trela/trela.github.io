@@ -48,6 +48,22 @@ jobs:
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}/preview/${{ env.SLUG }}"
 
+      # without .nojekyll at the root of the Pages branch, GitHub runs its own
+      # Jekyll pass and drops the _styles and _scripts folders of every preview
+      - name: Ensure .nojekyll at root of Pages branch
+        run: |
+          git fetch --depth 1 origin gh-pages:refs/remotes/origin/gh-pages
+          git worktree add "$RUNNER_TEMP/pages" origin/gh-pages
+          cd "$RUNNER_TEMP/pages"
+          if [ ! -f .nojekyll ]; then
+            touch .nojekyll
+            git add .nojekyll
+            git -c user.name="github-actions[bot]" \
+                -c user.email="41898208+github-actions[bot]@users.noreply.github.com" \
+                commit -m "Add .nojekyll"
+            git push origin HEAD:gh-pages
+          fi
+
       - name: Deploy preview to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
