@@ -9,8 +9,8 @@ affiliation: UC San Diego
 aliases:
   - Y. Makris
 links:
-  # TODO: replace with UCSD email and a CV hosted in this repo (e.g. files/makris-cv.pdf)
-  # email: ymakris@ucsd.edu
+  # TODO: host the CV in this repo (e.g. files/makris-cv.pdf)
+  email: ymakris@ucsd.edu
   cv: https://personal.utdallas.edu/~yiorgos.makris/cv.pdf
   # google-scholar: your-scholar-id
 ---

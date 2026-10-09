@@ -9,7 +9,7 @@ proofer: false
 # site social media and other links (shown as icons in the footer and on the home page)
 # TODO: fill in the lab's accounts and UCSD email, then uncomment
 links:
-  # email: trela@ucsd.edu
+  email: ymakris@ucsd.edu
   # instagram: your-instagram-handle
   # x: your-x-handle
   # linkedin: company/your-linkedin-page
