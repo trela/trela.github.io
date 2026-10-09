@@ -1,9 +1,10 @@
 ---
 name: Aric Fowler
 image: images/team/aric-fowler.jpg
-role: phd
+order: 2
+role: postdoc
 description: Security and trust in wireless cryptographic ICs
-affiliation: Ph.D. student, Electrical Engineering
+affiliation: Postdoctoral Researcher
 aliases:
   - A. Fowler
 links:

@@ -1,6 +1,7 @@
 ---
 name: Thomas Broadfoot
 image: images/team/thomas-broadfoot.jpg
+order: 3
 role: postdoc
 description: Applications of transistor-level programmable fabrics (TRAP)
 affiliation: Ph.D. in Electrical Engineering, UT Dallas

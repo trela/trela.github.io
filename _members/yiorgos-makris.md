@@ -1,6 +1,7 @@
 ---
 name: Yiorgos Makris
 image: images/team/yiorgos-makris.jpg
+order: 1
 role: principal-investigator
 description: Professor · Lab Director · IEEE Fellow
 # TODO: confirm exact UCSD title and department

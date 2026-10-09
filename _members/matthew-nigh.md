@@ -1,6 +1,7 @@
 ---
 name: Matthew Nigh
 image: images/team/matthew-nigh.jpg
+order: 7
 role: phd
 description: Machine learning in semiconductor manufacturing
 affiliation: Ph.D. student, Computer Engineering

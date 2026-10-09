@@ -1,6 +1,7 @@
 ---
 name: Nosheen Afroz
 image: images/team/nosheen-afroz.jpg
+order: 9
 role: phd
 description: Trusted and reliable analog neural networks
 affiliation: Ph.D. student, Electrical Engineering

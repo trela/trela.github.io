@@ -1,6 +1,7 @@
 ---
 name: Lucas Wick
 image: images/team/lucas-wick.jpg
+order: 11
 role: phd
 description: Implementation of CVA6 as a hybrid ASIC/TRAP
 affiliation: Ph.D. student, Computer Engineering

@@ -1,6 +1,7 @@
 ---
 name: Athanasia Karanika
 image: images/team/athanasia-karanika.jpg
+order: 13
 role: phd
 description: New methods for test and verification of TRAP
 affiliation: Ph.D. student, Electrical Engineering

@@ -42,6 +42,16 @@
   position: Associate Professor, San Diego State University
   image: images/team/ke-huang.jpg
 
+- name: Suraag Tellakula
+  degree: phd
+  detail: UT Dallas
+  topic: Machine learning-based layout reliability analysis
+  image: images/team/suraag-tellakula.jpg
+- name: Ching-Yi Chang
+  degree: phd
+  detail: UT Dallas
+  topic: Semiconductor manufacturing data analytics for provenance attestation
+  image: images/team/ching-yi-chang.jpg
 - name: Thomas Broadfoot
   degree: phd
   detail: UT Dallas (co-advised with C. Sechen)

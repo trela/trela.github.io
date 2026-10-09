@@ -1,6 +1,7 @@
 ---
 name: Christos Vasileiou
 image: images/team/christos-vasileiou.jpg
+order: 6
 role: phd
 description: Large language models for test generation
 affiliation: Ph.D. student, Computer Engineering

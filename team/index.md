@@ -11,22 +11,22 @@ TRELA brings together students and researchers in electrical engineering, comput
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" sort="order" %}
 
 ## Postdoctoral researchers
 {:.center}
 
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" sort="order" %}
 
 ## Ph.D. students
 {:.center}
 
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" sort="order" %}
 
-## M.S. and undergraduate researchers
+## M.S. students
 {:.center}
 
-{% include list.html data="members" component="portrait" filter="role == 'ms' or role == 'undergrad'" %}
+{% include list.html data="members" component="portrait" filter="role == 'ms' or role == 'undergrad'" sort="order" %}
 
 {% include section.html dark=true %}
 

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-label="Photo coming soon">
+  <rect width="360" height="360" fill="#dfe4ec"/>
+  <circle cx="180" cy="140" r="66" fill="#7a869a"/>
+  <path d="M60 340c8-72 58-112 120-112s112 40 120 112z" fill="#7a869a"/>
+</svg>
