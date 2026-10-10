@@ -495,4 +495,18 @@ header:not([data-big]) .logo {
   height: 50px;
 }
 
+.citation-cited {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: var(--bold);
+  font-style: normal;
+}
+
 /*# sourceMappingURL=trela.css.map */
