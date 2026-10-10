@@ -1,3 +1,5 @@
+Visit **[trela.github.io](http://trela.github.io)** 🚀
+
 # TRELA Lab website
 
 Website of the Trusted and RELiable Architectures (TRELA) Lab at UC San Diego, directed by Prof. Yiorgos Makris.
