@@ -12,7 +12,8 @@ links:
   # TODO: host the CV in this repo (e.g. files/makris-cv.pdf)
   email: ymakris@ucsd.edu
   cv: https://personal.utdallas.edu/~yiorgos.makris/cv.pdf
-  # google-scholar: your-scholar-id
+  google-scholar: dUO4lKwAAAAJ
+  orcid: 0000-0002-4322-0068
 ---
 
 Yiorgos Makris directs the Trusted and RELiable Architectures (TRELA) Lab.

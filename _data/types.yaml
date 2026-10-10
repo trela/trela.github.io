@@ -36,7 +36,7 @@ link:
 website:
   icon: fa-solid fa-globe
   text: Website
-  tooltip: Website
+  tooltip: Personal website
 
 external:
   icon: fa-solid fa-up-right-from-square

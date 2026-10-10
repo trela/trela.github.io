@@ -10,7 +10,8 @@ module Jekyll
       defaults.each do |key, value|
         # substitute main string into default string and set main item
         if value.is_a?(String) and value.include?"$VALUE"
-          if hash[key].is_a?(String)
+          # a full url (e.g. a whole LinkedIn profile link) is used as given
+          if hash[key].is_a?(String) and not hash[key] =~ /\A(https?:|mailto:|tel:)/
             hash[key] = value.sub"$VALUE", hash[key]
           end
         # set main item to default item if not defined

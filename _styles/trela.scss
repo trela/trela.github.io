@@ -475,3 +475,30 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+// contact icons on member pages
+
+.member-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.member-links .button-wrapper {
+  margin: 0;
+}
+
+.member-links .button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  min-width: 0;
+  margin: 0;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  font-size: 1.1rem;
+}

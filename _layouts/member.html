@@ -6,13 +6,18 @@ layout: default
 
 {% include portrait.html lookup=page.slug %}
 
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
-</div>
+{% comment %} contact and profile icons, shown only for the links a member provides {% endcomment %}
+{% assign link_order = "email,website,home-page,github,linkedin,google-scholar,orcid,x,huggingface,cv" | split: "," %}
+{% if page.links.size > 0 %}
+  <div class="member-links">
+    {% for key in link_order %}
+      {% assign value = page.links[key] %}
+      {% if value %}
+        {% include button.html type=key link=value text="" %}
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
 
 {% endcapture %}
 
