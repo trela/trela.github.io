@@ -14,7 +14,7 @@ links:
   # email: name@ucsd.edu
   # website: https://your-website.com
   # github: your-github-username
-  # linkedin: in/your-profile
+  linkedin: https://www.linkedin.com/in/matthew-nigh/
   # google-scholar: your-scholar-id
   # orcid: 0000-0000-0000-0000
   # x: your-x-handle

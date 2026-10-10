@@ -14,6 +14,7 @@ links:
   cv: https://personal.utdallas.edu/~yiorgos.makris/cv.pdf
   google-scholar: dUO4lKwAAAAJ
   orcid: 0000-0002-4322-0068
+  linkedin: https://www.linkedin.com/in/yiorgos-makris-2b5768/
 ---
 
 Yiorgos Makris directs the Trusted and RELiable Architectures (TRELA) Lab.
