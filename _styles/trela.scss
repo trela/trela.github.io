@@ -502,3 +502,33 @@ p {
   border-radius: 50% !important;
   font-size: 1.1rem;
 }
+
+// main logo: original artwork on a white badge so its white outlines stay visible on navy
+
+.logo img {
+  height: 100%;
+  width: auto;
+  padding: 3px 6px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px 0 #00000040;
+}
+
+header[data-big] .logo {
+  height: 150px;
+}
+
+header[data-big] .logo img {
+  padding: 8px 14px;
+  border-radius: 22px;
+}
+
+@media (max-width: $wrap) {
+  header[data-big] .logo {
+    height: 110px;
+  }
+}
+
+header:not([data-big]) .logo {
+  height: 50px;
+}

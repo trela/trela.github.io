@@ -4,7 +4,7 @@
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
-{% assign logo = svg | default: png | default: jpg | default: nil %}
+{% assign logo = site.logo | default: svg | default: png | default: jpg | default: nil %}
 
 <header
   class="background"
@@ -19,10 +19,10 @@
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
-        {% if svg %}
+        {% if svg and logo == svg %}
           {{ svg | file_read }}
         {% else %}
-          <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
+          <img src="{{ logo | relative_url | uri_escape }}" alt="{{ site.title }} logo">
         {% endif %}
       </span>
     {% endif %}
