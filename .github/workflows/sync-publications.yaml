@@ -1,0 +1,56 @@
+name: sync-publications
+run-name: Sync publications from Google Scholar and OpenAlex
+
+# look for new papers every week and propose them in a pull request for review
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+
+  # run manually by user
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-publications:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout main branch contents
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "**/requirements.txt"
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade --requirement ./_cite/requirements.txt
+
+      - name: Find new publications
+        env:
+          GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+          SYNC_REPORT: ${{ runner.temp }}/sync-report.md
+        run: python _cite/sync_publications.py
+
+      # the site renders _data/citations.yaml, so rebuild it in the same pull request
+      - name: Rebuild citations
+        run: python _cite/cite.py
+
+      - name: Open pull request with new publications
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: publication-sync
+          title: New publications found by the weekly sync
+          body-path: ${{ runner.temp }}/sync-report.md
+          commit-message: Add publications found by the weekly sync
+          add-paths: |
+            _data/sources-synced.yaml
+            _data/citations.yaml

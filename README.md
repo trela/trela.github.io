@@ -53,6 +53,21 @@ On every push, GitHub Actions copies `_data/sources.yaml` into `_data/citations.
 To have the citation filled in automatically from a DOI, add `id: doi:10.xxxx/yyyy` to the entry.
 Hand-written fields always override the automatic ones.
 
+### Automatic publication sync
+
+Every Monday the `sync-publications` workflow looks for new papers by Prof. Makris on
+[Google Scholar](https://scholar.google.com/citations?user=dUO4lKwAAAAJ) and [OpenAlex](https://openalex.org/A5078818440)
+and opens a pull request that adds them to `_data/sources-synced.yaml`.
+Nothing goes live until that pull request is merged.
+
+- A paper is skipped when its DOI, or its title with a year within one year, already appears in `sources.yaml` or `sources-synced.yaml`, so nothing is listed twice.
+- Metadata (authors, DOI) comes from OpenAlex. Google Scholar confirms authorship and provides cleaner venue names.
+- The pull request flags papers found on only one source and papers whose title matches an older entry (possibly a journal version of a conference paper).
+- To reject a paper for good, delete it and add its title to `ignore` in `_data/publication-sync.yaml`.
+- Settings such as the first year to sync and exclusion rules are in `_data/publication-sync.yaml`. Run it by hand from the Actions tab (Run workflow) or locally with `python _cite/sync_publications.py --dry-run`.
+- Optional repository secrets: `GOOGLE_SCHOLAR_API_KEY` (a [SerpAPI](https://serpapi.com) key, which makes Scholar reliable from GitHub's servers) and `OPENALEX_MAILTO` (a contact email for OpenAlex).
+- ResearchGate is not synced: it blocks automated access and offers no API. OpenAlex indexes the same papers.
+
 ### Add a news post or lab-life highlight
 
 Create `_posts/2026-11-02-retreat.md`:

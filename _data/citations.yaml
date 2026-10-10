@@ -1,5 +1,205 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- type: conference
+  title: 'WALET: SHAP-Guided Classification of Wafer-Level E-Test Variability for
+    Early Manufacturing Risk Detection'
+  authors:
+  - C.-Y. Chang
+  - M. Nigh
+  - J. M. Carulli
+  - '**Y. Makris**'
+  publisher: IEEE 44th VLSI Test Symposium (VTS)
+  date: '2026-01-01'
+  link: https://doi.org/10.1109/vts69484.2026.11563333
+  doi: 10.1109/vts69484.2026.11563333
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts69484.2026.11563333
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: Covert Information Leakage Via Hardware-Induced Spectral Shaping
+  authors:
+  - A. Kontarinis
+  - S. R. Dhole
+  - K. S. Subramani
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: IEEE International Symposium on Hardware Oriented Security and Trust
+  date: '2026-01-01'
+  link: https://doi.org/10.1109/host68814.2026.11604183
+  doi: 10.1109/host68814.2026.11604183
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/host68814.2026.11604183
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
 - type: journal
-  title: 'A TRAP for SAT: On the Imperviousness of a Transistor-Level Programmable Fabric to Satisfiability-Based Attacks'
+  title: Battery safety and security for electric urban air mobility
+  authors:
+  - J. Ke
+  - D. Jain
+  - J. Zhang
+  - B. Wang
+  - '**Y. Makris**'
+  - K. Cho
+  - K. Shamsi
+  - L. Su
+  publisher: Cell Reports Physical Science
+  date: '2025-01-01'
+  link: https://doi.org/10.1016/j.xcrp.2025.102924
+  doi: 10.1016/j.xcrp.2025.102924
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1016/j.xcrp.2025.102924
+  tags:
+  - journal
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: journal
+  title: "Biosecurity Primitive: Polymerase X\u2010based Genetic Physical Unclonable\
+    \ Functions"
+  authors:
+  - Z. Zhou
+  - T. Kang
+  - J. Chen
+  - Y. Doctor
+  - J. G. Camposagrado
+  - '**Y. Makris**'
+  - A. Pertsemlidis
+  - L. G. Bleris
+  publisher: Advanced Science
+  date: '2025-01-01'
+  link: https://doi.org/10.1002/advs.202415820
+  doi: 10.1002/advs.202415820
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1002/advs.202415820
+  tags:
+  - journal
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: An SMT-Based Method for Identifying State-Holding Elements in Extracted Netlists
+  authors:
+  - A. Fowler
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: IEEE International Test Conference (ITC)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/itc58126.2025.00056
+  doi: 10.1109/itc58126.2025.00056
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc58126.2025.00056
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: 'Teaching Llamas to Test: A Language-Based Approach'
+  authors:
+  - C. Vasileiou
+  - '**Y. Makris**'
+  publisher: IEEE International Test Conference (ITC)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/itc58126.2025.00072
+  doi: 10.1109/itc58126.2025.00072
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc58126.2025.00072
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: 'Unveiling the Mask: Trusted Semiconductor Manufacturing through Wafer-Level
+    Mask-Set Attestation'
+  authors:
+  - S. S. Tellakula
+  - C.-Y. Chang
+  - M. Nigh
+  - C. Vasileiou
+  - J. M. Carulli
+  - '**Y. Makris**'
+  publisher: IEEE/ACM International Conference On Computer Aided Design (ICCAD)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/iccad66269.2025.11241009
+  doi: 10.1109/iccad66269.2025.11241009
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad66269.2025.11241009
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: Experimental Characterization and Empirical Beam Steering Analysis of a 28
+    GHz 1-Bit 8x8 RIS Reflectarray via Conductivity Pattern Modulation
+  authors:
+  - V. Papapostolou
+  - A. Hatzopoulos
+  - '**Y. Makris**'
+  - Z. D. Zaharis
+  publisher: International Symposium on Wireless Personal Multimedia Communications
+    (WPMC)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/wpmc67460.2025.11351170
+  doi: 10.1109/wpmc67460.2025.11351170
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/wpmc67460.2025.11351170
+  tags:
+  - conference
+  sync:
+  - openalex
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: 'The Pulse-Shaping Trojan: Refinements and New Results'
+  authors:
+  - S. Dhole
+  - M. Farahnak-Ghazani
+  - '**Y. Makris**'
+  - A. Nosratinia
+  publisher: 61st Allerton Conference on Communication, Control, and Computing
+  date: '2025-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dUO4lKwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=dUO4lKwAAAAJ:CB2v5VPnA5kC
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: journal
+  title: 'A TRAP for SAT: On the Imperviousness of a Transistor-Level Programmable
+    Fabric to Satisfiability-Based Attacks'
   authors:
   - A. Fowler
   - M. Shayan
@@ -22,13 +222,15 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Modeling Bidirectional Switches for Enabling Logic Equivalence Checking in a Transistor-Level Programmable Fabric
+  title: Modeling Bidirectional Switches for Enabling Logic Equivalence Checking in
+    a Transistor-Level Programmable Fabric
   authors:
   - A. Jain
   - T. Broadfoot
   - '**Y. Makris**'
   - C. Sechen
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2025-01-01'
   doi: 10.1109/tcad.2024.3434450
   buttons:
@@ -55,7 +257,8 @@
   - J. Atulasimha
   - '**Y. Makris**'
   - J. Friedman
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2025-01-01'
   doi: 10.1109/tcad.2024.3434362
   buttons:
@@ -73,7 +276,8 @@
   authors:
   - C. Vasileiou
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2025-01-01'
   tags:
   - conference
@@ -85,7 +289,8 @@
   - C. Sathe
   - '**Y. Makris**'
   - B. Carrion Schaefer
-  publisher: Proceedings of the International Symposium on Field-Programmable Custom Computing Machines (FCCM 2025)
+  publisher: Proceedings of the International Symposium on Field-Programmable Custom
+    Computing Machines (FCCM 2025)
   date: '2025-01-01'
   doi: 10.1109/fccm62733.2025.00027
   buttons:
@@ -114,7 +319,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Enhancing Metrology to E-test Correlation Model Accuracy through Process Expertise Integration
+  title: Enhancing Metrology to E-test Correlation Model Accuracy through Process
+    Expertise Integration
   authors:
   - C-Y. Chang
   - M. Nigh
@@ -154,12 +360,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: book-chapter
-  title: Design Obfuscation and Performance Locking Solutions for Mixed-Signal, Analog and RF ICs
+  title: Design Obfuscation and Performance Locking Solutions for Mixed-Signal, Analog
+    and RF ICs
   authors:
   - P. Mishra
   - A. Marshall
   - '**Y. Makris**'
-  publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for Security and Trust, CRC Press
+  publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for
+    Security and Trust, CRC Press
   date: '2025-01-01'
   tags:
   - book-chapter
@@ -172,14 +380,16 @@
   - A. Srivastava
   - '**Y. Makris**'
   - K. Basu
-  publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for Security and Trust, CRC Press
+  publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for
+    Security and Trust, CRC Press
   date: '2025-01-01'
   tags:
   - book-chapter
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: The History, Landscape, and Outlook of Human Cell Line Authentication and Security
+  title: The History, Landscape, and Outlook of Human Cell Line Authentication and
+    Security
   authors:
   - E. Harbut
   - '**Y. Makris**'
@@ -199,7 +409,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Bit-by-Bit: Investigating the Vulnerabilities of Binary Neural Networks to Adversarial Bit Flipping'
+  title: 'Bit-by-Bit: Investigating the Vulnerabilities of Binary Neural Networks
+    to Adversarial Bit Flipping'
   authors:
   - S. Kundu
   - S. Das
@@ -238,7 +449,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'NSPG: Natural language Processing-based Security Property Generator for Hardware Security Assurance'
+  title: 'NSPG: Natural language Processing-based Security Property Generator for
+    Hardware Security Assurance'
   authors:
   - X. Meng
   - A. Srivastava
@@ -262,7 +474,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 19-GHz VCO with Phase Noise of-117 dBc/Hz at 1-MHz Offset Using an Array of Near Minimum Size Transistors and Intelligent Post Fabrication Selection
+  title: 19-GHz VCO with Phase Noise of-117 dBc/Hz at 1-MHz Offset Using an Array
+    of Near Minimum Size Transistors and Intelligent Post Fabrication Selection
   authors:
   - F. Jalalibidgoli
   - '**Y. Makris**'
@@ -301,7 +514,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: On the Sensitivity of Analog Artificial Neural Network Models to Process Variation
+  title: On the Sensitivity of Analog Artificial Neural Network Models to Process
+    Variation
   authors:
   - N. Afroz
   - A. Sayem
@@ -323,7 +537,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Statistical Methods for Detecting Recycled Electronics: From ICs to PCBs and Beyond'
+  title: 'Statistical Methods for Detecting Recycled Electronics: From ICs to PCBs
+    and Beyond'
   authors:
   - K. Huang
   - Y. Liu
@@ -384,7 +599,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Machine Learning-Based Adaptive Outlier Detection For Underkill Reduction In Analog/RF IC Testing
+  title: Machine Learning-Based Adaptive Outlier Detection For Underkill Reduction
+    In Analog/RF IC Testing
   authors:
   - V. Niranjan
   - D. Neethirajan
@@ -406,7 +622,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'MANTIS: Machine Learning-Based Approximate Modeling of Redacted Integrated Circuits'
+  title: 'MANTIS: Machine Learning-Based Approximate Modeling of Redacted Integrated
+    Circuits'
   authors:
   - C. Sathe
   - '**Y. Makris**'
@@ -425,7 +642,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Quo Vadis Signal? Automated Directionality extraction for Post-Programming Verification of a Transistor-Level Programmable Fabric
+  title: Quo Vadis Signal? Automated Directionality extraction for Post-Programming
+    Verification of a Transistor-Level Programmable Fabric
   authors:
   - A. Jain
   - T. Broadfoot
@@ -468,7 +686,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Phase Noise Reduction in LC VCO’s Using an Array of Cross-Coupled Nanoscale MOSFETs and Intelligent Post-Fabrication Selection
+  title: "Phase Noise Reduction in LC VCO\u2019s Using an Array of Cross-Coupled Nanoscale\
+    \ MOSFETs and Intelligent Post-Fabrication Selection"
   authors:
   - P. Yelleswarapu
   - A. Jha
@@ -489,7 +708,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Physically and Algorithmically Secure Logic Locking with Hybrid CMOS-Nanomagnet Logic
+  title: Physically and Algorithmically Secure Logic Locking with Hybrid CMOS-Nanomagnet
+    Logic
   authors:
   - A. Edwards
   - N. Hassan
@@ -520,7 +740,8 @@
   - M. Nigh
   - '**Y. Makris**'
   - M. Torlak
-  publisher: Proceedings of the IEEE International Conference on Image Processing (ICIP)
+  publisher: Proceedings of the IEEE International Conference on Image Processing
+    (ICIP)
   date: '2022-01-01'
   doi: 10.1109/icip46576.2022.9897190
   buttons:
@@ -534,14 +755,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Reducing Underkill Using Unsupervised Machine Learning-Based Method in Analog/RF IC Testing
+  title: Reducing Underkill Using Unsupervised Machine Learning-Based Method in Analog/RF
+    IC Testing
   authors:
   - V. Niranjan
   - D. Neethirajan
   - A. Nahar
   - D. Webster
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2022-01-01'
   buttons:
   - type: pdf
@@ -571,7 +794,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Physically and Algorithmically Secure Logic Locking with Hybrid CMOS/Nanomagnet Logic Circuits
+  title: Physically and Algorithmically Secure Logic Locking with Hybrid CMOS/Nanomagnet
+    Logic Circuits
   authors:
   - A. J. Edwards
   - N. Hassan
@@ -581,7 +805,8 @@
   - J. Atulasimha
   - '**Y. Makris**'
   - J. Friedman
-  publisher: Proceedings of the IEEE Design, Automation & Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design, Automation & Test in Europe Conference
+    (DATE)
   date: '2022-01-01'
   doi: 10.23919/date54114.2022.9774629
   buttons:
@@ -665,7 +890,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Investigating the Effect of different eFPGAs fabrics on Logic Locking through HW Redaction
+  title: Investigating the Effect of different eFPGAs fabrics on Logic Locking through
+    HW Redaction
   authors:
   - C. Sathe
   - '**Y. Makris**'
@@ -690,7 +916,8 @@
   - A. Antonopoulos
   - A. Nosratinia
   - '**Y. Makris**'
-  publisher: In S. Jajodia, R. Samarati and M. Yung (Editors), Encyclopedia of Cryptography, Security and Privacy, Springer
+  publisher: In S. Jajodia, R. Samarati and M. Yung (Editors), Encyclopedia of Cryptography,
+    Security and Privacy, Springer
   date: '2022-01-01'
   buttons:
   - type: link
@@ -703,15 +930,16 @@
   file: sources.yaml
 - type: patent
   title: Field Programmable Transistor Arrays
-  publisher: Patent US 11,362,362 (continuation) · Issued Jun. 28, 2022
+  publisher: "Patent US 11,362,362 (continuation) \xB7 Issued Jun. 28, 2022"
   date: '2022-01-01'
   tags:
   - patent
   plugin: sources.py
   file: sources.yaml
 - type: patent
-  title: Methods for Generating Integrated Circuit (IC) Layout Synthetic Patterns and Related Computer Program Products
-  publisher: Patent US 11,449,658 · Issued Sep. 20, 2022
+  title: Methods for Generating Integrated Circuit (IC) Layout Synthetic Patterns
+    and Related Computer Program Products
+  publisher: "Patent US 11,449,658 \xB7 Issued Sep. 20, 2022"
   date: '2022-01-01'
   tags:
   - patent
@@ -748,7 +976,8 @@
   - L. Zhou
   - Y. Zhang
   - '**Y. Makris**'
-  publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+  publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems
+    (JETCAS)
   date: '2021-01-01'
   doi: 10.1109/jetcas.2021.3077442
   buttons:
@@ -762,12 +991,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Proof-Carrying Hardware-Based Information Flow Tracking in Analog/Mixed-Signal Designs
+  title: Proof-Carrying Hardware-Based Information Flow Tracking in Analog/Mixed-Signal
+    Designs
   authors:
   - M. Bidmeshki
   - An. Antonopoulos
   - '**Y. Makris**'
-  publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+  publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems
+    (JETCAS)
   date: '2021-01-01'
   doi: 10.1109/jetcas.2021.3075098
   buttons:
@@ -786,7 +1017,8 @@
   - G. R. Reddy
   - C. Xanthopoulos
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T.CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T.CAD)
   date: '2021-01-01'
   doi: 10.1109/tcad.2021.3049285
   buttons:
@@ -802,7 +1034,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Improved Static Hand Gesture Classification on Deep Convolutional Neural Networks Using Novel Sterile Training Technique
+  title: Improved Static Hand Gesture Classification on Deep Convolutional Neural
+    Networks Using Novel Sterile Training Technique
   authors:
   - J. W. Smith
   - S. Thiagarajan
@@ -823,7 +1056,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Bias Busters: Robustifying DL-based Lithographic Hotspot Detectors Against Backdooring Attacks'
+  title: 'Bias Busters: Robustifying DL-based Lithographic Hotspot Detectors Against
+    Backdooring Attacks'
   authors:
   - K. Liu
   - B. Tan
@@ -831,7 +1065,8 @@
   - S. Garg
   - '**Y. Makris**'
   - R. Karri
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2021-01-01'
   doi: 10.1109/tcad.2020.3033749
   buttons:
@@ -845,14 +1080,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Machine-Learning Based Overkill Reduction using Correlation within the Probe Tests
+  title: Machine-Learning Based Overkill Reduction using Correlation within the Probe
+    Tests
   authors:
   - V. Niranjan
   - D. Neethirajan
   - A. Nahar
   - D. Webster
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2021-01-01'
   buttons:
   - type: pdf
@@ -938,7 +1175,7 @@
   file: sources.yaml
 - type: patent
   title: Genetic Physical Unclonable Functions and Methods of Use Thereof
-  publisher: Patent PCT/US2021/033108 · Filed May 18, 2021
+  publisher: "Patent PCT/US2021/033108 \xB7 Filed May 18, 2021"
   date: '2021-01-01'
   tags:
   - patent
@@ -967,7 +1204,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Amplitude-Modulating Analog/RF Hardware Trojans in Wireless Networks: Risks and Remedies'
+  title: 'Amplitude-Modulating Analog/RF Hardware Trojans in Wireless Networks: Risks
+    and Remedies'
   authors:
   - K. S. Subramani
   - N. Helal
@@ -1010,7 +1248,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: A Hardware-Based Architecture-Neutral Framework for Real-Time IoT Workload Forensics
+  title: A Hardware-Based Architecture-Neutral Framework for Real-Time IoT Workload
+    Forensics
   authors:
   - L. Zhou
   - Y
@@ -1053,7 +1292,8 @@
   authors:
   - Y. Zhang
   - '**Y. Makris**'
-  publisher: Proceedings of the EEE Asian Hardware–Oriented Security and Trust Symposium (Asian-HOST)
+  publisher: "Proceedings of the EEE Asian Hardware\u2013Oriented Security and Trust\
+    \ Symposium (Asian-HOST)"
   date: '2020-01-01'
   doi: 10.1109/asianhost51057.2020.9358255
   buttons:
@@ -1072,7 +1312,8 @@
   - S. Thiagarajan
   - S. Natarajan
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2020-01-01'
   buttons:
   - type: pdf
@@ -1092,7 +1333,8 @@
   - W. Swartz
   - C. Sechen
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
+    (ISCAS)
   date: '2020-01-01'
   doi: 10.1109/iscas45731.2020.9181074
   buttons:
@@ -1106,7 +1348,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'DECOY: DEflection-Driven HLS-Based Computation Partitioning for Obfuscating Intellectual PropertY'
+  title: 'DECOY: DEflection-Driven HLS-Based Computation Partitioning for Obfuscating
+    Intellectual PropertY'
   authors:
   - J. Chen
   - M. Zaman
@@ -1128,7 +1371,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'ATTEST: Application-Agnostic Testing of a Novel Transistor-Level Programmable Fabric'
+  title: 'ATTEST: Application-Agnostic Testing of a Novel Transistor-Level Programmable
+    Fabric'
   authors:
   - M. Shihab
   - B. Ramanidharan
@@ -1151,7 +1395,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Range Controlled Floating-Gate Transistors: A Unified Solution for Unlocking and Calibrating Analog ICs'
+  title: 'Range Controlled Floating-Gate Transistors: A Unified Solution for Unlocking
+    and Calibrating Analog ICs'
   authors:
   - S. G. R. Nimmalapudi
   - G. Volanis
@@ -1173,7 +1418,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: An Efficient MILP-Based Aging-Aware Floorplanner for Multi-Context Coarse-Grained Runtime Reconfigurable FPGA
+  title: An Efficient MILP-Based Aging-Aware Floorplanner for Multi-Context Coarse-Grained
+    Runtime Reconfigurable FPGA
   authors:
   - B. Hu
   - M. Shihab
@@ -1195,7 +1441,7 @@
   file: sources.yaml
 - type: patent
   title: Field Programmable Transistor Arrays
-  publisher: Patent US 10,855,285 (continuation) · Issued Dec. 1, 2020
+  publisher: "Patent US 10,855,285 (continuation) \xB7 Issued Dec. 1, 2020"
   date: '2020-01-01'
   tags:
   - patent
@@ -1222,7 +1468,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Demonstrating and Mitigating the Risk of a FEC-based Hardware Trojan in Wireless Networks
+  title: Demonstrating and Mitigating the Risk of a FEC-based Hardware Trojan in Wireless
+    Networks
   authors:
   - K. Subramani
   - A. Antonopoulos
@@ -1247,7 +1494,8 @@
   authors:
   - G. Rajavendra Reddy
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Workshop on Microprocessor Test and Verification (MTV)
+  publisher: Proceedings of the IEEE International Workshop on Microprocessor Test
+    and Verification (MTV)
   date: '2019-01-01'
   doi: 10.1109/mtv48867.2019.00022
   buttons:
@@ -1261,14 +1509,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Extending the Lifetime of Coarse-Grained Runtime Reconfigurable FPGAs by Balancing Processing Element Usage
+  title: Extending the Lifetime of Coarse-Grained Runtime Reconfigurable FPGAs by
+    Balancing Processing Element Usage
   authors:
   - B. Hu
   - M. Shihab
   - '**Y. Makris**'
   - B. C. Schaefer
   - C. Sechen
-  publisher: Proceedings of the International Conference on Field-Programmable Technology (ICFPT)
+  publisher: Proceedings of the International Conference on Field-Programmable Technology
+    (ICFPT)
   date: '2019-01-01'
   doi: 10.1109/icfpt47387.2019.00050
   buttons:
@@ -1298,7 +1548,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'VIPER: A Versatile and Intuitive Pattern GenERator for Early Design Space Exploration'
+  title: 'VIPER: A Versatile and Intuitive Pattern GenERator for Early Design Space
+    Exploration'
   authors:
   - G. Rajavendra Reddy
   - M. Bidmeshki
@@ -1317,7 +1568,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'IPP: Subtle Anomaly Detection of Microscopic Probes using Deep Learning Based Image Completion'
+  title: 'IPP: Subtle Anomaly Detection of Microscopic Probes using Deep Learning
+    Based Image Completion'
   authors:
   - K. Schaub
   - K. Ikeda
@@ -1339,11 +1591,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Machine Learning-Based Hotspot Detection: Fallacies, Pitfalls and Marching Orders'
+  title: 'Machine Learning-Based Hotspot Detection: Fallacies, Pitfalls and Marching
+    Orders'
   authors:
   - G. Rajavendra Reddy
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
+    (ICCAD)
   date: '2019-01-01'
   doi: 10.1109/iccad45719.2019.8942128
   buttons:
@@ -1364,7 +1618,8 @@
   - S. Boddikurapati
   - A. Nahar
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2019-01-01'
   buttons:
   - type: pdf
@@ -1375,12 +1630,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'VIPER: A Versatile and Intuitive Pattern GenERator for Early Design Space Exploration'
+  title: 'VIPER: A Versatile and Intuitive Pattern GenERator for Early Design Space
+    Exploration'
   authors:
   - G. Rajavendra Reddy
   - M. Bidmeshki
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2019-01-01'
   doi: 10.1109/itc44170.2019.9000169
   buttons:
@@ -1394,13 +1651,15 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Post-Production Calibration of Analog/RF ICs: Recent Developments and A Fully Integrated Solution'
+  title: 'Post-Production Calibration of Analog/RF ICs: Recent Developments and A
+    Fully Integrated Solution'
   authors:
   - A. Antonopoulos
   - G. Volanis
   - Y. Lu
   - '**Y. Makris**'
-  publisher: Proceedings of the International Conference on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design (SMACD)
+  publisher: Proceedings of the International Conference on Synthesis, Modeling, Analysis
+    and Simulation Methods and Applications to Circuit Design (SMACD)
   date: '2019-01-01'
   doi: 10.1109/smacd.2019.8795278
   buttons:
@@ -1457,7 +1716,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Functional Obfuscation of Hardware Accelerators through Selective Partial Design Extraction onto an Embedded FPGA
+  title: Functional Obfuscation of Hardware Accelerators through Selective Partial
+    Design Extraction onto an Embedded FPGA
   authors:
   - B. Hu
   - J. Tian
@@ -1587,14 +1847,15 @@
   file: sources.yaml
 - type: patent
   title: Field Programmable Transistor Arrays
-  publisher: Patent US 10,511,308 · Issued Dec. 17, 2019
+  publisher: "Patent US 10,511,308 \xB7 Issued Dec. 17, 2019"
   date: '2019-01-01'
   tags:
   - patent
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Hardware Dithering: A Run-Time Trojan Neutralization Method for Wireless Cryptographic ICs'
+  title: 'Hardware Dithering: A Run-Time Trojan Neutralization Method for Wireless
+    Cryptographic ICs'
   authors:
   - C. Kapatsori
   - Y. Liu
@@ -1611,7 +1872,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: On the Use of Bayesian Networks for Resource-Efficient Self-Calibration of Analog/RF ICs
+  title: On the Use of Bayesian Networks for Resource-Efficient Self-Calibration of
+    Analog/RF ICs
   authors:
   - M. Andraud
   - L. Galindez
@@ -1638,7 +1900,8 @@
   - J. Wallner
   - K. Babich
   - '**Y. Makris**'
-  publisher: Proceedings of the ASM International Symposium for Test and Failure Analysis (ISTFA)
+  publisher: Proceedings of the ASM International Symposium for Test and Failure Analysis
+    (ISTFA)
   date: '2018-01-01'
   doi: 10.31399/asm.cp.istfa2018p0443
   buttons:
@@ -1652,13 +1915,15 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Towards a Cross-Layer Framework for Accurate Power Modeling of Microprocessor Designs
+  title: Towards a Cross-Layer Framework for Accurate Power Modeling of Microprocessor
+    Designs
   authors:
   - M. Zaman
   - M. Shihab
   - A. Coskun
   - '**Y. Makris**'
-  publisher: Proceedings of the International Symposium on Power and Timing Modeling, Optimization and Simulation (PATMOS)
+  publisher: Proceedings of the International Symposium on Power and Timing Modeling,
+    Optimization and Simulation (PATMOS)
   date: '2018-01-01'
   doi: 10.1109/patmos.2018.8464153
   buttons:
@@ -1679,7 +1944,8 @@
   - S. Boddikurapati
   - A. Nahar
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2018-01-01'
   buttons:
   - type: pdf
@@ -1694,7 +1960,8 @@
   authors:
   - G. Rajavendra Reddy
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2018-01-01'
   award: Top-10 Student Presentations Award
   buttons:
@@ -1707,7 +1974,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Enhanced Hotspot Detection Through Synthetic Pattern Generation and Design of Experiments
+  title: Enhanced Hotspot Detection Through Synthetic Pattern Generation and Design
+    of Experiments
   authors:
   - G. Rajavendra Reddy
   - C. Xanthopoulos
@@ -1726,11 +1994,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Hardware-Assisted Rootkit Detection via On-line Statistical Fingerprinting of Process Execution
+  title: Hardware-Assisted Rootkit Detection via On-line Statistical Fingerprinting
+    of Process Execution
   authors:
   - L. Zhou
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2018-01-01'
   doi: 10.23919/date.2018.8342267
   buttons:
@@ -1752,7 +2022,8 @@
   - O. Sinanoglu
   - '**Y. Makris**'
   - J. Rajendran
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2018-01-01'
   doi: 10.23919/date.2018.8342269
   buttons:
@@ -1773,7 +2044,8 @@
   - A. Ahmadi
   - C. Xanthopoulos
   - '**Y. Makris**'
-  publisher: In A. Elfadel, D. Bonning and X. Li (Editors), Machine Learning in VLSI Computer-Aided Design, Springer
+  publisher: In A. Elfadel, D. Bonning and X. Li (Editors), Machine Learning in VLSI
+    Computer-Aided Design, Springer
   date: '2018-01-01'
   buttons:
   - type: link
@@ -1814,7 +2086,8 @@
   - M. Pas
   - J. M. Carulli
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2017-01-01'
   doi: 10.1109/tcad.2017.2669861
   buttons:
@@ -1828,7 +2101,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Data Secrecy Protection through Information Flow Tracking in Proof-Carrying Hardware IP (Part I: Framework Fundamentals)'
+  title: 'Data Secrecy Protection through Information Flow Tracking in Proof-Carrying
+    Hardware IP (Part I: Framework Fundamentals)'
   authors:
   - Y. Jin
   - X. Guo
@@ -1849,7 +2123,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Data Secrecy Protection through Information Flow Tracking in Proof-Carrying Hardware IP (Part II: Framework Automation)'
+  title: 'Data Secrecy Protection through Information Flow Tracking in Proof-Carrying
+    Hardware IP (Part II: Framework Automation)'
   authors:
   - M. Bidmeshki
   - X. Guo
@@ -1870,7 +2145,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Silicon Demonstration of Hardware Trojan Design and Detection in Wireless Cryptographic ICs
+  title: Silicon Demonstration of Hardware Trojan Design and Detection in Wireless
+    Cryptographic ICs
   authors:
   - Y. Liu
   - Y. Jin
@@ -1890,14 +2166,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'ACE: Adaptive Channel Estimation for Detecting Analog/RF Trojans in WLAN Transceivers'
+  title: 'ACE: Adaptive Channel Estimation for Detecting Analog/RF Trojans in WLAN
+    Transceivers'
   authors:
   - K. Subramani
   - A. Antonopoulos
   - A. Abotabl
   - A. Nosratinia
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
+    (ICCAD)
   date: '2017-01-01'
   doi: 10.1109/iccad.2017.8203848
   buttons:
@@ -1931,12 +2209,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Enhanced Hotspot Detection Through Synthetic Hotspot Generation and Design of Experiments
+  title: Enhanced Hotspot Detection Through Synthetic Hotspot Generation and Design
+    of Experiments
   authors:
   - G. Rajavendra Reddy
   - C. Xanthopoulos
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2017-01-01'
   award: Best-in-Session Award
   doi: 10.1109/vts.2018.8368646
@@ -1960,7 +2240,8 @@
   - A. Nahar
   - B. Orr
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
+    (ISCAS)
   date: '2017-01-01'
   buttons:
   - type: pdf
@@ -1971,7 +2252,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Security and Trust in the Analog/Mixed-Signal/RF Domain: A Survey and a Perspective'
+  title: 'Security and Trust in the Analog/Mixed-Signal/RF Domain: A Survey and a
+    Perspective'
   authors:
   - A. Antonopoulos
   - C. Kapatsori
@@ -2009,14 +2291,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'INFECT: INconspicuous FEC-based Trojan: A Hardware Attack on an 802.11a/g Wireless Network'
+  title: 'INFECT: INconspicuous FEC-based Trojan: A Hardware Attack on an 802.11a/g
+    Wireless Network'
   authors:
   - K. Subramani
   - A. Antonopoulos
   - A. Abotabl
   - A. Nosratinia
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
+  publisher: Proceedings of the IEEE International Symposium on Hardware Oriented
+    Security and Trust (HOST)
   date: '2017-01-01'
   doi: 10.1109/hst.2017.7951804
   buttons:
@@ -2030,7 +2314,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Knob Non-Idealities in Learning-Based Post-Production Tuning of Analog/RF ICs: Impact & Remedies'
+  title: 'Knob Non-Idealities in Learning-Based Post-Production Tuning of Analog/RF
+    ICs: Impact & Remedies'
   authors:
   - Y. Lu
   - G. Volanis
@@ -2055,7 +2340,8 @@
   authors:
   - L. Zhou
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2017-01-01'
   doi: 10.23919/date.2017.7927236
   buttons:
@@ -2069,12 +2355,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Information Flow Tracking in Analog/Mixed-Signal Designs through Proof-Carrying Hardware IP
+  title: Information Flow Tracking in Analog/Mixed-Signal Designs through Proof-Carrying
+    Hardware IP
   authors:
   - M. Bidmeshki
   - A. Antonopoulos
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2017-01-01'
   doi: 10.23919/date.2017.7927268
   buttons:
@@ -2088,7 +2376,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: A Field Programmable Transistor Array Featuring Single-Cycle Partial/Full Dynamic Reconfiguration
+  title: A Field Programmable Transistor Array Featuring Single-Cycle Partial/Full
+    Dynamic Reconfiguration
   authors:
   - J. Tian
   - G. Rajavendra Reddy
@@ -2096,7 +2385,8 @@
   - W. Swartz Jr.
   - '**Y. Makris**'
   - C. Sechen
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2017-01-01'
   doi: 10.23919/date.2017.7927200
   buttons:
@@ -2115,7 +2405,8 @@
   - A. Antonopoulos
   - C. Kapatsori
   - '**Y. Makris**'
-  publisher: 'In S. Bhunia and M. Tehranipoor (Editors), The Hardware Trojan War: Attacks, Myths, and Defenses, Springer'
+  publisher: 'In S. Bhunia and M. Tehranipoor (Editors), The Hardware Trojan War:
+    Attacks, Myths, and Defenses, Springer'
   date: '2017-01-01'
   buttons:
   - type: link
@@ -2151,7 +2442,8 @@
   authors:
   - L. Zhou
   - '**Y. Makris**'
-  publisher: Proceeding of the iEEE International Workshop on Microprocessor/SoC Test and Verification (MTV)
+  publisher: Proceeding of the iEEE International Workshop on Microprocessor/SoC Test
+    and Verification (MTV)
   date: '2016-01-01'
   doi: 10.1109/mtv.2016.20
   buttons:
@@ -2173,7 +2465,8 @@
   - B. Orr
   - M. Pas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided
+    Design (ICCAD)
   date: '2016-01-01'
   doi: 10.1145/2966986.2966992
   buttons:
@@ -2209,7 +2502,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Hardware-Based Attacks to Compromise the Cryptographic Security of an Election System
+  title: Hardware-Based Attacks to Compromise the Cryptographic Security of an Election
+    System
   authors:
   - M. Bidmeshki
   - G. Rajavendra Reddy
@@ -2230,12 +2524,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Harnessing Process Variation Signature for Dynamic Selection of Probe-Test Flow
+  title: Harnessing Process Variation Signature for Dynamic Selection of Probe-Test
+    Flow
   authors:
   - A. Ahmadi
   - C. Xanthopoulos
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2016-01-01'
   buttons:
   - type: pdf
@@ -2246,7 +2542,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: -197dBc/Hz FOM 4.3-GHz VCO Using an Addressable Array of Minimum-Sized NMOS Cross-Coupled Transistor Pairs in 65-nm CMOS
+  title: -197dBc/Hz FOM 4.3-GHz VCO Using an Addressable Array of Minimum-Sized NMOS
+    Cross-Coupled Transistor Pairs in 65-nm CMOS
   authors:
   - A. Jha
   - A. Ahmadi
@@ -2278,7 +2575,8 @@
   - M. Pas
   - J. Carulli
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
+    (ISCAS)
   date: '2016-01-01'
   doi: 10.1109/iscas.2016.7527386
   buttons:
@@ -2296,7 +2594,8 @@
   authors:
   - L. Zhou
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust (HOST), pp. 167-172
+  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust
+    (HOST), pp. 167-172
   date: '2016-01-01'
   doi: 10.1109/hst.2016.7495577
   buttons:
@@ -2310,7 +2609,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Wafer-Level Process Variation-Driven Probe-Test Flow Selection for Test Cost Reduction in Analog/RF ICs
+  title: Wafer-Level Process Variation-Driven Probe-Test Flow Selection for Test Cost
+    Reduction in Analog/RF ICs
   authors:
   - A. Ahmadi
   - A. Nahar
@@ -2356,7 +2656,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Multiple-Bit Upset Protection in Microprocessor Memory Arrays using Vulnerability-based Parity Optimization and Interleaving
+  title: Multiple-Bit Upset Protection in Microprocessor Memory Arrays using Vulnerability-based
+    Parity Optimization and Interleaving
   authors:
   - M. Maniatakos
   - M. Michael
@@ -2395,7 +2696,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'An Experimentation Platform for On-chip Integration of Analog Neural Networks: A Pathway to Trusted and Robust Analog/RF ICs'
+  title: 'An Experimentation Platform for On-chip Integration of Analog Neural Networks:
+    A Pathway to Trusted and Robust Analog/RF ICs'
   authors:
   - D. Maliuk
   - '**Y. Makris**'
@@ -2419,7 +2721,8 @@
   - N. Korolja
   - J. M. Carulli Jr.
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2015-01-01'
   doi: 10.1109/tcad.2015.2409267
   buttons:
@@ -2433,14 +2736,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Low-Cost Analog/RF IC Testing through Combined Intra- and Inter-Die Correlation Models
+  title: Low-Cost Analog/RF IC Testing through Combined Intra- and Inter-Die Correlation
+    Models
   authors:
   - K. Huang
   - N. Kupp
   - C. Xanthopoulos
   - J. M. Carulli Jr.
   - '**Y. Makris**'
-  publisher: Special Issue on Speeding up Analog Integration and Test for Mixed-signal SOCs of the IEEE Design & Test of Computers (D&T)
+  publisher: Special Issue on Speeding up Analog Integration and Test for Mixed-signal
+    SOCs of the IEEE Design & Test of Computers (D&T)
   date: '2015-01-01'
   doi: 10.1109/mdat.2014.2361721
   buttons:
@@ -2454,7 +2759,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Yield Forecasting in Fab-to-Fab Production Migration Based on Bayesian Model Fusion
+  title: Yield Forecasting in Fab-to-Fab Production Migration Based on Bayesian Model
+    Fusion
   authors:
   - A. Ahmadi
   - H. Stratigopoulos
@@ -2462,7 +2768,8 @@
   - B. Orr
   - M. Pas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided
+    Design (ICCAD)
   date: '2015-01-01'
   doi: 10.1109/iccad.2015.7372543
   buttons:
@@ -2476,7 +2783,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: A Comparative Study of One-Shot Statistical Calibration Methods for Analog / RF ICs
+  title: A Comparative Study of One-Shot Statistical Calibration Methods for Analog
+    / RF ICs
   authors:
   - Y. Lu
   - K. Subramani
@@ -2523,7 +2831,8 @@
   - M. Zaman
   - A. Ahmadi
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2015-01-01'
   buttons:
   - type: pdf
@@ -2555,7 +2864,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Workload Characterization and Prediction: A Pathway to Reliable Multi-core Systems'
+  title: 'Workload Characterization and Prediction: A Pathway to Reliable Multi-core
+    Systems'
   authors:
   - M. Zaman
   - A. Ahmadi
@@ -2574,11 +2884,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Toward Automatic Proof Generation for Information Flow Policies in Third-Party Hardware IP
+  title: Toward Automatic Proof Generation for Information Flow Policies in Third-Party
+    Hardware IP
   authors:
   - M. Bidmeshki
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust (HOST)
+  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust
+    (HOST)
   date: '2015-01-01'
   doi: 10.1109/hst.2015.7140256
   buttons:
@@ -2596,7 +2908,8 @@
   authors:
   - M. Bidmeshki
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
+    (ISCAS)
   date: '2015-01-01'
   doi: 10.1109/iscas.2015.7168562
   buttons:
@@ -2640,7 +2953,8 @@
   - Y. Jin
   - D. Maliuk
   - '**Y. Makris**'
-  publisher: In C. H. Chang, M. Potkonjak (Editors), Secure System Design and Trustable Computing, Springer
+  publisher: In C. H. Chang, M. Potkonjak (Editors), Secure System Design and Trustable
+    Computing, Springer
   date: '2015-01-01'
   buttons:
   - type: link
@@ -2669,7 +2983,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor Supply Chain'
+  title: 'Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor
+    Supply Chain'
   authors:
   - U. Guinn
   - K. Huang
@@ -2691,7 +3006,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Spatiotemporal Wafer-level Correlation Modeling with Progressive Sampling: A Pathway to HVM Yield Estimation'
+  title: 'Spatiotemporal Wafer-level Correlation Modeling with Progressive Sampling:
+    A Pathway to HVM Yield Estimation'
   authors:
   - A. Ahmadi
   - K. Huang
@@ -2735,7 +3051,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'On-chip intelligence: A pathway to self-testable, tunable, and trusted analog/RF ICs'
+  title: 'On-chip intelligence: A pathway to self-testable, tunable, and trusted analog/RF
+    ICs'
   authors:
   - D. Maliuk
   - '**Y. Makris**'
@@ -2753,7 +3070,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Hardware Trojan detection through golden chip-free statistical side-channel fingerprinting
+  title: Hardware Trojan detection through golden chip-free statistical side-channel
+    fingerprinting
   authors:
   - Y. Liu
   - K. Huang
@@ -2776,7 +3094,8 @@
   authors:
   - D. Maliuk
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2014-01-01'
   doi: 10.7873/date2014.381
   buttons:
@@ -2848,12 +3167,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Hardware Trojans in Wireless Cryptographic ICs: Silicon Demonstration & Detection Method Evaluation'
+  title: 'Hardware Trojans in Wireless Cryptographic ICs: Silicon Demonstration &
+    Detection Method Evaluation'
   authors:
   - Y. Liu
   - Y. Jin
   - '**Y. Makris**'
-  publisher: Proceedings of the ACM/IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the ACM/IEEE International Conference on Computer-Aided
+    Design (ICCAD)
   date: '2013-01-01'
   doi: 10.1109/iccad.2013.6691149
   buttons:
@@ -2887,7 +3208,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Counterfeit Electronics: A Rising Threat in the Semiconductor Manufacturing Industry'
+  title: 'Counterfeit Electronics: A Rising Threat in the Semiconductor Manufacturing
+    Industry'
   authors:
   - K. Huang
   - J. Carulli
@@ -2925,7 +3247,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Challenges and Benefits of Multiple Bit Upset (MBU) Vulnerability Analysis in Modern Microprocessors
+  title: Challenges and Benefits of Multiple Bit Upset (MBU) Vulnerability Analysis
+    in Modern Microprocessors
   authors:
   - M. Maniatakos
   - M. Michael
@@ -2941,12 +3264,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Cycle Accurate Information Assurance by Proof Carrying-Based Signal Sensitivity Tracing
+  title: Cycle Accurate Information Assurance by Proof Carrying-Based Signal Sensitivity
+    Tracing
   authors:
   - Y. Jin
   - B. Yang
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Hardware Oriented Security and Trust (HOST)
+  publisher: Proceedings of the IEEE International Symposium on Hardware Oriented
+    Security and Trust (HOST)
   date: '2013-01-01'
   doi: 10.1109/hst.2013.6581573
   buttons:
@@ -2983,7 +3308,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: On Combining Alternate Test with Spatial Correlation Modeling in Analog/RF ICs
+  title: On Combining Alternate Test with Spatial Correlation Modeling in Analog/RF
+    ICs
   authors:
   - K. Huang
   - N. Kupp
@@ -3003,13 +3329,15 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Handling Discontinuous Effects in Modeling Spatial Correlation of Wafer-level Analog/RF Tests
+  title: Handling Discontinuous Effects in Modeling Spatial Correlation of Wafer-level
+    Analog/RF Tests
   authors:
   - K. Huang
   - N. Kupp
   - J. Carulli
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2013-01-01'
   award: Best Paper Award
   doi: 10.7873/date.2013.123
@@ -3030,7 +3358,8 @@
   - M. Maniatakos
   - M. Michael
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2013-01-01'
   doi: 10.7873/date.2013.301
   buttons:
@@ -3059,7 +3388,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Global Signal Vulnerability (GSV) Analysis for Selective State Element Hardening on Modern Microprocessors
+  title: Global Signal Vulnerability (GSV) Analysis for Selective State Element Hardening
+    on Modern Microprocessors
   authors:
   - M. Maniatakos
   - C. Tirumurti
@@ -3082,7 +3412,8 @@
   authors:
   - N. Kupp
   - '**Y. Makris**'
-  publisher: Special Issue on Yield Learning of the IEEE Design and Test of Computers (D&T)
+  publisher: Special Issue on Yield Learning of the IEEE Design and Test of Computers
+    (D&T)
   date: '2012-01-01'
   doi: 10.1109/mdt.2011.2179370
   buttons:
@@ -3096,12 +3427,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: 'Proof-Carrying Hardware Intellectual Property: A Pathway to Trusted Module Acquisition'
+  title: 'Proof-Carrying Hardware Intellectual Property: A Pathway to Trusted Module
+    Acquisition'
   authors:
   - E. Love
   - Y. Jin
   - '**Y. Makris**'
-  publisher: Special Issue on Integrated Circuits and System Security of the IEEE Transactions on Information Forensics and Security (TIFS)
+  publisher: Special Issue on Integrated Circuits and System Security of the IEEE
+    Transactions on Information Forensics and Security (TIFS)
   date: '2012-01-01'
   doi: 10.1109/tifs.2011.2160627
   buttons:
@@ -3115,7 +3448,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Integrated Optimization of Semiconductor Manufacturing: A Machine Learning Approach'
+  title: 'Integrated Optimization of Semiconductor Manufacturing: A Machine Learning
+    Approach'
   authors:
   - N. Kupp
   - '**Y. Makris**'
@@ -3133,7 +3467,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Spatial Estimation of Wafer Measurement Parameters Using Gaussian Process Models
+  title: Spatial Estimation of Wafer Measurement Parameters Using Gaussian Process
+    Models
   authors:
   - N. Kupp
   - K. Huang
@@ -3153,7 +3488,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Vulnerability-Based Interleaving for Multi-Bit Upset (MBU) Protection in Modern Microprocessors
+  title: Vulnerability-Based Interleaving for Multi-Bit Upset (MBU) Protection in
+    Modern Microprocessors
   authors:
   - M. Maniatakos
   - M. Michael
@@ -3178,7 +3514,8 @@
   - K. Huang
   - J. Carulli
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
+    (ICCAD)
   date: '2012-01-01'
   doi: 10.1145/2429384.2429390
   buttons:
@@ -3230,11 +3567,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: A Reconfigurable Dual-Mode Weight Storage Analog Neural Network Experimentation Platform
+  title: A Reconfigurable Dual-Mode Weight Storage Analog Neural Network Experimentation
+    Platform
   authors:
   - D. Maliuk
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems (ISCAS)
+  publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
+    (ISCAS)
   date: '2012-01-01'
   buttons:
   - type: pdf
@@ -3245,7 +3584,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Proof Carrying-Based Information Flow Tracking for Data Secrecy Protection and Hardware Trust
+  title: Proof Carrying-Based Information Flow Tracking for Data Secrecy Protection
+    and Hardware Trust
   authors:
   - Y. Jin
   - '**Y. Makris**'
@@ -3263,7 +3603,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Towards a Fully Stand-Alone Analog/RF BIST: A Cost-Effective Implementation of a Neural Classifier'
+  title: 'Towards a Fully Stand-Alone Analog/RF BIST: A Cost-Effective Implementation
+    of a Neural Classifier'
   authors:
   - D. Maliuk
   - N. Kupp
@@ -3287,7 +3628,8 @@
   - Y. Jin
   - D. Maliuk
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2012-01-01'
   doi: 10.1109/date.2012.6176636
   buttons:
@@ -3305,7 +3647,8 @@
   authors:
   - H. Stratigopoulos
   - '**Y. Makris**'
-  publisher: In K. Iniewski (Editor), Advanced Circuits for Emerging Technologies, John Wiley & Sons
+  publisher: In K. Iniewski (Editor), Advanced Circuits for Emerging Technologies,
+    John Wiley & Sons
   date: '2012-01-01'
   buttons:
   - type: link
@@ -3337,14 +3680,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: A Workload-Cognizant Concurrent Error Detection Method for a Modern Microprocessor Controller
+  title: A Workload-Cognizant Concurrent Error Detection Method for a Modern Microprocessor
+    Controller
   authors:
   - N. Karimi
   - M. Maniatakos
   - C. Tirumurti
   - A. Jas
   - '**Y. Makris**'
-  publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent On-Line Testing and Error/Fault Resilience of Digital Systems
+  publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent
+    On-Line Testing and Error/Fault Resilience of Digital Systems
   date: '2011-01-01'
   buttons:
   - type: pdf
@@ -3355,14 +3700,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Instruction-Level Impact Analysis of Low-Level Errors in a Modern Microprocessor Controller
+  title: Instruction-Level Impact Analysis of Low-Level Errors in a Modern Microprocessor
+    Controller
   authors:
   - M. Maniatakos
   - N. Karimi
   - C. Tirumurti
   - A. Jas
   - '**Y. Makris**'
-  publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent On-Line Testing and Error/Fault Resilience of Digital Systems
+  publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent
+    On-Line Testing and Error/Fault Resilience of Digital Systems
   date: '2011-01-01'
   doi: 10.1109/tc.2010.60
   buttons:
@@ -3380,7 +3727,8 @@
   authors:
   - Y. Jin
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Electronics, Circuits and Systems (ICECS)
+  publisher: Proceedings of the IEEE International Conference on Electronics, Circuits
+    and Systems (ICECS)
   date: '2011-01-01'
   doi: 10.1109/icecs.2011.6122209
   buttons:
@@ -3400,7 +3748,8 @@
   - H.-G. Stratigopoulos
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
+    (ICCAD)
   date: '2011-01-01'
   buttons:
   - type: pdf
@@ -3435,7 +3784,8 @@
   - H. Stratigopoulos
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2011-01-01'
   award: Best-in-Session Award
   buttons:
@@ -3453,7 +3803,8 @@
   - E. Love
   - Y. Jin
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust (HOST)
+  publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust
+    (HOST)
   date: '2011-01-01'
   doi: 10.1109/hst.2011.5954988
   buttons:
@@ -3490,7 +3841,8 @@
   - H. Stratigopoulos
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Mixed Signals, Sensors, and Systems Workshop (IMS3TW)
+  publisher: Proceedings of the IEEE International Mixed Signals, Sensors, and Systems
+    Workshop (IMS3TW)
   date: '2011-01-01'
   award: Best Student Paper Award
   doi: 10.1109/ims3tw.2011.15
@@ -3506,7 +3858,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Exponent Monitoring for Low-Cost Concurrent Error Detection in FPU Control Logic
+  title: Exponent Monitoring for Low-Cost Concurrent Error Detection in FPU Control
+    Logic
   authors:
   - M. Maniatakos
   - P. Kudva
@@ -3531,7 +3884,8 @@
   - N. Kupp
   - M. Slamani
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2011-01-01'
   buttons:
   - type: pdf
@@ -3547,7 +3901,8 @@
   - Y. Jin
   - E. Love
   - '**Y. Makris**'
-  publisher: In M. Tehranipoor, C. Wang (Editors), Introduction to Hardware Security and Trust, Springer
+  publisher: In M. Tehranipoor, C. Wang (Editors), Introduction to Hardware Security
+    and Trust, Springer
   date: '2011-01-01'
   buttons:
   - type: link
@@ -3563,7 +3918,8 @@
   authors:
   - Y. Jin
   - '**Y. Makris**'
-  publisher: Special issue of IEEE Design & Test of Computers (D&T) on Verifying Physical Trustworthiness of Integrated Circuits and Systems
+  publisher: Special issue of IEEE Design & Test of Computers (D&T) on Verifying Physical
+    Trustworthiness of Integrated Circuits and Systems
   date: '2010-01-01'
   buttons:
   - type: pdf
@@ -3599,7 +3955,8 @@
   - Y. Jin
   - N. Kupp
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Electronics Circuits and Systems (ICECS)
+  publisher: Proceedings of the IEEE International Conference on Electronics Circuits
+    and Systems (ICECS)
   date: '2010-01-01'
   doi: 10.1109/icecs.2010.5724725
   buttons:
@@ -3653,7 +4010,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: An Analog VLSI Implementation of a Multilayer Perceptron and its Application Towards Built-In Self-Test in Analog Circuits
+  title: An Analog VLSI Implementation of a Multilayer Perceptron and its Application
+    Towards Built-In Self-Test in Analog Circuits
   authors:
   - D. Maliuk
   - H. Stratigopoulos
@@ -3687,7 +4045,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: On Boosting the Accuracy of Non-RF to RF Correlation-Based Specification Test Compaction
+  title: On Boosting the Accuracy of Non-RF to RF Correlation-Based Specification
+    Test Compaction
   authors:
   - N. Kupp
   - P. Drineas
@@ -3707,7 +4066,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Parity-Based Concurrent Error Detection with Bounded-Latency in Finite State Machines
+  title: Parity-Based Concurrent Error Detection with Bounded-Latency in Finite State
+    Machines
   authors:
   - S. Almukhaizim
   - P. Drineas
@@ -3743,7 +4103,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Enhancing Simulation Accuracy through Advanced Hazard Detection in Asynchronous Circuits
+  title: Enhancing Simulation Accuracy through Advanced Hazard Detection in Asynchronous
+    Circuits
   authors:
   - F. Shi
   - '**Y. Makris**'
@@ -3787,7 +4148,8 @@
   - N. Kupp
   - H. Huang
   - '**Y. Makris**'
-  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference (TECHCON)
+  publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
+    (TECHCON)
   date: '2009-01-01'
   buttons:
   - type: pdf
@@ -3803,7 +4165,8 @@
   - Y. Jin
   - N. Kupp
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security and Trust (HOST)
+  publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security
+    and Trust (HOST)
   date: '2009-01-01'
   doi: 10.1109/hst.2009.5224971
   buttons:
@@ -3817,7 +4180,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Instruction-Level Impact Comparison of RT- vs. Gate-Level Faults in a Modern Microprocessor Controller
+  title: Instruction-Level Impact Comparison of RT- vs. Gate-Level Faults in a Modern
+    Microprocessor Controller
   authors:
   - M. Maniatakos
   - N. Karimi
@@ -3843,7 +4207,8 @@
   - H-G. Stratigopoulos
   - S. Mir
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2009-01-01'
   doi: 10.1109/date.2009.5090931
   buttons:
@@ -3861,7 +4226,8 @@
   authors:
   - H-G. D. Stratigopoulos
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2008-01-01'
   doi: 10.1109/tcad.2007.907232
   buttons:
@@ -3875,7 +4241,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: A Novel Soft Error Rate (SER) Reduction Methodology through Addition of Gate-Level Functional Redundancy
+  title: A Novel Soft Error Rate (SER) Reduction Methodology through Addition of Gate-Level
+    Functional Redundancy
   authors:
   - S. Almukhaizim
   - '**Y. Makris**'
@@ -3890,7 +4257,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: On the Correlation between Controller Faults and Instruction-Level Errors in a Modern Microprocessor
+  title: On the Correlation between Controller Faults and Instruction-Level Errors
+    in a Modern Microprocessor
   authors:
   - N. Karimi
   - M. Maniatakos
@@ -3910,14 +4278,16 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Design and Evaluation of a Timestamp-Based Concurrent Error Detection Method (CED) in a Modern Microprocessor Controller
+  title: Design and Evaluation of a Timestamp-Based Concurrent Error Detection Method
+    (CED) in a Modern Microprocessor Controller
   authors:
   - M. Maniatakos
   - N. Karimi
   - '**Y. Makris**'
   - A. Jas
   - C. Tirumurti
-  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
+    in VLSI Systems (DFTS)
   date: '2008-01-01'
   doi: 10.1109/dft.2008.59
   buttons:
@@ -3931,7 +4301,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: On the Minimization of Potential Transient Errors and SER in Logic Circuits using SPFD
+  title: On the Minimization of Potential Transient Errors and SER in Logic Circuits
+    using SPFD
   authors:
   - S. Almukhaizim
   - '**Y. Makris**'
@@ -3955,7 +4326,8 @@
   authors:
   - Y. Jin
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security and Trust (HOST)
+  publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security
+    and Trust (HOST)
   date: '2008-01-01'
   doi: 10.1109/hst.2008.4559049
   buttons:
@@ -3969,7 +4341,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Confidence Estimation in Non-RF to RF Correlation-Based Specification Test Compaction
+  title: Confidence Estimation in Non-RF to RF Correlation-Based Specification Test
+    Compaction
   authors:
   - N. Kupp
   - P. Drineas
@@ -4015,7 +4388,8 @@
   - S. Almukhaizim
   - F. Shi
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)
+  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits
+    and Systems (ASYNC)
   date: '2008-01-01'
   doi: 10.1109/async.2008.15
   buttons:
@@ -4047,7 +4421,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: On the Identification of Modular Test Requirements for Low-Cost Hierarchical Test Path Construction
+  title: On the Identification of Modular Test Requirements for Low-Cost Hierarchical
+    Test Path Construction
   authors:
   - '**Y. Makris**'
   - A. Orailoglu
@@ -4089,7 +4464,8 @@
   authors:
   - '**Y. Makris**'
   - section 8.4
-  publisher: In L. T. Wang, C. E. Stroud, and N. A. Touba (Editors), System on-Chip Test Architectures, Morgan-Kaufman Publishers
+  publisher: In L. T. Wang, C. E. Stroud, and N. A. Touba (Editors), System on-Chip
+    Test Architectures, Morgan-Kaufman Publishers
   date: '2007-01-01'
   buttons:
   - type: link
@@ -4124,7 +4500,8 @@
   - S. Almukhaizim
   - P. Drineas
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2006-01-01'
   buttons:
   - type: pdf
@@ -4139,7 +4516,8 @@
   authors:
   - H-G. D. Stratigopoulos
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2006-01-01'
   buttons:
   - type: pdf
@@ -4154,7 +4532,8 @@
   authors:
   - F. Shi
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
+    (ICCAD)
   date: '2006-01-01'
   doi: 10.1109/iccad.2006.320085
   buttons:
@@ -4188,7 +4567,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Bridging the Accuracy of Functional and Machine-Learning-Based Mixed-Signal Testing
+  title: Bridging the Accuracy of Functional and Machine-Learning-Based Mixed-Signal
+    Testing
   authors:
   - H-G. D. Stratigopoulos
   - '**Y. Makris**'
@@ -4210,7 +4590,8 @@
   authors:
   - F. Shi
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)
+  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits
+    and Systems (ASYNC)
   date: '2006-01-01'
   doi: 10.1109/async.2006.7
   buttons:
@@ -4231,7 +4612,8 @@
   - M. Singh
   - F. Shi
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC)
+  publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits
+    and Systems (ASYNC)
   date: '2006-01-01'
   doi: 10.1109/async.2006.20
   buttons:
@@ -4249,7 +4631,8 @@
   authors:
   - S. Almukhaizim
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2006-01-01'
   doi: 10.1109/date.2006.243984
   buttons:
@@ -4267,7 +4650,8 @@
   authors:
   - H-G. D. Stratigopoulos
   - '**Y. Makris**'
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (T. CAD)
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems (T. CAD)
   date: '2005-01-01'
   doi: 10.1109/tcad.2005.855835
   buttons:
@@ -4360,7 +4744,8 @@
   authors:
   - S. Almukhaizim
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2005-01-01'
   buttons:
   - type: pdf
@@ -4375,7 +4760,8 @@
   authors:
   - F. Shi
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Asian South Pacific Design Automation Conference (ASP-DAC)
+  publisher: Proceedings of the IEEE Asian South Pacific Design Automation Conference
+    (ASP-DAC)
   date: '2005-01-01'
   doi: 10.1109/aspdac.2005.1466132
   buttons:
@@ -4404,7 +4790,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Enhancing Reliability of RTL Controller-Datapath Circuits via Invariant-Based Concurrent Test
+  title: Enhancing Reliability of RTL Controller-Datapath Circuits via Invariant-Based
+    Concurrent Test
   authors:
   - '**Y. Makris**'
   - I. Bayraktaroglu
@@ -4427,7 +4814,8 @@
   authors:
   - F. Shi
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design (ICCAD)
+  publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
+    (ICCAD)
   date: '2004-01-01'
   doi: 10.1109/iccad.2004.1382703
   buttons:
@@ -4513,12 +4901,14 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Concurrent Error Detection for Combinational and Sequential Logic via Output Compaction
+  title: Concurrent Error Detection for Combinational and Sequential Logic via Output
+    Compaction
   authors:
   - S. Almukhaizim
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Quality Electronic Design (ISQED)
+  publisher: Proceedings of the IEEE International Symposium on Quality Electronic
+    Design (ISQED)
   date: '2004-01-01'
   doi: 10.1109/isqed.2004.1283716
   buttons:
@@ -4537,7 +4927,8 @@
   - S. Almukhaizim
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2004-01-01'
   doi: 10.1109/date.2004.1268910
   buttons:
@@ -4587,7 +4978,8 @@
   - K. Rokas
   - '**Y. Makris**'
   - D. Gizopoulos
-  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
+    in VLSI Systems (DFTS)
   date: '2003-01-01'
   doi: 10.1109/dftvs.2003.1250130
   buttons:
@@ -4601,11 +4993,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Fault Tolerant Design of Combinational and Sequential Logic based on a Parity Check Code
+  title: Fault Tolerant Design of Combinational and Sequential Logic based on a Parity
+    Check Code
   authors:
   - S. Almukhaizim
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
+    in VLSI Systems (DFTS)
   date: '2003-01-01'
   doi: 10.1109/dftvs.2003.1250156
   buttons:
@@ -4619,7 +5013,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Cost-Effective Graceful Degradation in Speculative Processor Subsystems: The Branch Prediction Case'
+  title: 'Cost-Effective Graceful Degradation in Speculative Processor Subsystems:
+    The Branch Prediction Case'
   authors:
   - S. Almukhaizim
   - T. Verdel
@@ -4711,7 +5106,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: An Analog Checker with Dynamically Adjustable Error Threshold for Fully Differential Circuits
+  title: An Analog Checker with Dynamically Adjustable Error Threshold for Fully Differential
+    Circuits
   authors:
   - H-G. D. Stratigopoulos
   - '**Y. Makris**'
@@ -4733,7 +5129,8 @@
   authors:
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Quality Electronic Design (ISQED)
+  publisher: Proceedings of the IEEE International Symposium on Quality Electronic
+    Design (ISQED)
   date: '2003-01-01'
   doi: 10.1109/isqed.2003.1194770
   buttons:
@@ -4747,11 +5144,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Non-Intrusive Concurrent Error Detection in FSMs through State/Output Compaction and Monitoring via Parity Trees
+  title: Non-Intrusive Concurrent Error Detection in FSMs through State/Output Compaction
+    and Monitoring via Parity Trees
   authors:
   - P. Drineas
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '2003-01-01'
   doi: 10.1109/date.2003.1253783
   buttons:
@@ -4813,7 +5212,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: journal
-  title: Fast Hierarchical Test Path Construction for Circuits with DFT-Free Controller-Datapath Interface
+  title: Fast Hierarchical Test Path Construction for Circuits with DFT-Free Controller-Datapath
+    Interface
   authors:
   - '**Y. Makris**'
   - J. Collins
@@ -4868,11 +5268,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'Duplication-Based Concurrent Error Detection in Asynchronous Circuits: Shortcomings and Remedies'
+  title: 'Duplication-Based Concurrent Error Detection in Asynchronous Circuits: Shortcomings
+    and Remedies'
   authors:
   - T. Verdel
   - '**Y. Makris**'
-  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
+    in VLSI Systems (DFTS)
   date: '2002-01-01'
   doi: 10.1109/dftvs.2002.1173531
   buttons:
@@ -4950,7 +5352,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Fast Hierarchical Test Path Construction for Controller-Datapath Circuits without DFT
+  title: Fast Hierarchical Test Path Construction for Controller-Datapath Circuits
+    without DFT
   authors:
   - '**Y. Makris**'
   - J. Collins
@@ -4985,7 +5388,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: Modular Test Generation and Concurrent Transparency-Based Test Translation Using Gate-Level ATPG
+  title: Modular Test Generation and Concurrent Transparency-Based Test Translation
+    Using Gate-Level ATPG
   authors:
   - '**Y. Makris**'
   - A. Orailoglu
@@ -5010,7 +5414,8 @@
   - J. Collins
   - A. Orailoglu
   - P. Vishakantaiah
-  publisher: Proceedings of the IEEE International Symposium of Circuits and Systems (ISCAS)
+  publisher: Proceedings of the IEEE International Symposium of Circuits and Systems
+    (ISCAS)
   date: '2000-01-01'
   doi: 10.1109/iscas.2000.856422
   buttons:
@@ -5059,7 +5464,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: workshop
-  title: Exploiting Off-Line Hierarchical Test Paths in Module Diagnosis and On-Line Test
+  title: Exploiting Off-Line Hierarchical Test Paths in Module Diagnosis and On-Line
+    Test
   authors:
   - '**Y. Makris**'
   - A. Orailoglu
@@ -5092,11 +5498,13 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: A Module Diagnosis and Design-for-Debug Methodology based on Hierarchical Test Paths
+  title: A Module Diagnosis and Design-for-Debug Methodology based on Hierarchical
+    Test Paths
   authors:
   - '**Y. Makris**'
   - A. Orailoglu
-  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems (DFTS)
+  publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
+    in VLSI Systems (DFTS)
   date: '1999-01-01'
   doi: 10.1109/dftvs.1999.802901
   buttons:
@@ -5114,7 +5522,8 @@
   authors:
   - '**Y. Makris**'
   - A. Orailoglu
-  publisher: Proceedings of the IEEE International Conference on Electronics Circuits and Systems (ICECS)
+  publisher: Proceedings of the IEEE International Conference on Electronics Circuits
+    and Systems (ICECS)
   date: '1999-01-01'
   doi: 10.1109/icecs.1999.813423
   buttons:
@@ -5128,7 +5537,8 @@
   plugin: sources.py
   file: sources.yaml
 - type: conference
-  title: 'TRANSPARENT: A System for RTL Testability Analysis, DFT Guidance and Hierarchical Test Generation'
+  title: 'TRANSPARENT: A System for RTL Testability Analysis, DFT Guidance and Hierarchical
+    Test Generation'
   authors:
   - '**Y. Makris**'
   - J. Collins
@@ -5152,7 +5562,8 @@
   authors:
   - '**Y. Makris**'
   - A. Orailoglu
-  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference (DATE)
+  publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
+    (DATE)
   date: '1999-01-01'
   doi: 10.1145/307418.307506
   buttons:

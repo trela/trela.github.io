@@ -1,0 +1,177 @@
+# Publications added automatically by _cite/sync_publications.py (reviewed through pull requests).
+# Edit entries freely: add code, dataset or model buttons as in sources.yaml.
+
+- type: conference
+  title: 'WALET: SHAP-Guided Classification of Wafer-Level E-Test Variability for Early Manufacturing Risk Detection'
+  authors:
+  - C.-Y. Chang
+  - M. Nigh
+  - J. M. Carulli
+  - '**Y. Makris**'
+  publisher: IEEE 44th VLSI Test Symposium (VTS)
+  date: '2026-01-01'
+  link: https://doi.org/10.1109/vts69484.2026.11563333
+  doi: 10.1109/vts69484.2026.11563333
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/vts69484.2026.11563333
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+- type: conference
+  title: Covert Information Leakage Via Hardware-Induced Spectral Shaping
+  authors:
+  - A. Kontarinis
+  - S. R. Dhole
+  - K. S. Subramani
+  - A. Nosratinia
+  - '**Y. Makris**'
+  publisher: IEEE International Symposium on Hardware Oriented Security and Trust
+  date: '2026-01-01'
+  link: https://doi.org/10.1109/host68814.2026.11604183
+  doi: 10.1109/host68814.2026.11604183
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/host68814.2026.11604183
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+- type: journal
+  title: Battery safety and security for electric urban air mobility
+  authors:
+  - J. Ke
+  - D. Jain
+  - J. Zhang
+  - B. Wang
+  - '**Y. Makris**'
+  - K. Cho
+  - K. Shamsi
+  - L. Su
+  publisher: Cell Reports Physical Science
+  date: '2025-01-01'
+  link: https://doi.org/10.1016/j.xcrp.2025.102924
+  doi: 10.1016/j.xcrp.2025.102924
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1016/j.xcrp.2025.102924
+  tags:
+  - journal
+  sync:
+  - openalex
+  - google-scholar
+- type: journal
+  title: 'Biosecurity Primitive: Polymerase X‐based Genetic Physical Unclonable Functions'
+  authors:
+  - Z. Zhou
+  - T. Kang
+  - J. Chen
+  - Y. Doctor
+  - J. G. Camposagrado
+  - '**Y. Makris**'
+  - A. Pertsemlidis
+  - L. G. Bleris
+  publisher: Advanced Science
+  date: '2025-01-01'
+  link: https://doi.org/10.1002/advs.202415820
+  doi: 10.1002/advs.202415820
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1002/advs.202415820
+  tags:
+  - journal
+  sync:
+  - openalex
+  - google-scholar
+- type: conference
+  title: An SMT-Based Method for Identifying State-Holding Elements in Extracted Netlists
+  authors:
+  - A. Fowler
+  - C. Sechen
+  - '**Y. Makris**'
+  publisher: IEEE International Test Conference (ITC)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/itc58126.2025.00056
+  doi: 10.1109/itc58126.2025.00056
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc58126.2025.00056
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+- type: conference
+  title: 'Teaching Llamas to Test: A Language-Based Approach'
+  authors:
+  - C. Vasileiou
+  - '**Y. Makris**'
+  publisher: IEEE International Test Conference (ITC)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/itc58126.2025.00072
+  doi: 10.1109/itc58126.2025.00072
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/itc58126.2025.00072
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+- type: conference
+  title: 'Unveiling the Mask: Trusted Semiconductor Manufacturing through Wafer-Level Mask-Set Attestation'
+  authors:
+  - S. S. Tellakula
+  - C.-Y. Chang
+  - M. Nigh
+  - C. Vasileiou
+  - J. M. Carulli
+  - '**Y. Makris**'
+  publisher: IEEE/ACM International Conference On Computer Aided Design (ICCAD)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/iccad66269.2025.11241009
+  doi: 10.1109/iccad66269.2025.11241009
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/iccad66269.2025.11241009
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar
+- type: conference
+  title: Experimental Characterization and Empirical Beam Steering Analysis of a 28 GHz 1-Bit 8x8 RIS Reflectarray via Conductivity Pattern Modulation
+  authors:
+  - V. Papapostolou
+  - A. Hatzopoulos
+  - '**Y. Makris**'
+  - Z. D. Zaharis
+  publisher: International Symposium on Wireless Personal Multimedia Communications (WPMC)
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/wpmc67460.2025.11351170
+  doi: 10.1109/wpmc67460.2025.11351170
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/wpmc67460.2025.11351170
+  tags:
+  - conference
+  sync:
+  - openalex
+- type: conference
+  title: 'The Pulse-Shaping Trojan: Refinements and New Results'
+  authors:
+  - S. Dhole
+  - M. Farahnak-Ghazani
+  - '**Y. Makris**'
+  - A. Nosratinia
+  publisher: 61st Allerton Conference on Communication, Control, and Computing
+  date: '2025-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dUO4lKwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=dUO4lKwAAAAJ:CB2v5VPnA5kC
+  tags:
+  - conference
+  sync:
+  - openalex
+  - google-scholar

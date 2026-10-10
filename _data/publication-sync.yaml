@@ -1,0 +1,25 @@
+# Settings for the weekly publication sync (_cite/sync_publications.py).
+# New papers found on these profiles are added to _data/sources-synced.yaml
+# through a pull request, so every addition is reviewed before it goes live.
+
+# OpenAlex author id of Prof. Makris (https://openalex.org/A5078818440)
+openalex_author: A5078818440
+
+# Google Scholar profile id (https://scholar.google.com/citations?user=dUO4lKwAAAAJ)
+google_scholar_user: dUO4lKwAAAAJ
+
+# only papers published in or after this year are added automatically
+since_year: 2025
+
+# skip items whose title or venue matches one of these (case-insensitive regular expressions)
+exclude_patterns:
+  - "NSF Award"
+  - "^University of"
+  - "dissertation|thesis"
+  - "^(foreword|preface|session details|guest editor)"
+  - "\\(conference presentation\\)"
+
+# papers that must never be added (title or DOI); add here anything you removed from sources-synced.yaml
+ignore:
+  # 2025 edition of the encyclopedia chapter already listed under 2022
+  - "Hardware-Induced Covert Channels in Wireless Networks: Risks and Remedies"
