@@ -1,11 +1,14 @@
 name: sync-publications
 run-name: Sync publications from Google Scholar and OpenAlex
 
-# look for new papers every week and propose them in a pull request for review
+# look for new papers on the first Monday of every month and propose them in a
+# pull request for review
 
 on:
+  # cron cannot say "first Monday" (day-of-month and day-of-week are OR'ed),
+  # so run on days 1-7 and let the check job continue only on the Monday
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "0 6 1-7 * *"
 
   # run manually by user
   workflow_dispatch:
@@ -15,7 +18,23 @@ permissions:
   pull-requests: write
 
 jobs:
+  check-day:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.day.outputs.run }}
+    steps:
+      - name: Continue only on the first Monday of the month or when run manually
+        id: day
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$(date -u +%u)" = "1" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
   sync-publications:
+    needs: check-day
+    if: needs.check-day.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -48,9 +67,9 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           branch: publication-sync
-          title: New publications found by the weekly sync
+          title: New publications found by the monthly sync
           body-path: ${{ runner.temp }}/sync-report.md
-          commit-message: Add publications found by the weekly sync
+          commit-message: Add publications found by the monthly sync
           add-paths: |
             _data/sources-synced.yaml
             _data/citations.yaml

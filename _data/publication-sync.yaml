@@ -1,4 +1,4 @@
-# Settings for the weekly publication sync (_cite/sync_publications.py).
+# Settings for the monthly publication sync (first Monday of each month) (_cite/sync_publications.py).
 # New papers found on these profiles are added to _data/sources-synced.yaml
 # through a pull request, so every addition is reviewed before it goes live.
 

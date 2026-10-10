@@ -57,7 +57,7 @@ Hand-written fields always override the automatic ones.
 
 ### Automatic publication sync
 
-Every Monday the `sync-publications` workflow looks for new papers by Prof. Makris on
+On the first Monday of every month the `sync-publications` workflow looks for new papers by Prof. Makris on
 [Google Scholar](https://scholar.google.com/citations?user=dUO4lKwAAAAJ) and [OpenAlex](https://openalex.org/A5078818440)
 and opens a pull request that adds them to `_data/sources-synced.yaml`.
 Nothing goes live until that pull request is merged.
