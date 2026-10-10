@@ -3,7 +3,7 @@ title: TRELA
 subtitle: Trusted and RELiable Architectures Lab
 description: TRELA, led by Prof. Yiorgos Makris, builds trusted and reliable integrated circuits and systems by combining machine learning, statistical analysis, and hardware design, with work spanning hardware security, AI for test, analog/RF ICs, and bio-security primitives.
 header: images/background.svg
-# main lab logo shown in the header (the chip icon in images/logo.svg is kept for the browser tab icon)
+# main lab logo shown in the header; images/icon.png (browser tab) is made from it. The older chip logo stays in images/logo.svg
 logo: images/trela.logo.png
 footer: images/background.svg
 proofer: false
