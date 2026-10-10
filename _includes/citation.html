@@ -73,6 +73,12 @@
         <span class="citation-date">
           {{- citation.date | date: "%Y" -}}
         </span>
+        {% if include.cited %}
+          <span class="citation-cited">
+            {% include icon.html icon="fa-solid fa-quote-right" %}
+            Cited by {{ include.cited }}
+          </span>
+        {% endif %}
         {% if citation.award %}
           <span class="citation-award">
             {% include icon.html icon="fa-solid fa-trophy" %}

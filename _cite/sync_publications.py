@@ -158,13 +158,11 @@ def scholar_items(user):
 
 # candidate building
 
-def from_openalex(work, author):
+def from_openalex(work):
     authors = []
     for authorship in work.get("authorships") or []:
         person = authorship.get("author") or {}
         name = initials(person.get("display_name") or authorship.get("raw_author_name") or "")
-        if (person.get("id") or "").endswith(author):
-            name = f"**{name}**"
         authors.append(name)
     doi = (work.get("doi") or "").replace("https://doi.org/", "").lower()
     return {
@@ -183,7 +181,6 @@ def from_openalex(work, author):
 def from_scholar(item):
     authors = [a.strip() for a in item["authors"].split(",") if a.strip() and a.strip() != "..."]
     authors = [initials(a) for a in authors]
-    authors = [f"**{a}**" if a == "Y. Makris" else a for a in authors]
     venue = clean_venue(item["venue"])
     return {
         "type": "conference" if CONFERENCE_WORDS.search(venue) else "journal",
@@ -224,7 +221,7 @@ def main():
     for work in openalex_works(author, since):
         if work["type"] not in TYPE_MAP and work["type"] != PREPRINT:
             continue
-        c = from_openalex(work, author)
+        c = from_openalex(work)
         twin = next((d for d in candidates if same_title(d["title"], c["title"])), None)
         if twin is None:
             candidates.append(c)

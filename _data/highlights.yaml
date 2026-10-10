@@ -1,0 +1,15 @@
+# Research highlights on the home page: the lab's most cited papers.
+# title must match the paper's title in sources.yaml; cited is shown as "Cited by <cited>".
+# Counts from Google Scholar, October 2026 (rounded down so they stay true as citations grow).
+- title: Hardware Trojan Detection using Path Delay Fingerprint
+  cited: 900+
+- title: "Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor Supply Chain"
+  cited: 800+
+- title: Experiences in Hardware Trojan Design and Implementation
+  cited: 300+
+- title: "Proof-Carrying Hardware Intellectual Property: A Pathway to Trusted Module Acquisition"
+  cited: 200+
+- title: Hardware Trojans in Wireless Cryptographic Integrated Circuits
+  cited: 180+
+- title: Hardware Trojan detection through golden chip-free statistical side-channel fingerprinting
+  cited: 170+

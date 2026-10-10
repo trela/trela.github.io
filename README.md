@@ -29,7 +29,7 @@ Add an entry near the top of `_data/sources.yaml`, in date order:
   title: My New Paper
   authors:
     - A. Student
-    - '**Y. Makris**'
+    - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2026-01-01'          # only the year is shown
   link: https://doi.org/10.1109/xxxx   # where the title points

@@ -27,10 +27,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 ## {% include icon.html icon="fa-solid fa-star" %}Research highlights
 
-{% include citation.html lookup="Genetic Physical Unclonable Functions in Human Cells" style="rich" %}
-{% include citation.html lookup="A TRAP for SAT" style="rich" %}
-{% include citation.html lookup="Can Llamas Learn the Language of Test?" style="rich" %}
-{% include citation.html lookup="Amplitude-Modulating Analog/RF Hardware Trojans in Wireless Networks" style="rich" %}
+Our most cited work. TRELA's research has been cited more than 8,000 times, with an h-index of 44 ([Google Scholar](https://scholar.google.com/citations?user=dUO4lKwAAAAJ)).
+
+{% for highlight in site.data.highlights %}
+  {% include citation.html lookup=highlight.title style="rich" cited=highlight.cited %}
+{% endfor %}
 
 {% include button.html link="publications" text="All publications" icon="fa-solid fa-arrow-right" flip=true %}
 {:.center}

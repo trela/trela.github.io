@@ -7,7 +7,7 @@
   - C.-Y. Chang
   - M. Nigh
   - J. M. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE 44th VLSI Test Symposium (VTS)
   date: '2026-01-01'
   link: https://doi.org/10.1109/vts69484.2026.11563333
@@ -29,7 +29,7 @@
   - S. R. Dhole
   - K. S. Subramani
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE International Symposium on Hardware Oriented Security and Trust
   date: '2026-01-01'
   link: https://doi.org/10.1109/host68814.2026.11604183
@@ -51,7 +51,7 @@
   - D. Jain
   - J. Zhang
   - B. Wang
-  - '**Y. Makris**'
+  - Y. Makris
   - K. Cho
   - K. Shamsi
   - L. Su
@@ -78,7 +78,7 @@
   - J. Chen
   - Y. Doctor
   - J. G. Camposagrado
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Pertsemlidis
   - L. G. Bleris
   publisher: Advanced Science
@@ -100,7 +100,7 @@
   authors:
   - A. Fowler
   - C. Sechen
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE International Test Conference (ITC)
   date: '2025-01-01'
   link: https://doi.org/10.1109/itc58126.2025.00056
@@ -119,7 +119,7 @@
   title: 'Teaching Llamas to Test: A Language-Based Approach'
   authors:
   - C. Vasileiou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE International Test Conference (ITC)
   date: '2025-01-01'
   link: https://doi.org/10.1109/itc58126.2025.00072
@@ -143,7 +143,7 @@
   - M. Nigh
   - C. Vasileiou
   - J. M. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE/ACM International Conference On Computer Aided Design (ICCAD)
   date: '2025-01-01'
   link: https://doi.org/10.1109/iccad66269.2025.11241009
@@ -164,7 +164,7 @@
   authors:
   - V. Papapostolou
   - A. Hatzopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   - Z. D. Zaharis
   publisher: International Symposium on Wireless Personal Multimedia Communications
     (WPMC)
@@ -185,7 +185,7 @@
   authors:
   - S. Dhole
   - M. Farahnak-Ghazani
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Nosratinia
   publisher: 61st Allerton Conference on Communication, Control, and Computing
   date: '2025-01-01'
@@ -207,7 +207,7 @@
   - T. Broadfoot
   - P. Beerel
   - C. Sechen
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IACR Transactions on Cryptographic Hardware and Embedded Systems (T.CHES)
   date: '2025-01-01'
   doi: 10.46586/tches.v2025.i2.579-603
@@ -227,7 +227,7 @@
   authors:
   - A. Jain
   - T. Broadfoot
-  - '**Y. Makris**'
+  - Y. Makris
   - C. Sechen
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
@@ -255,7 +255,7 @@
   - P. Zhou
   - X. Hu
   - J. Atulasimha
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Friedman
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
@@ -275,7 +275,7 @@
   title: Can Llamas Learn the Language of Test?
   authors:
   - C. Vasileiou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2025-01-01'
@@ -287,7 +287,7 @@
   title: 'FREEDOM: FPGA-based Hardware Redaction Emulator'
   authors:
   - C. Sathe
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   publisher: Proceedings of the International Symposium on Field-Programmable Custom
     Computing Machines (FCCM 2025)
@@ -305,7 +305,7 @@
   title: Efficient and Secure Cloud-based Split Logic Synthesis
   authors:
   - C. Sathe
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
   date: '2025-01-01'
@@ -325,7 +325,7 @@
   - C-Y. Chang
   - M. Nigh
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2025-01-01'
   doi: 10.1109/vts65138.2025.11022777
@@ -344,7 +344,7 @@
   authors:
   - C. Sathe
   - D. Chandrasekara
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   publisher: Proceedings of the IEEE Asian-Pacific Design Automation Conference (ASP-DAC)
   date: '2025-01-01'
@@ -365,7 +365,7 @@
   authors:
   - P. Mishra
   - A. Marshall
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for
     Security and Trust, CRC Press
   date: '2025-01-01'
@@ -378,7 +378,7 @@
   authors:
   - S. Niftah
   - A. Srivastava
-  - '**Y. Makris**'
+  - Y. Makris
   - K. Basu
   publisher: In R. Vemuri and J. Emmert (Editors), Advanced in hardware Design for
     Security and Trust, CRC Press
@@ -392,7 +392,7 @@
     Security
   authors:
   - E. Harbut
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Pertsemlidis
   - L. Bleris
   publisher: SLAS Discovery
@@ -417,7 +417,7 @@
   - S. Karmakar
   - A. Raha
   - S. Kundu
-  - '**Y. Makris**'
+  - Y. Makris
   - K. Basu
   publisher: Transactions on Machine Learning Research
   date: '2024-01-01'
@@ -434,7 +434,7 @@
   authors:
   - M. Nigh
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2024-01-01'
   doi: 10.1109/itc51657.2024.00042
@@ -458,7 +458,7 @@
   - A. Ray
   - P. Silva
   - R. Psiakis
-  - '**Y. Makris**'
+  - Y. Makris
   - K. Basu
   publisher: Proceedings of the ACM/IEEE Design Automation Conference
   date: '2024-01-01'
@@ -478,7 +478,7 @@
     of Near Minimum Size Transistors and Intelligent Post Fabrication Selection
   authors:
   - F. Jalalibidgoli
-  - '**Y. Makris**'
+  - Y. Makris
   - K. K. O.
   publisher: Proceedings of the IEEE/MTT-S International Microwave Symposium (IMS)
   date: '2024-01-01'
@@ -499,7 +499,7 @@
   - A. Jain
   - T. Broadfoot
   - C. Sechen
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2024-01-01'
   doi: 10.1109/vts60656.2024.10538901
@@ -522,7 +522,7 @@
   - G. Volanis
   - D. Maliuk
   - H. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2024-01-01'
   doi: 10.1109/vts60656.2024.10538718
@@ -544,7 +544,7 @@
   - Y. Liu
   - N. Korolija
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Design & Test of Computers
   date: '2023-01-01'
   doi: 10.1109/mdat.2023.3283349
@@ -567,7 +567,7 @@
   - A. Ray
   - P. Silva
   - R. Psiakis
-  - '**Y. Makris**'
+  - Y. Makris
   - K. Basu
   publisher: arXiv:2308:11042
   date: '2023-01-01'
@@ -586,7 +586,7 @@
   - M. Shayan
   - A. Dixit
   - M. Shihab
-  - '**Y. Makris**'
+  - Y. Makris
   - JV Rajendran
   publisher: in USENIX Security
   date: '2023-01-01'
@@ -607,7 +607,7 @@
   - D. Webster
   - A. Nahar
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2023-01-01'
   doi: 10.1109/vts56346.2023.10140005
@@ -626,7 +626,7 @@
     Circuits'
   authors:
   - C. Sathe
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
   date: '2023-01-01'
@@ -647,7 +647,7 @@
   authors:
   - A. Jain
   - T. Broadfoot
-  - '**Y. Makris**'
+  - Y. Makris
   - C. Sechen
   publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
   date: '2023-01-01'
@@ -669,7 +669,7 @@
   - M. Bidmeshki
   - T. Kang
   - C. Nowak
-  - '**Y. Makris**'
+  - Y. Makris
   - L. Bleris
   publisher: Science Advances
   date: '2022-01-01'
@@ -692,7 +692,7 @@
   - P. Yelleswarapu
   - A. Jha
   - R. Willis
-  - '**Y. Makris**'
+  - Y. Makris
   - K. K. O
   publisher: IEEE Transactions on Microwave Theory and Techniques
   date: '2022-01-01'
@@ -718,7 +718,7 @@
   - P. Zhou
   - X. Hu
   - J. Atulasimha
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Friedman
   publisher: Bulletin of the American Physical Society
   date: '2022-01-01'
@@ -738,7 +738,7 @@
   - J. Smith
   - S. Thiagarajan
   - M. Nigh
-  - '**Y. Makris**'
+  - Y. Makris
   - M. Torlak
   publisher: Proceedings of the IEEE International Conference on Image Processing
     (ICIP)
@@ -762,7 +762,7 @@
   - D. Neethirajan
   - A. Nahar
   - D. Webster
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2022-01-01'
@@ -779,7 +779,7 @@
   authors:
   - S. Thiagarajan
   - S. Natarajan
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ACM/IEEE Design Automation Conference
   date: '2022-01-01'
   doi: 10.1145/3489517.3530534
@@ -803,7 +803,7 @@
   - M. Shihab. P. Zhou
   - X. Hu
   - J. Atulasimha
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Friedman
   publisher: Proceedings of the IEEE Design, Automation & Test in Europe Conference
     (DATE)
@@ -827,7 +827,7 @@
   - R. Willis
   - A. Nahar
   - D. Webster
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2022-01-01'
   doi: 10.1109/vts52500.2021.9794170
@@ -846,7 +846,7 @@
   authors:
   - L. Nahar
   - J. Rajendran
-  - '**Y. Makris**'
+  - Y. Makris
   - C. Sechen
   publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
   date: '2022-01-01'
@@ -872,7 +872,7 @@
   - M. Shihab
   - A. Jain
   - V. Salimath
-  - '**Y. Makris**'
+  - Y. Makris
   - C. Sechen
   publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
   date: '2022-01-01'
@@ -894,7 +894,7 @@
     HW Redaction
   authors:
   - C. Sathe
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   publisher: Proceedings of the IEEE Dallas Circuit and System Conference (DCAS)
   date: '2022-01-01'
@@ -915,7 +915,7 @@
   - K. Subramani
   - A. Antonopoulos
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In S. Jajodia, R. Samarati and M. Yung (Editors), Encyclopedia of Cryptography,
     Security and Privacy, Springer
   date: '2022-01-01'
@@ -952,7 +952,7 @@
   - M. Bidmeshki
   - T. Kang
   - C. Nowak
-  - '**Y. Makris**'
+  - Y. Makris
   - L. Bleris
   publisher: bioRxiv
   date: '2021-01-01'
@@ -975,7 +975,7 @@
   authors:
   - L. Zhou
   - Y. Zhang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems
     (JETCAS)
   date: '2021-01-01'
@@ -996,7 +996,7 @@
   authors:
   - M. Bidmeshki
   - An. Antonopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Journal on Emerging and Selected Topics in Circuits and Systems
     (JETCAS)
   date: '2021-01-01'
@@ -1016,7 +1016,7 @@
   authors:
   - G. R. Reddy
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T.CAD)
   date: '2021-01-01'
@@ -1040,7 +1040,7 @@
   - J. W. Smith
   - S. Thiagarajan
   - R. Willis
-  - '**Y. Makris**'
+  - Y. Makris
   - M. Torlak
   publisher: IEEE Access
   date: '2021-01-01'
@@ -1063,7 +1063,7 @@
   - B. Tan
   - G. Rajavendra Reddy
   - S. Garg
-  - '**Y. Makris**'
+  - Y. Makris
   - R. Karri
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
@@ -1087,7 +1087,7 @@
   - D. Neethirajan
   - A. Nahar
   - D. Webster
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2021-01-01'
@@ -1113,7 +1113,7 @@
   - A. P. Kuruvila
   - K. Basu
   - J. Atulasimha
-  - '**Y. Makris**'
+  - Y. Makris
   - J. S. Friedman
   publisher: Proceedings of the Design Automation Conference (DAC)
   date: '2021-01-01'
@@ -1133,7 +1133,7 @@
   authors:
   - Z. Wang
   - M. Shayan
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2021-01-01'
@@ -1157,7 +1157,7 @@
   - E. De La Rosa
   - C. Alleyne
   - S. Mier
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2021-01-01'
   award: Best Paper Award Candidate
@@ -1189,7 +1189,7 @@
   - Zhang
   - M. Zaman
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Design & Test of Computers (D&T)
   date: '2020-01-01'
   doi: 10.1109/mdat.2020.3013727
@@ -1211,7 +1211,7 @@
   - N. Helal
   - A. Antonopoulos
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
   date: '2020-01-01'
   doi: 10.1109/tifs.2020.2990792
@@ -1233,7 +1233,7 @@
   - P. List
   - K.-P. Tschernay
   - P. Sarson
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Device and Materials Reliability (T. DMR)
   date: '2020-01-01'
   doi: 10.1109/tdmr.2020.2994291
@@ -1254,7 +1254,7 @@
   - L. Zhou
   - Y
   - Hu
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computers (T. COMP)
   date: '2020-01-01'
   doi: 10.1109/tc.2020.3000237
@@ -1273,7 +1273,7 @@
   authors:
   - Y. Zhang
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Design & Test of Computers (D&T)
   date: '2020-01-01'
   doi: 10.1109/mdat.2020.2968260
@@ -1291,7 +1291,7 @@
   title: 'Hardware-Based Detection of Spectre Attacks: A Machine Learning Approach'
   authors:
   - Y. Zhang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: "Proceedings of the EEE Asian Hardware\u2013Oriented Security and Trust\
     \ Symposium (Asian-HOST)"
   date: '2020-01-01'
@@ -1311,7 +1311,7 @@
   authors:
   - S. Thiagarajan
   - S. Natarajan
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2020-01-01'
@@ -1332,7 +1332,7 @@
   - J. Tian
   - W. Swartz
   - C. Sechen
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
     (ISCAS)
   date: '2020-01-01'
@@ -1353,7 +1353,7 @@
   authors:
   - J. Chen
   - M. Zaman
-  - '**Y. Makris**'
+  - Y. Makris
   - R. D. Blanton
   - S. Mitra
   - B. Carrion Schafer
@@ -1380,7 +1380,7 @@
   - G. Rajavendra Reddy
   - J. Tian
   - C. Sechen
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2020-01-01'
   doi: 10.1109/vts48691.2020.9107561
@@ -1403,7 +1403,7 @@
   - Y. Lu
   - A. Antonopoulos
   - A. Marshall
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
   date: '2020-01-01'
   doi: 10.23919/date48585.2020.9116251
@@ -1423,7 +1423,7 @@
   authors:
   - B. Hu
   - M. Shihab
-  - '**Y. Makris**'
+  - Y. Makris
   - B. C. Schaefer
   - C. Sechen
   publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
@@ -1453,7 +1453,7 @@
   - M. Zaman
   - M. Shihab
   - A. Coskun
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: 'Integration: The VLSI Journal (JVLSI)'
   date: '2019-01-01'
   doi: 10.1016/j.vlsi.2019.05.002
@@ -1475,7 +1475,7 @@
   - A. Antonopoulos
   - A. Abotabl
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
   date: '2019-01-01'
   doi: 10.1109/tifs.2019.2900906
@@ -1493,7 +1493,7 @@
   title: Design Space Exploration For Hotspot Detection
   authors:
   - G. Rajavendra Reddy
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Workshop on Microprocessor Test
     and Verification (MTV)
   date: '2019-01-01'
@@ -1514,7 +1514,7 @@
   authors:
   - B. Hu
   - M. Shihab
-  - '**Y. Makris**'
+  - Y. Makris
   - B. C. Schaefer
   - C. Sechen
   publisher: Proceedings of the International Conference on Field-Programmable Technology
@@ -1536,7 +1536,7 @@
   authors:
   - M. Bidmeshki
   - K. Subramani
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2019-01-01'
   buttons:
@@ -1553,7 +1553,7 @@
   authors:
   - G. Rajavendra Reddy
   - M. Bidmeshki
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2019-01-01'
   doi: 10.1109/itc44170.2019.9000169
@@ -1574,7 +1574,7 @@
   - K. Schaub
   - K. Ikeda
   - I. Leventhal
-  - '**Y. Makris**'
+  - Y. Makris
   - C. Xanthopoulos
   - D. Neethirajan
   publisher: Proceedings of the IEEE International Test Conference (ITC)
@@ -1595,7 +1595,7 @@
     Orders'
   authors:
   - G. Rajavendra Reddy
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
     (ICCAD)
   date: '2019-01-01'
@@ -1617,7 +1617,7 @@
   - C. Xanthopoulos
   - S. Boddikurapati
   - A. Nahar
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2019-01-01'
@@ -1635,7 +1635,7 @@
   authors:
   - G. Rajavendra Reddy
   - M. Bidmeshki
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2019-01-01'
@@ -1657,7 +1657,7 @@
   - A. Antonopoulos
   - G. Volanis
   - Y. Lu
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the International Conference on Synthesis, Modeling, Analysis
     and Simulation Methods and Applications to Circuit Design (SMACD)
   date: '2019-01-01'
@@ -1679,7 +1679,7 @@
   - G. Volanis
   - M. Bidmeshki
   - A. Antonopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the International On-Line Test Symposium (IOLTS)
   date: '2019-01-01'
   doi: 10.1109/iolts.2019.8854461
@@ -1697,7 +1697,7 @@
   title: Automated Die Inking through On-line Machine Learning
   authors:
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   - K.-P. Tschernay
   - A. Neckermann
   - P. List
@@ -1724,7 +1724,7 @@
   - M. Shihab
   - G. Rajavendra Reddy
   - W. Swartz
-  - '**Y. Makris**'
+  - Y. Makris
   - B. Carrion Schaefer
   - C. Sechen
   publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
@@ -1748,7 +1748,7 @@
   - K. Subramani
   - K. Schaub
   - I. Leventhal
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2019-01-01'
   doi: 10.1109/vts.2019.8758674
@@ -1767,7 +1767,7 @@
   authors:
   - Y. Zhang
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2019-01-01'
   doi: 10.1109/vts.2019.8758626
@@ -1789,7 +1789,7 @@
   - S. Nimmalapudi
   - A. Antonopoulos
   - A. Marshall
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2019-01-01'
   doi: 10.1109/vts.2019.8758657
@@ -1810,7 +1810,7 @@
   - D. Neethirajan
   - S. Boddikurapati
   - A. Nahar
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
   date: '2019-01-01'
   buttons:
@@ -1831,7 +1831,7 @@
   - W. Swartz Jr.
   - B. Carrion Schaefer
   - C. Sechen
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe (DATE)
   date: '2019-01-01'
   doi: 10.23919/date.2019.8714856
@@ -1860,7 +1860,7 @@
   - C. Kapatsori
   - Y. Liu
   - A. Antonopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2018-01-01'
   buttons:
@@ -1878,7 +1878,7 @@
   - M. Andraud
   - L. Galindez
   - Y. Lu
-  - '**Y. Makris**'
+  - Y. Makris
   - M. Verhelst
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2018-01-01'
@@ -1899,7 +1899,7 @@
   - G. Rajavendra Reddy
   - J. Wallner
   - K. Babich
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ASM International Symposium for Test and Failure Analysis
     (ISTFA)
   date: '2018-01-01'
@@ -1921,7 +1921,7 @@
   - M. Zaman
   - M. Shihab
   - A. Coskun
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the International Symposium on Power and Timing Modeling,
     Optimization and Simulation (PATMOS)
   date: '2018-01-01'
@@ -1943,7 +1943,7 @@
   - C. Xanthopoulos
   - S. Boddikurapati
   - A. Nahar
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2018-01-01'
@@ -1959,7 +1959,7 @@
   title: Hotspot Detection Through Clustering Based Root Cause Learning
   authors:
   - G. Rajavendra Reddy
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2018-01-01'
@@ -1979,7 +1979,7 @@
   authors:
   - G. Rajavendra Reddy
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2018-01-01'
   doi: 10.1109/vts.2018.8368646
@@ -1998,7 +1998,7 @@
     of Process Execution
   authors:
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2018-01-01'
@@ -2020,7 +2020,7 @@
   - A. Sengupta
   - D. Liu
   - O. Sinanoglu
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Rajendran
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
@@ -2043,7 +2043,7 @@
   - K. Huang
   - A. Ahmadi
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In A. Elfadel, D. Bonning and X. Li (Editors), Machine Learning in VLSI
     Computer-Aided Design, Springer
   date: '2018-01-01'
@@ -2061,7 +2061,7 @@
   authors:
   - A. Antonopoulos
   - C. Kapatsori
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Design & Test of Computers (D&T)
   date: '2017-01-01'
   doi: 10.1109/mdat.2017.2728366
@@ -2085,7 +2085,7 @@
   - B. Orr
   - M. Pas
   - J. M. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
   date: '2017-01-01'
@@ -2108,7 +2108,7 @@
   - X. Guo
   - R. G. Dutta
   - M. Bidmeshki
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
   date: '2017-01-01'
   doi: 10.1109/tifs.2017.2707323
@@ -2130,7 +2130,7 @@
   - X. Guo
   - R. G. Dutta
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Information Forensics and Security (T.IFS)
   date: '2017-01-01'
   doi: 10.1109/tifs.2017.2707327
@@ -2151,7 +2151,7 @@
   - Y. Liu
   - Y. Jin
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Very Large Scale Integration (T.VLSI)
   date: '2017-01-01'
   doi: 10.1109/tvlsi.2016.2633348
@@ -2173,7 +2173,7 @@
   - A. Antonopoulos
   - A. Abotabl
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
     (ICCAD)
   date: '2017-01-01'
@@ -2194,7 +2194,7 @@
   - C. Xanthopoulos
   - P. Sarson
   - H Reiter
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2017-01-01'
   doi: 10.1109/test.2017.8242040
@@ -2214,7 +2214,7 @@
   authors:
   - G. Rajavendra Reddy
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2017-01-01'
@@ -2239,7 +2239,7 @@
   - S. Boddikurapati
   - A. Nahar
   - B. Orr
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
     (ISCAS)
   date: '2017-01-01'
@@ -2257,7 +2257,7 @@
   authors:
   - A. Antonopoulos
   - C. Kapatsori
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE European Test Symposium (ETS)
   date: '2017-01-01'
   doi: 10.1109/ets.2017.7968235
@@ -2277,7 +2277,7 @@
   - M. Yasin
   - A. Sengupta
   - B. Carrion Schaefer
-  - '**Y. Makris**'
+  - Y. Makris
   - O. Sinanoglu
   - J. Rajendran
   publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
@@ -2298,7 +2298,7 @@
   - A. Antonopoulos
   - A. Abotabl
   - A. Nosratinia
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Hardware Oriented
     Security and Trust (HOST)
   date: '2017-01-01'
@@ -2321,7 +2321,7 @@
   - G. Volanis
   - K. Subramani
   - A. Antonopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2017-01-01'
   doi: 10.1109/vts.2017.7928952
@@ -2339,7 +2339,7 @@
   title: Hardware-based On-line Intrusion Detection via System Call Routine Fingerprinting
   authors:
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2017-01-01'
@@ -2360,7 +2360,7 @@
   authors:
   - M. Bidmeshki
   - A. Antonopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2017-01-01'
@@ -2383,7 +2383,7 @@
   - G. Rajavendra Reddy
   - J. Wang
   - W. Swartz Jr.
-  - '**Y. Makris**'
+  - Y. Makris
   - C. Sechen
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
@@ -2404,7 +2404,7 @@
   authors:
   - A. Antonopoulos
   - C. Kapatsori
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: 'In S. Bhunia and M. Tehranipoor (Editors), The Hardware Trojan War:
     Attacks, Myths, and Defenses, Springer'
   date: '2017-01-01'
@@ -2423,7 +2423,7 @@
   - G. Volanis
   - A. Antonopoulos
   - A. Hatzopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Design & Test of Computers (D&T)
   date: '2016-01-01'
   doi: 10.1109/mdat.2016.2545159
@@ -2441,7 +2441,7 @@
   title: Hardware-based Workload Forensics and Malware Detection in Microprocessors
   authors:
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceeding of the iEEE International Workshop on Microprocessor/SoC Test
     and Verification (MTV)
   date: '2016-01-01'
@@ -2464,7 +2464,7 @@
   - A. Nahar
   - B. Orr
   - M. Pas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided
     Design (ICCAD)
   date: '2016-01-01'
@@ -2487,7 +2487,7 @@
   - A. Nahar
   - B. Orr
   - M. Pas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2016-01-01'
   doi: 10.1109/test.2016.7805835
@@ -2509,7 +2509,7 @@
   - G. Rajavendra Reddy
   - L. Zhou
   - J. Rajendran
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2016-01-01'
   doi: 10.1109/iccd.2016.7753274
@@ -2529,7 +2529,7 @@
   authors:
   - A. Ahmadi
   - C. Xanthopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2016-01-01'
@@ -2551,7 +2551,7 @@
   - T. Cao
   - K. Liao
   - G. Yeap
-  - '**Y. Makris**'
+  - Y. Makris
   - K. K. O
   publisher: Proceedings of the IEEE Symposium on VLSI Circuits (VLSI-Circuits)
   date: '2016-01-01'
@@ -2574,7 +2574,7 @@
   - B. Orr
   - M. Pas
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
     (ISCAS)
   date: '2016-01-01'
@@ -2593,7 +2593,7 @@
   title: 'Hardware-Based Workload Forensics: Process Reconstruction via TLB Monitoring'
   authors:
   - L. Zhou
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust
     (HOST), pp. 167-172
   date: '2016-01-01'
@@ -2617,7 +2617,7 @@
   - B. Orr
   - M. Pas
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2016-01-01'
   award: Best Paper Award Candidate
@@ -2641,7 +2641,7 @@
   - Y. Lu
   - K. Subramani
   - A. Antonopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2016-01-01'
   doi: 10.1109/vts.2016.7477297
@@ -2661,7 +2661,7 @@
   authors:
   - M. Maniatakos
   - M. Michael
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Very Large Scale of Integration Systems (T.VLSI)
   date: '2015-01-01'
   doi: 10.1109/tvlsi.2014.2365032
@@ -2681,7 +2681,7 @@
   - M. Maniatakos
   - M. Michael
   - C. Tirumurti
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computers (TCOMP)
   date: '2015-01-01'
   doi: 10.1109/tc.2014.2375232
@@ -2700,7 +2700,7 @@
     A Pathway to Trusted and Robust Analog/RF ICs'
   authors:
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Neural Networks and Learning Systems (T.NNLS)
   date: '2015-01-01'
   doi: 10.1109/tnnls.2014.2354406
@@ -2720,7 +2720,7 @@
   - K. Huang
   - N. Korolja
   - J. M. Carulli Jr.
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
   date: '2015-01-01'
@@ -2743,7 +2743,7 @@
   - N. Kupp
   - C. Xanthopoulos
   - J. M. Carulli Jr.
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Special Issue on Speeding up Analog Integration and Test for Mixed-signal
     SOCs of the IEEE Design & Test of Computers (D&T)
   date: '2015-01-01'
@@ -2767,7 +2767,7 @@
   - A. Nahar
   - B. Orr
   - M. Pas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE/ACM International Conference on Computer-Aided
     Design (ICCAD)
   date: '2015-01-01'
@@ -2791,7 +2791,7 @@
   - H. Huang
   - N. Kupp
   - K. Huang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2015-01-01'
   doi: 10.1109/test.2015.7342415
@@ -2811,7 +2811,7 @@
   - Y. Liu
   - G. Volanis
   - K. Huang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2015-01-01'
   doi: 10.1109/test.2015.7342386
@@ -2830,7 +2830,7 @@
   authors:
   - M. Zaman
   - A. Ahmadi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2015-01-01'
@@ -2849,7 +2849,7 @@
   - K. Subramani
   - H. Huang
   - N. Kupp
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the International Symposium on VLSI (ISVLSI)
   date: '2015-01-01'
   doi: 10.1109/isvlsi.2015.50
@@ -2869,7 +2869,7 @@
   authors:
   - M. Zaman
   - A. Ahmadi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the International On-Line Test Symposium (IOLTS)
   date: '2015-01-01'
   doi: 10.1109/iolts.2015.7229843
@@ -2888,7 +2888,7 @@
     Hardware IP
   authors:
   - M. Bidmeshki
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust
     (HOST)
   date: '2015-01-01'
@@ -2907,7 +2907,7 @@
   title: 'VeriCoq: a Verilog-to-Coq Converter for Proof-Carrying Hardware Automation'
   authors:
   - M. Bidmeshki
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
     (ISCAS)
   date: '2015-01-01'
@@ -2931,7 +2931,7 @@
   - B. Orr
   - M. Pas
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2015-01-01'
   award: Best Paper Award
@@ -2952,7 +2952,7 @@
   authors:
   - Y. Jin
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In C. H. Chang, M. Potkonjak (Editors), Secure System Design and Trustable
     Computing, Springer
   date: '2015-01-01'
@@ -2970,7 +2970,7 @@
   authors:
   - D. Maliuk
   - H. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In T. Noulis, M. Soma (Editors), Mixed-Signal Circuits, CRC Press
   date: '2015-01-01'
   buttons:
@@ -2991,7 +2991,7 @@
   - D. DiMase
   - J. M. Carulli Jr.
   - M. Tehranipoor
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE (P.IEEE)
   date: '2014-01-01'
   doi: 10.1109/jproc.2014.2332291
@@ -3013,7 +3013,7 @@
   - K. Huang
   - S. Natarajan
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2014-01-01'
   doi: 10.1109/test.2014.7035325
@@ -3036,7 +3036,7 @@
   - A. Nahar
   - B. Orr
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2014-01-01'
   doi: 10.1109/test.2014.7035329
@@ -3055,7 +3055,7 @@
     ICs'
   authors:
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of IEEE Midwest Symposium on Circuits and Systems (MWSCAS)
   date: '2014-01-01'
   doi: 10.1109/mwscas.2014.6908605
@@ -3075,7 +3075,7 @@
   authors:
   - Y. Liu
   - K. Huang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ACM/IEEE Design Automation Conference (DAC)
   date: '2014-01-01'
   doi: 10.1145/2593069.2593147
@@ -3093,7 +3093,7 @@
   title: An Analog Non-Volatile Neural Network Platform for Prototyping RF BIST Solutions
   authors:
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2014-01-01'
@@ -3114,7 +3114,7 @@
   - N. Karimi
   - M. Maniatakos
   - C. Tirumurti
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA), Springer'
   date: '2013-01-01'
   doi: 10.1007/s10836-013-5360-5
@@ -3134,7 +3134,7 @@
   - M. Maniatakos
   - P. Kudva
   - B. Fleischer
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computers (TCOMP)
   date: '2013-01-01'
   doi: 10.1109/tc.2012.81
@@ -3152,7 +3152,7 @@
   title: A Proof-Carrying Based Framework for Trusted Microprocessor IP
   authors:
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ACM/IEEE Design Automation Conference (ICCAD)
   date: '2013-01-01'
   doi: 10.1109/iccad.2013.6691208
@@ -3172,7 +3172,7 @@
   authors:
   - Y. Liu
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ACM/IEEE International Conference on Computer-Aided
     Design (ICCAD)
   date: '2013-01-01'
@@ -3193,7 +3193,7 @@
   - K. Huang
   - N. Kupp
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2013-01-01'
   doi: 10.1109/test.2013.6651901
@@ -3213,7 +3213,7 @@
   authors:
   - K. Huang
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2013-01-01'
   doi: 10.1109/test.2013.6651880
@@ -3232,7 +3232,7 @@
   authors:
   - Y. Jin
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE On-Line Test Symposium (IOLTS)
   date: '2013-01-01'
   doi: 10.1109/iolts.2013.6604083
@@ -3252,7 +3252,7 @@
   authors:
   - M. Maniatakos
   - M. Michael
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE On-Line Test Symposium (IOLTS)
   date: '2013-01-01'
   buttons:
@@ -3269,7 +3269,7 @@
   authors:
   - Y. Jin
   - B. Yang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Hardware Oriented
     Security and Trust (HOST)
   date: '2013-01-01'
@@ -3293,7 +3293,7 @@
   - R. Karri
   - Y. Jin
   - K. Huang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE European Test Symposium (ETS)
   date: '2013-01-01'
   doi: 10.1109/ets.2013.6569368
@@ -3314,7 +3314,7 @@
   - K. Huang
   - N. Kupp
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE European Test Symposium (ETS)
   date: '2013-01-01'
   doi: 10.1109/ets.2013.6569358
@@ -3335,7 +3335,7 @@
   - K. Huang
   - N. Kupp
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2013-01-01'
@@ -3357,7 +3357,7 @@
   authors:
   - M. Maniatakos
   - M. Michael
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2013-01-01'
@@ -3376,7 +3376,7 @@
   title: Analog Implementation of Ontogenic Neural Networks for RF Built-In Self-Test
   authors:
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Presented at the IEEE Test and Validation of High-Speed Analog Circuits
   date: '2013-01-01'
   buttons:
@@ -3393,7 +3393,7 @@
   authors:
   - M. Maniatakos
   - C. Tirumurti
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computers (TCOMP)
   date: '2012-01-01'
   doi: 10.1109/tc.2011.172
@@ -3411,7 +3411,7 @@
   title: Applying the Model-View-Controller Paradigm to Adaptive Test
   authors:
   - N. Kupp
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Special Issue on Yield Learning of the IEEE Design and Test of Computers
     (D&T)
   date: '2012-01-01'
@@ -3432,7 +3432,7 @@
   authors:
   - E. Love
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Special Issue on Integrated Circuits and System Security of the IEEE
     Transactions on Information Forensics and Security (TIFS)
   date: '2012-01-01'
@@ -3452,7 +3452,7 @@
     Approach'
   authors:
   - N. Kupp
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2012-01-01'
   doi: 10.1109/test.2012.6401531
@@ -3473,7 +3473,7 @@
   - N. Kupp
   - K. Huang
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2012-01-01'
   doi: 10.1109/test.2012.6401545
@@ -3493,7 +3493,7 @@
   authors:
   - M. Maniatakos
   - M. Michael
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2012-01-01'
   doi: 10.1109/test.2012.6401594
@@ -3513,7 +3513,7 @@
   - N. Kupp
   - K. Huang
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
     (ICCAD)
   date: '2012-01-01'
@@ -3533,7 +3533,7 @@
   authors:
   - K. Huang
   - J. Carulli
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Defect and Fault Tolerance Symposium (DFTS)
   date: '2012-01-01'
   doi: 10.1109/dft.2012.6378191
@@ -3552,7 +3552,7 @@
   authors:
   - Y. Jin
   - M. Maniatakos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2012-01-01'
   doi: 10.1109/iccd.2012.6378629
@@ -3571,7 +3571,7 @@
     Platform
   authors:
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Circuits and Systems
     (ISCAS)
   date: '2012-01-01'
@@ -3588,7 +3588,7 @@
     and Hardware Trust
   authors:
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2012-01-01'
   doi: 10.1109/vts.2012.6231062
@@ -3608,7 +3608,7 @@
   authors:
   - D. Maliuk
   - N. Kupp
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: ''
   date: '2012-01-01'
   doi: 10.1109/vts.2012.6231081
@@ -3627,7 +3627,7 @@
   authors:
   - Y. Jin
   - D. Maliuk
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2012-01-01'
@@ -3646,7 +3646,7 @@
   title: Checkers for On-line Self-Testing of Analog Circuits
   authors:
   - H. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In K. Iniewski (Editor), Advanced Circuits for Emerging Technologies,
     John Wiley & Sons
   date: '2012-01-01'
@@ -3665,7 +3665,7 @@
   - N. Kupp
   - H. Huang
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Design and Test of Computers (D&T)
   date: '2011-01-01'
   doi: 10.1109/mdt.2010.119
@@ -3687,7 +3687,7 @@
   - M. Maniatakos
   - C. Tirumurti
   - A. Jas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent
     On-Line Testing and Error/Fault Resilience of Digital Systems
   date: '2011-01-01'
@@ -3707,7 +3707,7 @@
   - N. Karimi
   - C. Tirumurti
   - A. Jas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Special issue of IEEE Transactions on Computers (TCOMP) on Concurrent
     On-Line Testing and Error/Fault Resilience of Digital Systems
   date: '2011-01-01'
@@ -3726,7 +3726,7 @@
   title: 'PSCML: Pseudo-Static Current Mode Logic'
   authors:
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Electronics, Circuits
     and Systems (ICECS)
   date: '2011-01-01'
@@ -3747,7 +3747,7 @@
   - N. Kupp
   - H.-G. Stratigopoulos
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
     (ICCAD)
   date: '2011-01-01'
@@ -3763,7 +3763,7 @@
   title: Is Single-Scheme Trojan Prevention Sufficient?
   authors:
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2011-01-01'
   doi: 10.1109/iccd.2011.6081415
@@ -3783,7 +3783,7 @@
   - N. Kupp
   - H. Stratigopoulos
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2011-01-01'
@@ -3802,7 +3802,7 @@
   authors:
   - E. Love
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Symposium on Hardware-Oriented Security and Trust
     (HOST)
   date: '2011-01-01'
@@ -3823,7 +3823,7 @@
   - M. Maniatakos
   - C. Tirumurti
   - A. Jas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE European Test Symposium (ETS)
   date: '2011-01-01'
   buttons:
@@ -3840,7 +3840,7 @@
   - N. Kupp
   - H. Stratigopoulos
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Mixed Signals, Sensors, and Systems
     Workshop (IMS3TW)
   date: '2011-01-01'
@@ -3864,7 +3864,7 @@
   - M. Maniatakos
   - P. Kudva
   - B. Fleischer
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2011-01-01'
   doi: 10.1109/vts.2011.5783727
@@ -3883,7 +3883,7 @@
   authors:
   - N. Kupp
   - M. Slamani
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2011-01-01'
@@ -3900,7 +3900,7 @@
   authors:
   - Y. Jin
   - E. Love
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: In M. Tehranipoor, C. Wang (Editors), Introduction to Hardware Security
     and Trust, Springer
   date: '2011-01-01'
@@ -3917,7 +3917,7 @@
   title: Hardware Trojans in Wireless Cryptographic Integrated Circuits
   authors:
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Special issue of IEEE Design & Test of Computers (D&T) on Verifying Physical
     Trustworthiness of Integrated Circuits and Systems
   date: '2010-01-01'
@@ -3935,7 +3935,7 @@
   - H-G. Stratigopoulos
   - P. Drineas
   - M. Slamani
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Very Large Scale Integration (T.VLSI)
   date: '2010-01-01'
   doi: 10.1109/tvlsi.2009.2017196
@@ -3954,7 +3954,7 @@
   authors:
   - Y. Jin
   - N. Kupp
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Electronics Circuits
     and Systems (ICECS)
   date: '2010-01-01'
@@ -3975,7 +3975,7 @@
   - D. Maliuk
   - H. Stratigopoulos
   - H. Huang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2010-01-01'
   doi: 10.1109/test.2010.5699272
@@ -3995,7 +3995,7 @@
   - N. Kupp
   - H. Huang
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2010-01-01'
   doi: 10.1109/test.2010.5699225
@@ -4015,7 +4015,7 @@
   authors:
   - D. Maliuk
   - H. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International On-Line Test Symposium (IOLTS)
   date: '2010-01-01'
   buttons:
@@ -4030,7 +4030,7 @@
   title: Workload-Driven Selective Hardening of Control State Elements in Modern Microprocessors
   authors:
   - M. Maniatakos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2010-01-01'
   doi: 10.1109/vts.2010.5469589
@@ -4051,7 +4051,7 @@
   - N. Kupp
   - P. Drineas
   - M. Slamani
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Journal of Electronic Testing Theory and Applications (JETTA)
   date: '2009-01-01'
   doi: 10.1007/s10836-009-5113-7
@@ -4071,7 +4071,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Kuwait Journal of Science and Engineering (KJSE)
   date: '2009-01-01'
   buttons:
@@ -4088,7 +4088,7 @@
   - S. Almukhaizim
   - F. Shi
   - E. Love
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Very Large Scale Integration (T.VLSI)
   date: '2009-01-01'
   doi: 10.1109/tvlsi.2009.2014381
@@ -4107,7 +4107,7 @@
     Circuits
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computers (T.COMP)
   date: '2009-01-01'
   doi: 10.1109/tc.2008.141
@@ -4128,7 +4128,7 @@
   - M. Maniatakos
   - C. Tirumurti
   - A. Jas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2009-01-01'
   doi: 10.1109/iccd.2009.5413171
@@ -4147,7 +4147,7 @@
   authors:
   - N. Kupp
   - H. Huang
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the SRC Technology and Talent for the 21st Century Conference
     (TECHCON)
   date: '2009-01-01'
@@ -4164,7 +4164,7 @@
   authors:
   - Y. Jin
   - N. Kupp
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security
     and Trust (HOST)
   date: '2009-01-01'
@@ -4187,7 +4187,7 @@
   - N. Karimi
   - C. Tirumurti
   - A. Jas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2009-01-01'
   doi: 10.1109/vts.2009.32
@@ -4206,7 +4206,7 @@
   authors:
   - H-G. Stratigopoulos
   - S. Mir
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2009-01-01'
@@ -4225,7 +4225,7 @@
   title: Error Moderation in Low-Cost Machine Learning-Based Analog/RF Testing
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
   date: '2008-01-01'
@@ -4245,7 +4245,7 @@
     Functional Redundancy
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Reliability (T. REL)
   date: '2008-01-01'
   buttons:
@@ -4263,7 +4263,7 @@
   - N. Karimi
   - M. Maniatakos
   - A. Jas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2008-01-01'
   doi: 10.1109/test.2008.4700613
@@ -4283,7 +4283,7 @@
   authors:
   - M. Maniatakos
   - N. Karimi
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Jas
   - C. Tirumurti
   publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
@@ -4305,7 +4305,7 @@
     using SPFD
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   - Y.-S. Yang
   - A. Veneris
   publisher: Proceedings of the IEEE International On-Line Testing Symposium (IOLTS)
@@ -4325,7 +4325,7 @@
   title: Hardware Trojan Detection using Path Delay Fingerprint
   authors:
   - Y. Jin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Workshop on Hardware Oriented Security
     and Trust (HOST)
   date: '2008-01-01'
@@ -4347,7 +4347,7 @@
   - N. Kupp
   - P. Drineas
   - M. Slamani
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE European Test Symposium (ETS)
   date: '2008-01-01'
   doi: 10.1109/ets.2008.31
@@ -4368,7 +4368,7 @@
   - H-G. Stratigopoulos
   - E. Stern
   - M. Reed
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2008-01-01'
   doi: 10.1109/vts.2008.19
@@ -4387,7 +4387,7 @@
   authors:
   - S. Almukhaizim
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits
     and Systems (ASYNC)
   date: '2008-01-01'
@@ -4406,7 +4406,7 @@
   title: Concurrent Error Detection Methods for Asynchronous Burst Mode Machines
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computers (T. COMP)
   date: '2007-01-01'
   doi: 10.1109/tc.2007.1025
@@ -4424,7 +4424,7 @@
   title: On the Identification of Modular Test Requirements for Low-Cost Hierarchical
     Test Path Construction
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: 'Integration: The VLSI Journal (JVLSI)'
   date: '2007-01-01'
@@ -4445,7 +4445,7 @@
   - H-G. D. Stratigopoulos
   - P. Drineas
   - M. Slamani
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2007-01-01'
   doi: 10.1109/vts.2007.41
@@ -4462,7 +4462,7 @@
 - type: book-chapter
   title: Circuit-Level Approaches to Soft Error Mitigation
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - section 8.4
   publisher: In L. T. Wang, C. E. Stroud, and N. A. Touba (Editors), System on-Chip
     Test Architectures, Morgan-Kaufman Publishers
@@ -4480,7 +4480,7 @@
   title: An Adaptive Checker for the Fully Differential Analog Code
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Journal of Solid-State Circuits (JSSC)
   date: '2006-01-01'
   doi: 10.1109/jssc.2006.874272
@@ -4499,7 +4499,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
   date: '2006-01-01'
@@ -4515,7 +4515,7 @@
   title: Concurrent Error Detection in Linear Analog Circuits
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
   date: '2006-01-01'
@@ -4531,7 +4531,7 @@
   title: Testing Delay Faults in Asynchronous Handshake Circuits
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
     (ICCAD)
   date: '2006-01-01'
@@ -4550,7 +4550,7 @@
   title: Seamless Integration of SER in Rewiring-Based Design Space Exploration
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   - Y.-S. Yang
   - A. Veneris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
@@ -4571,7 +4571,7 @@
     Testing
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2006-01-01'
   doi: 10.1109/vts.2006.24
@@ -4589,7 +4589,7 @@
   title: A Transistor-Level Test Strategy for C2MOS MOUSETRAP Asynchronous Pipelines
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits
     and Systems (ASYNC)
   date: '2006-01-01'
@@ -4611,7 +4611,7 @@
   - A. Agiwal
   - M. Singh
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Asynchronous Circuits
     and Systems (ASYNC)
   date: '2006-01-01'
@@ -4630,7 +4630,7 @@
   title: Berger-Code-Based Concurrent Error Detection in Asynchronous Burst-Mode Machines
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2006-01-01'
@@ -4649,7 +4649,7 @@
   title: Non-Linear Decision Boundaries for Testing Analog Circuits
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
     Systems (T. CAD)
   date: '2005-01-01'
@@ -4669,7 +4669,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Microelectronics Journal (MJ)
   date: '2005-01-01'
   doi: 10.1016/j.mejo.2005.03.009
@@ -4687,7 +4687,7 @@
   title: Test Generation for Ultra-High-Speed Asynchronous Pipelines
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   - S. M. Nowick
   - M. Singh
   publisher: Proceedings of the IEEE International Test Conference (ITC)
@@ -4707,7 +4707,7 @@
   title: Constructive Derivation of Analog Specification Test Criteria
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2005-01-01'
   doi: 10.1109/vts.2005.36
@@ -4725,7 +4725,7 @@
   title: Generating Decision Regions in Analog Measurement Spaces
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
   date: '2005-01-01'
   doi: 10.1145/1057661.1057684
@@ -4743,7 +4743,7 @@
   title: Concurrent Error Detection in Asynchronous Burst-Mode Controllers
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2005-01-01'
@@ -4759,7 +4759,7 @@
   title: 'SPIN-PAC: Test Compaction for Speed-Independent Circuits'
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Asian South Pacific Design Automation Conference
     (ASP-DAC)
   date: '2005-01-01'
@@ -4778,7 +4778,7 @@
   title: An Analog Checker with Input-Relative Tolerance for Duplicate Signals
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA)'
   date: '2004-01-01'
   buttons:
@@ -4793,7 +4793,7 @@
   title: Enhancing Reliability of RTL Controller-Datapath Circuits via Invariant-Based
     Concurrent Test
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - I. Bayraktaroglu
   - A. Orailoglu
   publisher: IEEE Transactions on Reliability (T. REL)
@@ -4813,7 +4813,7 @@
   title: 'SPIN-TEST: Automatic Test Pattern Generation for Speed-Independent Circuits'
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer-Aided Design
     (ICCAD)
   date: '2004-01-01'
@@ -4832,7 +4832,7 @@
   title: 'SPIN-SIM: Logic and Fault Simulation for Speed-Independent Circuits'
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2004-01-01'
   buttons:
@@ -4849,7 +4849,7 @@
   - F. Shi
   - S. Almukhaizim
   - P. C. Lin
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2004-01-01'
   doi: 10.1109/iccd.2004.1347963
@@ -4867,7 +4867,7 @@
   title: Fault Simulation and Random Test Generation for Speed Independent Circuits
   authors:
   - F. Shi
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the ACM Great Lakes Symposium on VLSI (GLSVLSI)
   date: '2004-01-01'
   doi: 10.1145/988952.988984
@@ -4886,7 +4886,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2004-01-01'
   doi: 10.1109/vtest.2004.1299259
@@ -4906,7 +4906,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Quality Electronic
     Design (ISQED)
   date: '2004-01-01'
@@ -4926,7 +4926,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2004-01-01'
@@ -4946,7 +4946,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Presented at the IEEE North Atlantic Test Workshop
   date: '2004-01-01'
   buttons:
@@ -4961,7 +4961,7 @@
   title: 'SPaRe: Selective Partial Replication for Concurrent Fault Detection in FSMs'
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: IEEE Transactions on Instrumentation and Measurement (T. I &M)
   date: '2003-01-01'
   buttons:
@@ -4976,7 +4976,7 @@
   title: Low-Cost Convolutional Code Based Concurrent Error Detection in FSMs
   authors:
   - K. Rokas
-  - '**Y. Makris**'
+  - Y. Makris
   - D. Gizopoulos
   publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
     in VLSI Systems (DFTS)
@@ -4997,7 +4997,7 @@
     Check Code
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
     in VLSI Systems (DFTS)
   date: '2003-01-01'
@@ -5018,7 +5018,7 @@
   authors:
   - S. Almukhaizim
   - T. Verdel
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2003-01-01'
   doi: 10.1109/iccd.2003.1240894
@@ -5036,7 +5036,7 @@
   title: Independent Test Sequence Compaction through Integer Programming
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on Computer Design (ICCD)
   date: '2003-01-01'
   doi: 10.1109/iccd.2003.1240924
@@ -5054,7 +5054,7 @@
   title: Concurrent Error Detection in Linear Analog Circuits Using State Estimation
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '2003-01-01'
   doi: 10.1109/test.2003.1271105
@@ -5072,7 +5072,7 @@
   title: An Analog Checker with Input-Relative Tolerance for Duplicate Signals
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE On-Line Testing Symposium (IOLTS)
   date: '2003-01-01'
   doi: 10.1109/olt.2003.1214367
@@ -5091,7 +5091,7 @@
   authors:
   - S. Almukhaizim
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE On-Line Testing Symposium (IOLTS)
   date: '2003-01-01'
   doi: 10.1109/olt.2003.1214383
@@ -5110,7 +5110,7 @@
     Circuits
   authors:
   - H-G. D. Stratigopoulos
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
   date: '2003-01-01'
   doi: 10.1109/vtest.2003.1197653
@@ -5128,7 +5128,7 @@
   title: Concurrent Fault Detection in Random Combinational Logic
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Quality Electronic
     Design (ISQED)
   date: '2003-01-01'
@@ -5148,7 +5148,7 @@
     and Monitoring via Parity Trees
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
   date: '2003-01-01'
@@ -5167,7 +5167,7 @@
   title: 'SPaRe: Selective Partial Replication for Concurrent Fault Detection in FSMs'
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Conference on VLSI Design (VLSI)
   date: '2003-01-01'
   doi: 10.1109/icvd.2003.1183132
@@ -5185,7 +5185,7 @@
   title: Fault Tolerant Design of Random Logic based on a Parity Check Code
   authors:
   - S. Almukhaizim
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Presented at the IEEE European Test Workshop
   date: '2003-01-01'
   buttons:
@@ -5200,7 +5200,7 @@
   title: On the Compaction of Independent Test Sequences for Sequential Circuits
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Presented at the IEEE European Test Workshop, Maastricht
   date: '2003-01-01'
   buttons:
@@ -5215,7 +5215,7 @@
   title: Fast Hierarchical Test Path Construction for Circuits with DFT-Free Controller-Datapath
     Interface
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Collins
   - A. Orailoglu
   publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA)'
@@ -5235,7 +5235,7 @@
   title: Non-Intrusive Design of Concurrently Self-Testable FSMs
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE Asian Test Symposium (ATS)
   date: '2002-01-01'
   doi: 10.1109/ats.2002.1181681
@@ -5252,7 +5252,7 @@
 - type: conference
   title: Test Requirement Analysis for Low Cost Hierarchical Test Path Construction
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Proceedings of the IEEE Asian Test Symposium (ATS)
   date: '2002-01-01'
@@ -5272,7 +5272,7 @@
     and Remedies'
   authors:
   - T. Verdel
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
     in VLSI Systems (DFTS)
   date: '2002-01-01'
@@ -5290,7 +5290,7 @@
 - type: workshop
   title: Reducing Hierarchical Test Path Cost via Modular Test Requirement Analysis
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Presented at the IEEE European Test Workshop
   date: '2002-01-01'
@@ -5306,7 +5306,7 @@
   title: Non-Intrusive Design of Concurrently Self-Testable FSMs
   authors:
   - P. Drineas
-  - '**Y. Makris**'
+  - Y. Makris
   publisher: Presented at the IEEE North Atlantic Test Workshop
   date: '2002-01-01'
   buttons:
@@ -5320,7 +5320,7 @@
 - type: conference
   title: Efficient Transparency Extraction and Utilization in Hierarchical Test
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - V. Patel
   - A. Orailoglu
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
@@ -5339,7 +5339,7 @@
 - type: workshop
   title: Test Requirement Analysis for Low Cost Hierarchical Test Path Construction
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Presented at the IEEE International Workshop of RTL Test Generation
   date: '2001-01-01'
@@ -5355,7 +5355,7 @@
   title: Fast Hierarchical Test Path Construction for Controller-Datapath Circuits
     without DFT
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Collins
   - A. Orailoglu
   publisher: Proceedings of the IEEE Asian Test Symposium (ATS)
@@ -5371,7 +5371,7 @@
 - type: conference
   title: How to Avoid Random Walks in Hierarchical Test Path Identification
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Collins
   - A. Orailoglu
   publisher: Formal Proceedings of the IEEE European Test Workshop (ETW)
@@ -5391,7 +5391,7 @@
   title: Modular Test Generation and Concurrent Transparency-Based Test Translation
     Using Gate-Level ATPG
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   - P. Vishakantaiah
   publisher: Proceedings of the IEEE Custom Integrated Circuits Conference (CICC)
@@ -5410,7 +5410,7 @@
 - type: conference
   title: Transparency-Based Hierarchical Test Generation for Modular RTL Designs
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Collins
   - A. Orailoglu
   - P. Vishakantaiah
@@ -5431,7 +5431,7 @@
 - type: conference
   title: Invariance-Based On-Line Test for RTL Controller-Datapath Circuits
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - I. Bayraktaroglu
   - A. Orailoglu
   publisher: Proceedings of the IEEE VLSI Test Symposium (VTS)
@@ -5450,7 +5450,7 @@
 - type: workshop
   title: How to Avoid Random Walks in Hierarchical Test Path Identification
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Collins
   - A. Orailoglu
   publisher: Presented at the IEEE European Test Workshop
@@ -5467,7 +5467,7 @@
   title: Exploiting Off-Line Hierarchical Test Paths in Module Diagnosis and On-Line
     Test
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Presented at the IEEE Latin American Test Workshop
   date: '2000-01-01'
@@ -5482,7 +5482,7 @@
 - type: journal
   title: RTL Test Justification and Propagation Analysis for Modular Designs
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: 'Journal of Electronic Testing: Theory & Applications (JETTA)'
   date: '1999-01-01'
@@ -5501,7 +5501,7 @@
   title: A Module Diagnosis and Design-for-Debug Methodology based on Hierarchical
     Test Paths
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Proceedings of the IEEE International Symposium on Defect and Fault Tolerance
     in VLSI Systems (DFTS)
@@ -5520,7 +5520,7 @@
 - type: conference
   title: Property-Based Testability Analysis for Hierarchical RTL Designs
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Proceedings of the IEEE International Conference on Electronics Circuits
     and Systems (ICECS)
@@ -5540,7 +5540,7 @@
   title: 'TRANSPARENT: A System for RTL Testability Analysis, DFT Guidance and Hierarchical
     Test Generation'
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - J. Collins
   - A. Orailoglu
   - P. Vishakantaiah
@@ -5560,7 +5560,7 @@
 - type: conference
   title: Channel-Based Behavioral Test Synthesis for Improved Module Reachability
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Proceedings of the IEEE Design Automation and Test in Europe Conference
     (DATE)
@@ -5579,7 +5579,7 @@
 - type: conference
   title: DFT Guidance Through RTL Test Justification and Propagation Analysis
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Proceedings of the IEEE International Test Conference (ITC)
   date: '1998-01-01'
@@ -5597,7 +5597,7 @@
 - type: workshop
   title: Property-Based RTL Test Justification and Propagation Analysis
   authors:
-  - '**Y. Makris**'
+  - Y. Makris
   - A. Orailoglu
   publisher: Presented at the IEEE International Test Synthesis Workshop
   date: '1998-01-01'
