@@ -1,20 +1,63 @@
-# Research sponsors, shown as a strip on the home and research pages.
-- NSF
-- NIH
-- SRC
-- DARPA
-- ARO
-- AFRL
-- AFWERX
-- DoE / Honeywell
-- Boeing
-- Northrop Grumman
-- KBR / Wyle
-- IBM
-- Intel
-- Texas Instruments
-- Qualcomm
-- Advantest
-- NXP
-- LSI
-- AMS
+# Research sponsors, shown as a logo strip on the home and research pages.
+# name: shown on hover; url: opened on click; logo: file in images/sponsors
+# (an entry without a logo falls back to a text pill).
+- name: National Science Foundation (NSF)
+  url: https://www.nsf.gov
+  logo: images/sponsors/nsf.svg
+- name: National Institutes of Health (NIH)
+  url: https://www.nih.gov
+  logo: images/sponsors/nih.svg
+- name: Semiconductor Research Corporation (SRC)
+  url: https://www.src.org
+  logo: images/sponsors/src.png
+- name: Defense Advanced Research Projects Agency (DARPA)
+  url: https://www.darpa.mil
+  logo: images/sponsors/darpa.png
+- name: Army Research Office (ARO)
+  url: https://arl.devcom.army.mil/who-we-are/aro/
+  logo: images/sponsors/aro.png
+- name: Air Force Research Laboratory (AFRL)
+  url: https://www.afrl.af.mil
+  logo: images/sponsors/afrl.svg
+- name: AFWERX
+  url: https://afwerx.com
+  logo: images/sponsors/afwerx.jpg
+- name: U.S. Department of Energy (DoE)
+  url: https://www.energy.gov
+  logo: images/sponsors/doe.svg
+- name: Honeywell
+  url: https://www.honeywell.com
+  logo: images/sponsors/honeywell.svg
+- name: Boeing
+  url: https://www.boeing.com
+  logo: images/sponsors/boeing.svg
+- name: Northrop Grumman
+  url: https://www.northropgrumman.com
+  logo: images/sponsors/northrop-grumman.svg
+- name: KBR (formerly Wyle)
+  url: https://www.kbr.com
+  logo: images/sponsors/kbr.svg
+- name: IBM
+  url: https://www.ibm.com
+  logo: images/sponsors/ibm.svg
+- name: Intel
+  url: https://www.intel.com
+  logo: images/sponsors/intel.svg
+- name: Texas Instruments
+  url: https://www.ti.com
+  logo: images/sponsors/texas-instruments.svg
+- name: Qualcomm
+  url: https://www.qualcomm.com
+  logo: images/sponsors/qualcomm.svg
+- name: Advantest
+  url: https://www.advantest.com
+  logo: images/sponsors/advantest.svg
+- name: NXP Semiconductors
+  url: https://www.nxp.com
+  logo: images/sponsors/nxp.svg
+- name: LSI Corporation (now part of Broadcom)
+  url: https://www.broadcom.com
+  logo: images/sponsors/lsi.svg
+- name: ams (now ams OSRAM)
+  url: https://ams-osram.com
+  logo: images/sponsors/ams.svg
