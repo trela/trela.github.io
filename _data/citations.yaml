@@ -45,6 +45,48 @@
   plugin: sources.py
   file: sources-synced.yaml
 - type: journal
+  title: Pulse-Shaping Hardware Trojan in Wireless Communication
+  authors:
+  - S. R. Dhole
+  - M. Farahnak-Ghazani
+  - Y. Makris
+  - A. Nosratinia
+  publisher: IEEE Transactions on Wireless Communications
+  date: '2026-01-01'
+  link: https://doi.org/10.1109/twc.2026.3743428
+  doi: 10.1109/twc.2026.3743428
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1109/twc.2026.3743428
+  tags:
+  - journal
+  sync:
+  - openalex
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: conference
+  title: 'STAMP: Semiconductor Tool-chain Attestation through Wafer-Level Machine
+    Learning-based Process Monitoring'
+  authors:
+  - S. S. Tellakula
+  - C. CHANG
+  - M. Nigh
+  - J. P. Carulli
+  - Y. Makris
+  publisher: IEEE Design Automation Conference (DAC)
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3770743.3804428
+  doi: 10.1145/3770743.3804428
+  buttons:
+  - type: doi
+    link: https://doi.org/10.1145/3770743.3804428
+  tags:
+  - conference
+  sync:
+  - openalex
+  plugin: sources.py
+  file: sources-synced.yaml
+- type: journal
   title: Battery safety and security for electric urban air mobility
   authors:
   - J. Ke
