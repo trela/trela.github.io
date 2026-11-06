@@ -48,11 +48,15 @@
       {% if citation.authors.size > 0 %}
         <div
           class="citation-authors"
-          {% if citation.authors.size > 10 %}
+          {% if citation.authors.size > 16 %}
             data-tooltip="{{ citation.authors | join: ", " | remove: "**" | xml_escape }}"
+            tabindex="0"
           {% endif %}
-          tabindex="0"
         >
+          {% if citation.authors.size > 16 %}
+            <span class="sr-only">{{ citation.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            <span aria-hidden="true">
+          {% endif %}
           {{
             citation.authors
             | join: ","
@@ -62,6 +66,9 @@
             | markdownify
             | remove: "<p>" | remove: "</p>"
           }}
+          {% if citation.authors.size > 16 %}
+            </span>
+          {% endif %}
         </div>
       {% endif %}
 
