@@ -1,7 +1,8 @@
-<div class="search-box">
+<div class="search-box" role="search" aria-label="Page search">
   <input
     type="text"
     class="search-input"
+    aria-label="Search items on this page"
     oninput="onSearchInput(this)"
     placeholder="Search items on this page"
   />
@@ -9,7 +10,7 @@
     disabled
     data-tooltip="Clear search"
     aria-label="clear search"
-    onclick="onSearchClear()"
+    onclick="onSearchClear(this)"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>

@@ -38,4 +38,12 @@
   window.addEventListener("load", onLoad);
   // after tags load
   window.addEventListener("tagsfetched", onLoad);
+
+  // Tooltips must be dismissible without moving pointer or keyboard focus.
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    document.querySelectorAll("[data-tooltip]").forEach((element) => {
+      element._tippy?.hide();
+    });
+  });
 }

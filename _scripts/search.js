@@ -129,6 +129,11 @@
   // update info box based on query and results
   const updateInfoBox = (query, x, n) => {
     const boxes = document.querySelectorAll(infoBoxSelector);
+    document.querySelectorAll(".search-status").forEach((status) => {
+      status.textContent = query.trim()
+        ? `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results`
+        : `Showing all ${n.toLocaleString()} results`;
+    });
 
     if (query.trim()) {
       // show all info boxes
@@ -189,21 +194,27 @@
   // return func that runs after delay
   const debounce = (callback, delay = 250) => {
     let timeout;
-    return (...args) => {
+    const debounced = (...args) => {
       window.clearTimeout(timeout);
       timeout = window.setTimeout(() => callback(...args), delay);
     };
+    debounced.cancel = () => window.clearTimeout(timeout);
+    return debounced;
   };
 
   // when user types into search box
   const debouncedRunSearch = debounce(runSearch, 1000);
   window.onSearchInput = (target) => {
+    updateSearchBox(target.value);
     debouncedRunSearch(target.value);
     updateUrl(target.value);
   };
 
   // when user clears search box with button
-  window.onSearchClear = () => {
+  window.onSearchClear = (button) => {
+    debouncedRunSearch.cancel();
+    // Return focus before disabling the clear button with the empty query.
+    button?.closest(searchBoxSelector).querySelector("input").focus();
     runSearch();
     updateUrl();
   };
