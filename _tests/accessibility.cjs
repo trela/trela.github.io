@@ -57,6 +57,10 @@ async function keyboardChecks(browser) {
   await search.fill("no-results-accessibility-check");
   await page.waitForFunction(() => document.querySelector(".search-status").textContent.startsWith("Showing 0 of"));
   assert.equal(await page.locator(".post-excerpt:visible").count(), 0);
+  const firstAnnouncement = await status.textContent();
+  await search.fill("another-no-results-query");
+  await page.waitForFunction(() => document.querySelector(".search-status").textContent.includes("another-no-results-query"));
+  assert.notEqual(await status.textContent(), firstAnnouncement, "Equal result counts must still identify the new query");
   const clear = page.getByRole("button", { name: "clear search", exact: true });
   await clear.focus();
   await page.keyboard.press("Enter");
@@ -72,6 +76,18 @@ async function keyboardChecks(browser) {
   assert.equal(await search.inputValue(), "");
   assert.match(await status.textContent(), /^Showing all \d+ results$/);
 
+  // The second, text-based clear control must also preserve focus and cancel work.
+  await search.fill("no-results-accessibility-check");
+  const clearLink = page.locator(".search-info a");
+  await clearLink.waitFor({ state: "visible" });
+  await search.fill("pending-query");
+  await clearLink.focus();
+  await page.keyboard.press("Enter");
+  await page.waitForTimeout(1200);
+  assert.equal(await search.inputValue(), "");
+  assert.equal(await search.evaluate((el) => el === document.activeElement), true);
+  assert.match(await status.textContent(), /^Showing all \d+ results$/);
+
   const dark = page.getByRole("switch", { name: "Dark mode", exact: true });
   await dark.focus();
   await page.keyboard.press("Space");
@@ -81,12 +97,66 @@ async function keyboardChecks(browser) {
   assert.equal(await dark.isChecked(), true);
   await visit(page, "/404.html");
   assert.equal(await page.getByRole("textbox", { name: "Search site with Google" }).count(), 1);
+
+  await visit(page, '/publications/?search=%22tag%3A%20journal%22%20%22tag%3A%20patent%22');
+  assert.ok(await page.getByRole("link", { name: "journal (active filter)", exact: true }).count() > 0);
+  assert.ok(await page.getByRole("link", { name: "patent (active filter)", exact: true }).count() > 0);
+  assert.equal(await page.locator('.tag[data-active]:not([aria-label]), .tag[aria-label]:not([data-active])').count(), 0);
+  await page.getByRole("button", { name: "clear search", exact: true }).click();
+  assert.equal(await page.locator(".tag[aria-label], .tag[data-active]").count(), 0);
+  await context.close();
+}
+
+async function tooltipChecks(browser) {
+  const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const page = await context.newPage();
+  await visit(page, "/research/");
+  const home = page.locator("a.home");
+  await home.focus();
+  await page.waitForFunction(() => document.querySelector("a.home")._tippy?.state.isVisible);
+  await home.hover();
+  await page.mouse.move(1400, 800);
+  await page.waitForTimeout(400);
+  assert.equal(await home.evaluate((el) => el === document.activeElement && el._tippy.state.isVisible), true,
+    "Pointer departure must not hide a tooltip whose trigger retains focus");
+
+  // Hover the tooltip itself, then remove focus without moving the pointer.
+  const tooltip = page.getByRole("tooltip");
+  const rect = await tooltip.boundingBox();
+  await page.mouse.move(rect.x + rect.width / 2, rect.y + rect.height / 2);
+  await home.evaluate((el) => el.blur());
+  await page.waitForTimeout(400);
+  assert.equal(await home.evaluate((el) => el._tippy.state.isVisible), true,
+    "Removing focus must not hide content that is still hovered");
+  await page.keyboard.press("Escape");
+  assert.equal(await home.evaluate((el) => el._tippy.state.isVisible), false);
+
+  await page.mouse.move(1400, 800);
+  // Enlarge the existing delay only in this test to exercise the race reliably.
+  await home.evaluate((el) => el._tippy.setProps({ delay: [1000, 0] }));
+  await home.hover();
+  await page.keyboard.press("Escape");
+  await page.waitForTimeout(1200);
+  assert.equal(await home.evaluate((el) => el._tippy.state.isVisible), false,
+    "Escape must cancel a tooltip that has not appeared yet");
+
+  // A fresh hover must still open it, and the pointer can travel into its content.
+  await page.mouse.move(1400, 800);
+  await home.evaluate((el) => el._tippy.setProps({ delay: [200, 0] }));
+  await home.hover();
+  await page.waitForFunction(() => document.querySelector("a.home")._tippy.state.isVisible);
+  const target = await tooltip.boundingBox();
+  await page.mouse.move(target.x + target.width / 2, target.y + target.height / 2, { steps: 20 });
+  await page.waitForTimeout(400);
+  assert.equal(await home.evaluate((el) => el._tippy.state.isVisible), true);
+  await page.mouse.move(1400, 800);
+  await page.waitForFunction(() => !document.querySelector("a.home")._tippy.state.isVisible);
   await context.close();
 }
 
 (async () => {
   const browser = await chromium.launch();
-  const report = { pages: [], keyboardChecks: "not run" };
+  const report = { pages: [], keyboardChecks: "not run", tooltipChecks: "not run" };
   try {
     const routes = pagesIn(siteDirectory).sort();
     assert.ok(routes.length > 0, "No rendered pages found");
@@ -96,6 +166,13 @@ async function keyboardChecks(browser) {
       const page = await context.newPage();
       for (const route of routes) {
         await visit(page, route);
+        // Current-page metadata must follow the actual link destination.
+        const currentLinks = await page.locator('header a[aria-current="page"]').evaluateAll((links) =>
+          links.map((link) => new URL(link.href).pathname.replace(/index\.html$/, "")));
+        const normalizedRoute = route.replace(/index\.html$/, "");
+        assert.ok(currentLinks.every((href) => href === normalizedRoute));
+        if (["/", "/research/", "/publications/", "/team/", "/news/", "/contact/"].includes(normalizedRoute))
+          assert.equal(currentLinks.length, 1, `Missing current-page link on ${route}`);
         const results = await new AxeBuilder({ page })
           .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
           .analyze();
@@ -109,9 +186,11 @@ async function keyboardChecks(browser) {
     }
     await keyboardChecks(browser);
     report.keyboardChecks = "passed";
+    await tooltipChecks(browser);
+    report.tooltipChecks = "passed";
     const nonContrast = report.pages.flatMap((page) => page.violations.filter((v) => v.id !== "color-contrast"));
     assert.equal(nonContrast.length, 0, "Non-contrast violations remain; inspect the JSON report");
-    console.log(`Keyboard checks passed. ${routes.length} pages checked in both modes. Report: ${reportPath}`);
+    console.log(`Keyboard and tooltip checks passed. ${routes.length} pages checked in both modes. Report: ${reportPath}`);
   } finally {
     fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
     await browser.close();

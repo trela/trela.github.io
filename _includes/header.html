@@ -16,7 +16,7 @@
     data-big
   {% endif %}
 >
-  <a href="{{ "/" | relative_url }}" class="home" data-tooltip="Home">
+  <a href="{{ "/" | relative_url }}" class="home" data-tooltip="Home" {% if page.url == "/" %}aria-current="page"{% endif %}>
     {% if logo %}
       <span class="logo">
         {% if svg and logo == svg %}
@@ -45,13 +45,14 @@
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in pages %}
+      {% if nav_page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          href="{{ nav_page.dir | relative_url | uri_escape }}"
+          data-tooltip="{{ nav_page.nav.tooltip | xml_escape }}"
+          {% if page.url == nav_page.url %}aria-current="page"{% endif %}
         >
-          {{ page.title }}
+          {{ nav_page.title }}
         </a>
       {% endif %}
     {% endfor %}

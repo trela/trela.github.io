@@ -131,7 +131,7 @@
     const boxes = document.querySelectorAll(infoBoxSelector);
     document.querySelectorAll(".search-status").forEach((status) => {
       status.textContent = query.trim()
-        ? `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results`
+        ? `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results for “${query.trim()}”`
         : `Showing all ${n.toLocaleString()} results`;
     });
 
@@ -145,7 +145,15 @@
       info += "<a href='./'>Clear search</a>";
 
       // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
+      boxes.forEach((el) => {
+        el.innerHTML = info;
+        el.querySelector("a").addEventListener("click", (event) => {
+          // Preserve normal link behavior for opening a new tab/window.
+          if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          window.onSearchClear();
+        });
+      });
     }
     // if nothing searched
     else {
@@ -159,9 +167,13 @@
     const { tags } = splitQuery(query);
     document.querySelectorAll(tagSelector).forEach((tag) => {
       // set active if tag is in query
-      if (tags.includes(normalizeTag(tag.innerText)))
+      if (tags.includes(normalizeTag(tag.innerText))) {
         tag.setAttribute("data-active", "");
-      else tag.removeAttribute("data-active");
+        tag.setAttribute("aria-label", `${tag.innerText.trim()} (active filter)`);
+      } else {
+        tag.removeAttribute("data-active");
+        tag.removeAttribute("aria-label");
+      }
     });
   };
 
@@ -214,7 +226,8 @@
   window.onSearchClear = (button) => {
     debouncedRunSearch.cancel();
     // Return focus before disabling the clear button with the empty query.
-    button?.closest(searchBoxSelector).querySelector("input").focus();
+    const box = button?.closest(searchBoxSelector) || document.querySelector(searchBoxSelector);
+    box?.querySelector("input").focus();
     runSearch();
     updateUrl();
   };
