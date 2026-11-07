@@ -17,6 +17,6 @@ Awards, new projects, papers, press coverage and moments from lab life.
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{% include list.html data="posts" component="post-excerpt" heading_level=2 %}
 
 {% include social-feed.html limit=12 section=true %}

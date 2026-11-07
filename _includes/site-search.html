@@ -1,5 +1,5 @@
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google" />
+<form role="search" aria-label="Site search" onsubmit="onSiteSearchSubmit(event)">
+  <input type="text" name="query" aria-label="Search site with Google" placeholder="Search site with Google" />
   <button type="submit" class="button" aria-label="search site">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>

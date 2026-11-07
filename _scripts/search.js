@@ -129,6 +129,11 @@
   // update info box based on query and results
   const updateInfoBox = (query, x, n) => {
     const boxes = document.querySelectorAll(infoBoxSelector);
+    document.querySelectorAll(".search-status").forEach((status) => {
+      status.textContent = query.trim()
+        ? `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results for “${query.trim()}”`
+        : `Showing all ${n.toLocaleString()} results`;
+    });
 
     if (query.trim()) {
       // show all info boxes
@@ -140,7 +145,15 @@
       info += "<a href='./'>Clear search</a>";
 
       // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
+      boxes.forEach((el) => {
+        el.innerHTML = info;
+        el.querySelector("a").addEventListener("click", (event) => {
+          // Preserve normal link behavior for opening a new tab/window.
+          if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          window.onSearchClear();
+        });
+      });
     }
     // if nothing searched
     else {
@@ -154,9 +167,13 @@
     const { tags } = splitQuery(query);
     document.querySelectorAll(tagSelector).forEach((tag) => {
       // set active if tag is in query
-      if (tags.includes(normalizeTag(tag.innerText)))
+      if (tags.includes(normalizeTag(tag.innerText))) {
         tag.setAttribute("data-active", "");
-      else tag.removeAttribute("data-active");
+        tag.setAttribute("aria-label", `${tag.innerText.trim()} (active filter)`);
+      } else {
+        tag.removeAttribute("data-active");
+        tag.removeAttribute("aria-label");
+      }
     });
   };
 
@@ -189,21 +206,28 @@
   // return func that runs after delay
   const debounce = (callback, delay = 250) => {
     let timeout;
-    return (...args) => {
+    const debounced = (...args) => {
       window.clearTimeout(timeout);
       timeout = window.setTimeout(() => callback(...args), delay);
     };
+    debounced.cancel = () => window.clearTimeout(timeout);
+    return debounced;
   };
 
   // when user types into search box
   const debouncedRunSearch = debounce(runSearch, 1000);
   window.onSearchInput = (target) => {
+    updateSearchBox(target.value);
     debouncedRunSearch(target.value);
     updateUrl(target.value);
   };
 
   // when user clears search box with button
-  window.onSearchClear = () => {
+  window.onSearchClear = (button) => {
+    debouncedRunSearch.cancel();
+    // Return focus before disabling the clear button with the empty query.
+    const box = button?.closest(searchBoxSelector) || document.querySelector(searchBoxSelector);
+    box?.querySelector("input").focus();
     runSearch();
     updateUrl();
   };
