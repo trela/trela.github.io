@@ -19,4 +19,4 @@ Search by title, author, venue or year, or filter by type.
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" presorted=true %}
+{% include list.html data="citations" component="citation" style="rich" presorted=true heading_level=2 %}

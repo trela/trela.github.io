@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h1 class="sr-only">{{ page.name | default: page.title | xml_escape }}</h1>
+
 {% capture floatcontent %}
 
 {% include portrait.html lookup=page.slug %}

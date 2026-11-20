@@ -10,6 +10,7 @@ nav:
 {% capture col1 %}
 
 ### Prospective students
+{:role="heading" aria-level="2"}
 
 We are always looking for strong Ph.D. students with a background in electrical engineering, computer engineering or computer science and an interest in one or more of our [research thrusts]({{ "research" | relative_url }}).
 Experience in digital or analog design, test, machine learning, or security is a plus.
@@ -21,11 +22,13 @@ Please email Prof. Makris at [ymakris@ucsd.edu](mailto:ymakris@ucsd.edu) with yo
 {% capture col2 %}
 
 ### Undergraduate and M.S. students
+{:role="heading" aria-level="2"}
 
 UC San Diego students who would like to get involved in research can contact us with their CV and the courses they have taken.
 Many of our undergraduate researchers have co-authored papers and gone on to graduate school.
 
 ### Industry and collaborators
+{:role="heading" aria-level="2"}
 
 We welcome collaborations and sponsored research with industry and government partners.
 

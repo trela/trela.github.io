@@ -16,7 +16,6 @@
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -25,7 +24,7 @@
     <img
       src="{{ member.image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="Portrait of {{ member.name | default: member.title | xml_escape }}"
       loading="lazy"
       {% include fallback.html %}
     >
