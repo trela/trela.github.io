@@ -363,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/navigation.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -375,6 +377,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -384,7 +387,7 @@
 
 
 <header class="background" style="--image: url('/images/background.svg')" data-dark="true">
-  <a href="/" class="home">
+  <a href="/" class="home" data-tooltip="Home">
     
       <span class="logo">
         
@@ -393,7 +396,7 @@
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">TRELA</span>
         
@@ -404,9 +407,9 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="primary-navigation">
 
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary">
     
     
       
@@ -428,7 +431,7 @@
       
     
       
-        <a href="/news/" data-tooltip="Highlights, awards and lab life">
+        <a href="/news/" data-tooltip="Highlights, awards and lab life" aria-current="page">
           News
         </a>
       
@@ -442,7 +445,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -461,7 +464,7 @@
 
   <section class="background" data-size="page">
     <h1 id="news">
-<i class="icon fa-solid fa-newspaper"></i>News</h1>
+<i class="icon fa-solid fa-newspaper" aria-hidden="true"></i>News</h1>
 
 <p>Awards, new projects, papers, press coverage and moments from lab life.</p>
   </section>
@@ -477,10 +480,10 @@
   <size></size>
 -->
 
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
+<div class="search-box" role="search" aria-label="Page search">
+  <input type="text" class="search-input" aria-label="Search items on this page" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear(this)">
+    <i class="icon fa-solid fa-magnifying-glass" aria-hidden="true"></i>
   </button>
 </div>
 
@@ -513,8 +516,9 @@
   </div>
 
 <div class="search-info"></div>
+<div class="search-status sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
 
-<h3 id="2026">2026</h3>
+<h3 id="2026" role="heading" aria-level="2">2026</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -534,7 +538,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>September 2026</span>
     </span>
   
@@ -571,7 +576,7 @@
   </div>
 </div>
 
-<h3 id="2025">2025</h3>
+<h3 id="2025" role="heading" aria-level="2">2025</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -591,7 +596,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>September 2025</span>
     </span>
   
@@ -642,7 +648,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>January 2025</span>
     </span>
   
@@ -693,7 +700,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>January 2025</span>
     </span>
   
@@ -726,7 +734,7 @@
   </div>
 </div>
 
-<h3 id="2023">2023</h3>
+<h3 id="2023" role="heading" aria-level="2">2023</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -746,7 +754,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>February 2023</span>
     </span>
   
@@ -779,7 +788,7 @@
   </div>
 </div>
 
-<h3 id="2022">2022</h3>
+<h3 id="2022" role="heading" aria-level="2">2022</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -799,7 +808,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>August 2022</span>
     </span>
   
@@ -850,7 +860,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>July 2022</span>
     </span>
   
@@ -901,7 +912,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>June 2022</span>
     </span>
   
@@ -952,7 +964,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>May 2022</span>
     </span>
   
@@ -1003,7 +1016,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>April 2022</span>
     </span>
   
@@ -1036,7 +1050,7 @@
   </div>
 </div>
 
-<h3 id="2021">2021</h3>
+<h3 id="2021" role="heading" aria-level="2">2021</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -1056,7 +1070,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>November 2021</span>
     </span>
   
@@ -1107,7 +1122,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>July 2021</span>
     </span>
   
@@ -1158,7 +1174,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>May 2021</span>
     </span>
   
@@ -1195,7 +1212,7 @@
   </div>
 </div>
 
-<h3 id="2020">2020</h3>
+<h3 id="2020" role="heading" aria-level="2">2020</h3>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -1215,7 +1232,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>November 2020</span>
     </span>
   
@@ -1266,7 +1284,8 @@
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>April 2020</span>
     </span>
   
@@ -1322,7 +1341,7 @@
 
   <div class="button-wrapper">
     <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
     </a>
   </div>
@@ -1340,7 +1359,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" role="switch" data-tooltip="Dark mode" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

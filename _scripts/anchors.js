@@ -6,14 +6,14 @@
   const onLoad = () => {
     // for each heading
     const headings = document.querySelectorAll(
-      "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"
+      "h1[id]:not(.sr-only), h2[id], h3[id], h4[id], h5[id], h6[id]"
     );
     for (const heading of headings) {
       // create anchor link
       const link = document.createElement("a");
       link.classList.add("icon", "fa-solid", "fa-link", "anchor");
       link.href = "#" + heading.id;
-      link.setAttribute("aria-label", "link to this section");
+      link.setAttribute("aria-label", `Link to ${heading.textContent.trim()}`);
       heading.append(link);
 
       // if first heading in the section, move id to parent section

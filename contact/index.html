@@ -363,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/navigation.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -375,6 +377,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -384,7 +387,7 @@
 
 
 <header class="background" style="--image: url('/images/background.svg')" data-dark="true">
-  <a href="/" class="home">
+  <a href="/" class="home" data-tooltip="Home">
     
       <span class="logo">
         
@@ -393,7 +396,7 @@
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">TRELA</span>
         
@@ -404,9 +407,9 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="primary-navigation">
 
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary">
     
     
       
@@ -434,7 +437,7 @@
       
     
       
-        <a href="/contact/" data-tooltip="Openings and contact">
+        <a href="/contact/" data-tooltip="Openings and contact" aria-current="page">
           Join us
         </a>
       
@@ -442,7 +445,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -461,13 +464,13 @@
 
   <section class="background" data-size="page">
     <h1 id="join-us">
-<i class="icon fa-solid fa-user-plus"></i>Join us</h1>
+<i class="icon fa-solid fa-user-plus" aria-hidden="true"></i>Join us</h1>
 
 <div class="cols" style="--cols: 2">
   
     
     <div>
-<h3 id="prospective-students">Prospective students</h3>
+<h3 role="heading" aria-level="2" id="prospective-students">Prospective students</h3>
 
 <p>We are always looking for strong Ph.D. students with a background in electrical engineering, computer engineering or computer science and an interest in one or more of our <a href="/research">research thrusts</a>.
 Experience in digital or analog design, test, machine learning, or security is a plus.</p>
@@ -478,12 +481,12 @@ Experience in digital or analog design, test, machine learning, or security is a
   
     
     <div>
-<h3 id="undergraduate-and-ms-students">Undergraduate and M.S. students</h3>
+<h3 role="heading" aria-level="2" id="undergraduate-and-ms-students">Undergraduate and M.S. students</h3>
 
 <p>UC San Diego students who would like to get involved in research can contact us with their CV and the courses they have taken.
 Many of our undergraduate researchers have co-authored papers and gone on to graduate school.</p>
 
-<h3 id="industry-and-collaborators">Industry and collaborators</h3>
+<h3 role="heading" aria-level="2" id="industry-and-collaborators">Industry and collaborators</h3>
 
 <p>We welcome collaborations and sponsored research with industry and government partners.</p>
 
@@ -504,7 +507,7 @@ Many of our undergraduate researchers have co-authored papers and gone on to gra
 -->
 
 <h2 id="contact">
-<i class="icon fa-regular fa-envelope"></i>Contact</h2>
+<i class="icon fa-regular fa-envelope" aria-hidden="true"></i>Contact</h2>
 
 <!-- TODO: add office and lab locations -->
 
@@ -514,8 +517,8 @@ University of California, San Diego<br>
 9500 Gilman Drive, La Jolla, CA 92093</p>
 
 <div class="button-wrapper">
-    <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+    <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="">
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
         <span>ymakris@ucsd.edu</span>
       
@@ -523,8 +526,8 @@ University of California, San Diego<br>
   </div>
 
 <div class="button-wrapper">
-    <a class="button" href="https://www.google.com/maps/search/?api=1&query=UC+San+Diego+Jacobs+School+of+Engineering" data-tooltip="Address" data-style="" aria-label="Address">
-      <i class="icon fa-solid fa-map-location-dot"></i>
+    <a class="button" href="https://www.google.com/maps/search/?api=1&query=UC+San+Diego+Jacobs+School+of+Engineering" data-tooltip="Address" data-style="">
+      <i class="icon fa-solid fa-map-location-dot" aria-hidden="true"></i>
       
         <span>Find us on the map</span>
       
@@ -554,7 +557,7 @@ University of California, San Diego<br>
 
   <div class="button-wrapper">
     <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
     </a>
   </div>
@@ -572,7 +575,7 @@ University of California, San Diego<br>
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" role="switch" data-tooltip="Dark mode" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

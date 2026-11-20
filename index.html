@@ -363,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/navigation.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -375,6 +377,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -384,7 +387,7 @@
 
 
 <header class="background" style="--image: url('/images/background.svg')" data-dark="true" data-big>
-  <a href="/" class="home">
+  <a href="/" class="home" data-tooltip="Home" aria-current="page">
     
       <span class="logo">
         
@@ -393,7 +396,7 @@
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">TRELA</span>
         
@@ -404,9 +407,9 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="primary-navigation">
 
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary">
     
     
       
@@ -442,7 +445,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -466,8 +469,8 @@
 We combine machine learning, statistical analysis, and hardware design to detect malicious hardware, protect intellectual property, cut the cost of testing, and extend the idea of a chip fingerprint to biology.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/research" data-style="" aria-label="fa-solid fa-flask">
-      <i class="icon fa-solid fa-flask"></i>
+    <a class="button" href="/research" data-style="">
+      <i class="icon fa-solid fa-flask" aria-hidden="true"></i>
       
         <span>Our research</span>
       
@@ -475,8 +478,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
   </div>
 
 <div class="button-wrapper">
-    <a class="button" href="/publications" data-style="" aria-label="fa-solid fa-book-open">
-      <i class="icon fa-solid fa-book-open"></i>
+    <a class="button" href="/publications" data-style="">
+      <i class="icon fa-solid fa-book-open" aria-hidden="true"></i>
       
         <span>Publications</span>
       
@@ -484,8 +487,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
   </div>
 
 <div class="button-wrapper">
-    <a class="button" href="/contact" data-style="" aria-label="fa-solid fa-user-plus">
-      <i class="icon fa-solid fa-user-plus"></i>
+    <a class="button" href="/contact" data-style="">
+      <i class="icon fa-solid fa-user-plus" aria-hidden="true"></i>
       
         <span>Join us</span>
       
@@ -536,36 +539,36 @@ We combine machine learning, statistical analysis, and hardware design to detect
 -->
 
 <h2 id="what-we-work-on">
-<i class="icon fa-solid fa-compass"></i>What we work on</h2>
+<i class="icon fa-solid fa-compass" aria-hidden="true"></i>What we work on</h2>
 
 <div class="thrust-grid">
   
     <a class="thrust-card" id="hardware-security" href="/publications/?search=trojan" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-shield-halved"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-shield-halved" aria-hidden="true"></i></span>
       <span class="thrust-title">Hardware Security &amp; Trust</span>
       <span class="thrust-summary">Detecting hardware Trojans and counterfeit ICs, protecting hardware IP through transistor-level programmable fabrics and logic locking, and certifying third-party IP with proof-carrying hardware.</span>
     </a>
   
     <a class="thrust-card" id="ai-for-test" href="/publications/?search=test" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-microchip"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-microchip" aria-hidden="true"></i></span>
       <span class="thrust-title">AI for Test &amp; Manufacturing</span>
       <span class="thrust-summary">Machine learning and statistical methods that cut test cost, improve yield, find lithographic hotspots, and, most recently, use large language models to generate tests for integrated circuits.</span>
     </a>
   
     <a class="thrust-card" id="analog-rf" href="/publications/?search=analog" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-tower-broadcast"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-tower-broadcast" aria-hidden="true"></i></span>
       <span class="thrust-title">Trusted Analog/RF &amp; On-Die Learning</span>
       <span class="thrust-summary">Self-test and self-calibration of analog/RF ICs, analog neural networks on die, and defenses against malicious hardware that opens covert channels in wireless networks.</span>
     </a>
   
     <a class="thrust-card" id="bio-security" href="/publications/?search=unclonable" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-dna"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-dna" aria-hidden="true"></i></span>
       <span class="thrust-title">Bio-Security &amp; Provenance</span>
       <span class="thrust-summary">Physical unclonable functions in living cells and DNA storage, and provenance attestation that spans silicon chips, biological cells and beyond.</span>
     </a>
   
     <a class="thrust-card" id="reliable-processors" href="/publications/?search=microprocessor" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-memory"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-memory" aria-hidden="true"></i></span>
       <span class="thrust-title">Reliable &amp; Secure Processors</span>
       <span class="thrust-summary">Hardware-based malware detection, workload execution forensics, and workload-cognizant error detection and resilience for modern microprocessors.</span>
     </a>
@@ -585,7 +588,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
 -->
 
 <h2 id="research-highlights">
-<i class="icon fa-solid fa-star"></i>Research highlights</h2>
+<i class="icon fa-solid fa-star" aria-hidden="true"></i>Research highlights</h2>
 
 <p>Our most cited work. TRELA’s research has been cited more than 8,000 times, with an h-index of 44 (<a href="https://scholar.google.com/citations?user=dUO4lKwAAAAJ">Google Scholar</a>).</p>
 
@@ -596,7 +599,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     <div class="citation-text">
       
       <span class="citation-type" data-tooltip="Conference paper">
-        <i class="icon fa-solid fa-people-group"></i>
+        <i class="icon fa-solid fa-people-group" aria-hidden="true"></i>
         Conference
       </span>
 
@@ -605,9 +608,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
       </a>
 
       
-        <div class="citation-authors" tabindex="0">
+        <div class="citation-authors">
+          
           Y. Jin, Y. Makris
 
+          
         </div>
       
 
@@ -619,7 +624,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
         <span class="citation-date">2008</span>
         
           <span class="citation-cited">
-            <i class="icon fa-solid fa-quote-right"></i>
+            <i class="icon fa-solid fa-quote-right" aria-hidden="true"></i>
             Cited by 900+
           </span>
         
@@ -637,8 +642,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://doi.org/10.1109/hst.2008.4559049" data-tooltip="Publisher page (DOI)" data-style="bare" aria-label="Publisher page DOI">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+    <a class="button" href="https://doi.org/10.1109/hst.2008.4559049" data-tooltip="Publisher page (DOI)" data-style="bare">
+      <i class="icon fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
       
         <span>DOI</span>
       
@@ -652,8 +657,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/host08.pdf" data-tooltip="Author copy (PDF)" data-style="bare" aria-label="Author copy PDF">
-      <i class="icon fa-regular fa-file-pdf"></i>
+    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/host08.pdf" data-tooltip="Author copy (PDF)" data-style="bare">
+      <i class="icon fa-regular fa-file-pdf" aria-hidden="true"></i>
       
         <span>PDF</span>
       
@@ -691,7 +696,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     <div class="citation-text">
       
       <span class="citation-type" data-tooltip="Journal">
-        <i class="icon fa-regular fa-newspaper"></i>
+        <i class="icon fa-regular fa-newspaper" aria-hidden="true"></i>
         Journal
       </span>
 
@@ -700,9 +705,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
       </a>
 
       
-        <div class="citation-authors" tabindex="0">
+        <div class="citation-authors">
+          
           U. Guinn, K. Huang, D. DiMase, J. M. Carulli Jr., M. Tehranipoor, Y. Makris
 
+          
         </div>
       
 
@@ -714,7 +721,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
         <span class="citation-date">2014</span>
         
           <span class="citation-cited">
-            <i class="icon fa-solid fa-quote-right"></i>
+            <i class="icon fa-solid fa-quote-right" aria-hidden="true"></i>
             Cited by 800+
           </span>
         
@@ -732,8 +739,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://doi.org/10.1109/jproc.2014.2332291" data-tooltip="Publisher page (DOI)" data-style="bare" aria-label="Publisher page DOI">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+    <a class="button" href="https://doi.org/10.1109/jproc.2014.2332291" data-tooltip="Publisher page (DOI)" data-style="bare">
+      <i class="icon fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
       
         <span>DOI</span>
       
@@ -747,8 +754,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/pieee14.pdf" data-tooltip="Author copy (PDF)" data-style="bare" aria-label="Author copy PDF">
-      <i class="icon fa-regular fa-file-pdf"></i>
+    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/pieee14.pdf" data-tooltip="Author copy (PDF)" data-style="bare">
+      <i class="icon fa-regular fa-file-pdf" aria-hidden="true"></i>
       
         <span>PDF</span>
       
@@ -786,7 +793,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     <div class="citation-text">
       
       <span class="citation-type" data-tooltip="Conference paper">
-        <i class="icon fa-solid fa-people-group"></i>
+        <i class="icon fa-solid fa-people-group" aria-hidden="true"></i>
         Conference
       </span>
 
@@ -795,9 +802,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
       </a>
 
       
-        <div class="citation-authors" tabindex="0">
+        <div class="citation-authors">
+          
           Y. Jin, N. Kupp, Y. Makris
 
+          
         </div>
       
 
@@ -809,7 +818,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
         <span class="citation-date">2009</span>
         
           <span class="citation-cited">
-            <i class="icon fa-solid fa-quote-right"></i>
+            <i class="icon fa-solid fa-quote-right" aria-hidden="true"></i>
             Cited by 300+
           </span>
         
@@ -827,8 +836,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://doi.org/10.1109/hst.2009.5224971" data-tooltip="Publisher page (DOI)" data-style="bare" aria-label="Publisher page DOI">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+    <a class="button" href="https://doi.org/10.1109/hst.2009.5224971" data-tooltip="Publisher page (DOI)" data-style="bare">
+      <i class="icon fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
       
         <span>DOI</span>
       
@@ -842,8 +851,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/host09.pdf" data-tooltip="Author copy (PDF)" data-style="bare" aria-label="Author copy PDF">
-      <i class="icon fa-regular fa-file-pdf"></i>
+    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/host09.pdf" data-tooltip="Author copy (PDF)" data-style="bare">
+      <i class="icon fa-regular fa-file-pdf" aria-hidden="true"></i>
       
         <span>PDF</span>
       
@@ -881,7 +890,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     <div class="citation-text">
       
       <span class="citation-type" data-tooltip="Journal">
-        <i class="icon fa-regular fa-newspaper"></i>
+        <i class="icon fa-regular fa-newspaper" aria-hidden="true"></i>
         Journal
       </span>
 
@@ -890,9 +899,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
       </a>
 
       
-        <div class="citation-authors" tabindex="0">
+        <div class="citation-authors">
+          
           E. Love, Y. Jin, Y. Makris
 
+          
         </div>
       
 
@@ -904,7 +915,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
         <span class="citation-date">2012</span>
         
           <span class="citation-cited">
-            <i class="icon fa-solid fa-quote-right"></i>
+            <i class="icon fa-solid fa-quote-right" aria-hidden="true"></i>
             Cited by 200+
           </span>
         
@@ -922,8 +933,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://doi.org/10.1109/tifs.2011.2160627" data-tooltip="Publisher page (DOI)" data-style="bare" aria-label="Publisher page DOI">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+    <a class="button" href="https://doi.org/10.1109/tifs.2011.2160627" data-tooltip="Publisher page (DOI)" data-style="bare">
+      <i class="icon fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
       
         <span>DOI</span>
       
@@ -937,8 +948,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/tifs12.pdf" data-tooltip="Author copy (PDF)" data-style="bare" aria-label="Author copy PDF">
-      <i class="icon fa-regular fa-file-pdf"></i>
+    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/tifs12.pdf" data-tooltip="Author copy (PDF)" data-style="bare">
+      <i class="icon fa-regular fa-file-pdf" aria-hidden="true"></i>
       
         <span>PDF</span>
       
@@ -976,7 +987,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     <div class="citation-text">
       
       <span class="citation-type" data-tooltip="Journal">
-        <i class="icon fa-regular fa-newspaper"></i>
+        <i class="icon fa-regular fa-newspaper" aria-hidden="true"></i>
         Journal
       </span>
 
@@ -985,9 +996,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
       </a>
 
       
-        <div class="citation-authors" tabindex="0">
+        <div class="citation-authors">
+          
           Y. Jin, Y. Makris
 
+          
         </div>
       
 
@@ -999,7 +1012,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
         <span class="citation-date">2010</span>
         
           <span class="citation-cited">
-            <i class="icon fa-solid fa-quote-right"></i>
+            <i class="icon fa-solid fa-quote-right" aria-hidden="true"></i>
             Cited by 180+
           </span>
         
@@ -1017,8 +1030,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/dt10.pdf" data-tooltip="Author copy (PDF)" data-style="bare" aria-label="Author copy PDF">
-      <i class="icon fa-regular fa-file-pdf"></i>
+    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/dt10.pdf" data-tooltip="Author copy (PDF)" data-style="bare">
+      <i class="icon fa-regular fa-file-pdf" aria-hidden="true"></i>
       
         <span>PDF</span>
       
@@ -1056,7 +1069,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     <div class="citation-text">
       
       <span class="citation-type" data-tooltip="Conference paper">
-        <i class="icon fa-solid fa-people-group"></i>
+        <i class="icon fa-solid fa-people-group" aria-hidden="true"></i>
         Conference
       </span>
 
@@ -1065,9 +1078,11 @@ We combine machine learning, statistical analysis, and hardware design to detect
       </a>
 
       
-        <div class="citation-authors" tabindex="0">
+        <div class="citation-authors">
+          
           Y. Liu, K. Huang, Y. Makris
 
+          
         </div>
       
 
@@ -1079,7 +1094,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
         <span class="citation-date">2014</span>
         
           <span class="citation-cited">
-            <i class="icon fa-solid fa-quote-right"></i>
+            <i class="icon fa-solid fa-quote-right" aria-hidden="true"></i>
             Cited by 170+
           </span>
         
@@ -1097,8 +1112,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://doi.org/10.1145/2593069.2593147" data-tooltip="Publisher page (DOI)" data-style="bare" aria-label="Publisher page DOI">
-      <i class="icon fa-solid fa-arrow-up-right-from-square"></i>
+    <a class="button" href="https://doi.org/10.1145/2593069.2593147" data-tooltip="Publisher page (DOI)" data-style="bare">
+      <i class="icon fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
       
         <span>DOI</span>
       
@@ -1112,8 +1127,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/dac14.pdf" data-tooltip="Author copy (PDF)" data-style="bare" aria-label="Author copy PDF">
-      <i class="icon fa-regular fa-file-pdf"></i>
+    <a class="button" href="https://personal.utdallas.edu/~yiorgos.makris/papers/dac14.pdf" data-tooltip="Author copy (PDF)" data-style="bare">
+      <i class="icon fa-regular fa-file-pdf" aria-hidden="true"></i>
       
         <span>PDF</span>
       
@@ -1145,8 +1160,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 </div>
 
 <div class="button-wrapper">
-    <a class="button" href="/publications" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
+    <a class="button" href="/publications" data-style="" data-flip="">
+      <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       
         <span>All publications</span>
       
@@ -1166,7 +1181,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
 -->
 
 <h2 id="latest-news">
-<i class="icon fa-solid fa-newspaper"></i>Latest news</h2>
+<i class="icon fa-solid fa-newspaper" aria-hidden="true"></i>Latest news</h2>
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -1186,7 +1201,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>September 2026</span>
     </span>
   
@@ -1241,7 +1257,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>September 2025</span>
     </span>
   
@@ -1292,7 +1309,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>January 2025</span>
     </span>
   
@@ -1343,7 +1361,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
   
     <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
+      <span class="sr-only">Originally published on </span>
+      <i class="icon fa-regular fa-calendar" aria-hidden="true"></i>
       <span>January 2025</span>
     </span>
   
@@ -1377,8 +1396,8 @@ We combine machine learning, statistical analysis, and hardware design to detect
 </div>
 
 <div class="button-wrapper">
-    <a class="button" href="/news" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
+    <a class="button" href="/news" data-style="" data-flip="">
+      <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       
         <span>All news</span>
       
@@ -1398,7 +1417,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
 -->
 
 <h2 id="supported-by">
-<i class="icon fa-solid fa-handshake"></i>Supported by</h2>
+<i class="icon fa-solid fa-handshake" aria-hidden="true"></i>Supported by</h2>
 
 <div class="sponsors">
   
@@ -1547,7 +1566,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
 
   <div class="button-wrapper">
     <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
     </a>
   </div>
@@ -1565,7 +1584,7 @@ We combine machine learning, statistical analysis, and hardware design to detect
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" role="switch" data-tooltip="Dark mode" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

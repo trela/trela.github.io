@@ -311,6 +311,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/navigation.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -323,6 +325,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -332,7 +335,7 @@
 
 
 <header class="background" style="--image: url('/images/background.svg')" data-dark="true">
-  <a href="/" class="home">
+  <a href="/" class="home" data-tooltip="Home">
     
       <span class="logo">
         
@@ -341,7 +344,7 @@
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">TRELA</span>
         
@@ -352,9 +355,9 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="primary-navigation">
 
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary">
     
     
       
@@ -390,7 +393,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -408,15 +411,15 @@
   
 
   <section class="background" data-size="page">
-    <h2 id="-page-not-found">
-<i class="icon fa-solid fa-heart-crack"></i> Page Not Found</h2>
+    <h2 role="heading" aria-level="1" id="-page-not-found">
+<i class="icon fa-solid fa-heart-crack" aria-hidden="true"></i> Page Not Found</h2>
 
 <p class="center">Try searching the whole site for the content you want:</p>
 
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google">
+<form role="search" aria-label="Site search" onsubmit="onSiteSearchSubmit(event)">
+  <input type="text" name="query" aria-label="Search site with Google" placeholder="Search site with Google">
   <button type="submit" class="button" aria-label="search site">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
+    <i class="icon fa-solid fa-magnifying-glass" aria-hidden="true"></i>
   </button>
 </form>
   </section>
@@ -443,7 +446,7 @@
 
   <div class="button-wrapper">
     <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
     </a>
   </div>
@@ -461,7 +464,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" role="switch" data-tooltip="Dark mode" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

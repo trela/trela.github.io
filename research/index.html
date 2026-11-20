@@ -363,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/navigation.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -375,6 +377,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -384,7 +387,7 @@
 
 
 <header class="background" style="--image: url('/images/background.svg')" data-dark="true">
-  <a href="/" class="home">
+  <a href="/" class="home" data-tooltip="Home">
     
       <span class="logo">
         
@@ -393,7 +396,7 @@
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">TRELA</span>
         
@@ -404,13 +407,13 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="primary-navigation">
 
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary">
     
     
       
-        <a href="/research/" data-tooltip="Research thrusts and projects">
+        <a href="/research/" data-tooltip="Research thrusts and projects" aria-current="page">
           Research
         </a>
       
@@ -442,7 +445,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -461,7 +464,7 @@
 
   <section class="background" data-size="page">
     <h1 id="research">
-<i class="icon fa-solid fa-flask"></i>Research</h1>
+<i class="icon fa-solid fa-flask" aria-hidden="true"></i>Research</h1>
 
 <p>Modern chips are designed with third-party IP, fabricated in foundries around the world, tested under tight cost limits, and deployed in safety- and security-critical systems.
 At every step, data is collected that can tell us whether a chip is genuine, trustworthy, and healthy.
@@ -484,31 +487,31 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 <div class="thrust-grid">
   
     <a class="thrust-card" id="hardware-security" href="/publications/?search=trojan" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-shield-halved"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-shield-halved" aria-hidden="true"></i></span>
       <span class="thrust-title">Hardware Security &amp; Trust</span>
       <span class="thrust-summary">Detecting hardware Trojans and counterfeit ICs, protecting hardware IP through transistor-level programmable fabrics and logic locking, and certifying third-party IP with proof-carrying hardware.</span>
     </a>
   
     <a class="thrust-card" id="ai-for-test" href="/publications/?search=test" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-microchip"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-microchip" aria-hidden="true"></i></span>
       <span class="thrust-title">AI for Test &amp; Manufacturing</span>
       <span class="thrust-summary">Machine learning and statistical methods that cut test cost, improve yield, find lithographic hotspots, and, most recently, use large language models to generate tests for integrated circuits.</span>
     </a>
   
     <a class="thrust-card" id="analog-rf" href="/publications/?search=analog" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-tower-broadcast"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-tower-broadcast" aria-hidden="true"></i></span>
       <span class="thrust-title">Trusted Analog/RF &amp; On-Die Learning</span>
       <span class="thrust-summary">Self-test and self-calibration of analog/RF ICs, analog neural networks on die, and defenses against malicious hardware that opens covert channels in wireless networks.</span>
     </a>
   
     <a class="thrust-card" id="bio-security" href="/publications/?search=unclonable" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-dna"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-dna" aria-hidden="true"></i></span>
       <span class="thrust-title">Bio-Security &amp; Provenance</span>
       <span class="thrust-summary">Physical unclonable functions in living cells and DNA storage, and provenance attestation that spans silicon chips, biological cells and beyond.</span>
     </a>
   
     <a class="thrust-card" id="reliable-processors" href="/publications/?search=microprocessor" data-tooltip="See related publications">
-      <span class="thrust-icon"><i class="icon fa-solid fa-memory"></i></span>
+      <span class="thrust-icon"><i class="icon fa-solid fa-memory" aria-hidden="true"></i></span>
       <span class="thrust-title">Reliable &amp; Secure Processors</span>
       <span class="thrust-summary">Hardware-based malware detection, workload execution forensics, and workload-cognizant error detection and resilience for modern microprocessors.</span>
     </a>
@@ -528,7 +531,7 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 -->
 
 <h2 id="projects">
-<i class="icon fa-solid fa-diagram-project"></i>Projects</h2>
+<i class="icon fa-solid fa-diagram-project" aria-hidden="true"></i>Projects</h2>
 
 <p>Selected active projects. Code, datasets and trained models are linked from each project and paper as they are released.</p>
 
@@ -536,7 +539,7 @@ TRELA turns that data into guarantees, using machine learning and statistical an
   
     <div class="project-card">
       <div class="project-head">
-        <span class="project-icon"><i class="icon fa-solid fa-wand-magic-sparkles"></i></span>
+        <span class="project-icon"><i class="icon fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></span>
         <div>
           <a class="project-title" href="/publications/?search=%22Language%20of%20Test%22">Generative AI for Test</a>
           
@@ -548,13 +551,13 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 </p>
       
       <a class="project-more" href="/publications/?search=%22Language%20of%20Test%22">
-        Related publications <i class="icon fa-solid fa-arrow-right"></i>
+        Related publications <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
   
     <div class="project-card">
       <div class="project-head">
-        <span class="project-icon"><i class="icon fa-solid fa-lock"></i></span>
+        <span class="project-icon"><i class="icon fa-solid fa-lock" aria-hidden="true"></i></span>
         <div>
           <a class="project-title" href="/publications/?search=TRAP">TRAP</a>
           
@@ -566,13 +569,13 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 </p>
       
       <a class="project-more" href="/publications/?search=TRAP">
-        Related publications <i class="icon fa-solid fa-arrow-right"></i>
+        Related publications <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
   
     <div class="project-card">
       <div class="project-head">
-        <span class="project-icon"><i class="icon fa-solid fa-brain"></i></span>
+        <span class="project-icon"><i class="icon fa-solid fa-brain" aria-hidden="true"></i></span>
         <div>
           <a class="project-title" href="/publications/?search=%22Neural%20Network%22">CHAMELEON</a>
           
@@ -584,13 +587,13 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 </p>
       
       <a class="project-more" href="/publications/?search=%22Neural%20Network%22">
-        Related publications <i class="icon fa-solid fa-arrow-right"></i>
+        Related publications <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
   
     <div class="project-card">
       <div class="project-head">
-        <span class="project-icon"><i class="icon fa-solid fa-satellite-dish"></i></span>
+        <span class="project-icon"><i class="icon fa-solid fa-satellite-dish" aria-hidden="true"></i></span>
         <div>
           <a class="project-title" href="/publications/?search=%22Wireless%22">Covert channels in NextG wireless</a>
           
@@ -602,13 +605,13 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 </p>
       
       <a class="project-more" href="/publications/?search=%22Wireless%22">
-        Related publications <i class="icon fa-solid fa-arrow-right"></i>
+        Related publications <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
   
     <div class="project-card">
       <div class="project-head">
-        <span class="project-icon"><i class="icon fa-solid fa-dna"></i></span>
+        <span class="project-icon"><i class="icon fa-solid fa-dna" aria-hidden="true"></i></span>
         <div>
           <a class="project-title" href="/publications/?search=%22Unclonable%22">Genetic PUFs</a>
           
@@ -620,13 +623,13 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 </p>
       
       <a class="project-more" href="/publications/?search=%22Unclonable%22">
-        Related publications <i class="icon fa-solid fa-arrow-right"></i>
+        Related publications <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
   
     <div class="project-card">
       <div class="project-head">
-        <span class="project-icon"><i class="icon fa-solid fa-fingerprint"></i></span>
+        <span class="project-icon"><i class="icon fa-solid fa-fingerprint" aria-hidden="true"></i></span>
         <div>
           <a class="project-title" href="/publications/?search=%22Recycled%22">IC provenance attestation</a>
           
@@ -638,7 +641,7 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 </p>
       
       <a class="project-more" href="/publications/?search=%22Recycled%22">
-        Related publications <i class="icon fa-solid fa-arrow-right"></i>
+        Related publications <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       </a>
     </div>
   
@@ -688,7 +691,7 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 -->
 
 <h2 id="sponsors">
-<i class="icon fa-solid fa-handshake"></i>Sponsors</h2>
+<i class="icon fa-solid fa-handshake" aria-hidden="true"></i>Sponsors</h2>
 
 <p>We gratefully acknowledge the agencies and companies that support our research.</p>
 
@@ -839,7 +842,7 @@ TRELA turns that data into guarantees, using machine learning and statistical an
 
   <div class="button-wrapper">
     <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
     </a>
   </div>
@@ -857,7 +860,7 @@ TRELA turns that data into guarantees, using machine learning and statistical an
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" role="switch" data-tooltip="Dark mode" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

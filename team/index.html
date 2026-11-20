@@ -363,6 +363,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/navigation.js"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -375,6 +377,7 @@
 </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     
 
 
@@ -384,7 +387,7 @@
 
 
 <header class="background" style="--image: url('/images/background.svg')" data-dark="true">
-  <a href="/" class="home">
+  <a href="/" class="home" data-tooltip="Home">
     
       <span class="logo">
         
@@ -393,7 +396,7 @@
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text">
         
           <span class="title">TRELA</span>
         
@@ -404,9 +407,9 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="primary-navigation">
 
-  <nav>
+  <nav id="primary-navigation" aria-label="Primary">
     
     
       
@@ -422,7 +425,7 @@
       
     
       
-        <a href="/team/" data-tooltip="People and alumni">
+        <a href="/team/" data-tooltip="People and alumni" aria-current="page">
           Team
         </a>
       
@@ -442,7 +445,7 @@
   </nav>
 </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <!--
   modify main content of page:
   - add section breaks
@@ -461,7 +464,7 @@
 
   <section class="background" data-size="page">
     <h1 id="team">
-<i class="icon fa-solid fa-users"></i>Team</h1>
+<i class="icon fa-solid fa-users" aria-hidden="true"></i>Team</h1>
 
 <p>TRELA brings together students and researchers in electrical engineering, computer engineering and computer science who like to build things, measure them, and ask whether they can be trusted.</p>
   </section>
@@ -478,12 +481,12 @@
 -->
 
 <div class="portrait-wrapper">
-  <a href="/members/yiorgos-makris.html" class="portrait" data-style="" aria-label="Yiorgos Makris">
+  <a href="/members/yiorgos-makris.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-microchip"></i>
+      <i class="icon fa-solid fa-microchip" aria-hidden="true"></i>
     
 
-    <img src="/images/team/yiorgos-makris.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/yiorgos-makris.jpg" class="portrait-image" alt="Portrait of Yiorgos Makris" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -508,12 +511,12 @@
 <h2 class="center" id="postdoctoral-researchers">Postdoctoral researchers</h2>
 
 <div class="portrait-wrapper">
-  <a href="/members/aric-fowler.html" class="portrait" data-style="" aria-label="Aric Fowler">
+  <a href="/members/aric-fowler.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-glasses"></i>
+      <i class="icon fa-solid fa-glasses" aria-hidden="true"></i>
     
 
-    <img src="/images/team/aric-fowler.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/aric-fowler.jpg" class="portrait-image" alt="Portrait of Aric Fowler" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -536,12 +539,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/thomas-broadfoot.html" class="portrait" data-style="" aria-label="Thomas Broadfoot">
+  <a href="/members/thomas-broadfoot.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-glasses"></i>
+      <i class="icon fa-solid fa-glasses" aria-hidden="true"></i>
     
 
-    <img src="/images/team/thomas-broadfoot.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/thomas-broadfoot.jpg" class="portrait-image" alt="Portrait of Thomas Broadfoot" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -566,12 +569,12 @@
 <h2 class="center" id="phd-students">Ph.D. students</h2>
 
 <div class="portrait-wrapper">
-  <a href="/members/yijie-tang.html" class="portrait" data-style="" aria-label="Yijie Tang">
+  <a href="/members/yijie-tang.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/yijie-tang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/yijie-tang.jpg" class="portrait-image" alt="Portrait of Yijie Tang" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -594,12 +597,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/pu-huai.html" class="portrait" data-style="" aria-label="Pu Huai">
+  <a href="/members/pu-huai.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/pu-huai.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/pu-huai.jpg" class="portrait-image" alt="Portrait of Pu Huai" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -622,12 +625,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/christos-vasileiou.html" class="portrait" data-style="" aria-label="Christos Vasileiou">
+  <a href="/members/christos-vasileiou.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/christos-vasileiou.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/christos-vasileiou.jpg" class="portrait-image" alt="Portrait of Christos Vasileiou" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -650,12 +653,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/matthew-nigh.html" class="portrait" data-style="" aria-label="Matthew Nigh">
+  <a href="/members/matthew-nigh.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/matthew-nigh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/matthew-nigh.jpg" class="portrait-image" alt="Portrait of Matthew Nigh" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -678,12 +681,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/ahmad-sayeed-sayem.html" class="portrait" data-style="" aria-label="Ahmad Sayeed Sayem">
+  <a href="/members/ahmad-sayeed-sayem.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/ahmad-sayeed-sayem.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/ahmad-sayeed-sayem.jpg" class="portrait-image" alt="Portrait of Ahmad Sayeed Sayem" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -706,12 +709,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/nosheen-afroz.html" class="portrait" data-style="" aria-label="Nosheen Afroz">
+  <a href="/members/nosheen-afroz.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/nosheen-afroz.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/nosheen-afroz.jpg" class="portrait-image" alt="Portrait of Nosheen Afroz" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -734,12 +737,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/priyanshu-mishra.html" class="portrait" data-style="" aria-label="Priyanshu Mishra">
+  <a href="/members/priyanshu-mishra.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/priyanshu-mishra.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/priyanshu-mishra.jpg" class="portrait-image" alt="Portrait of Priyanshu Mishra" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -762,12 +765,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/lucas-wick.html" class="portrait" data-style="" aria-label="Lucas Wick">
+  <a href="/members/lucas-wick.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/lucas-wick.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/lucas-wick.jpg" class="portrait-image" alt="Portrait of Lucas Wick" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -790,12 +793,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/apostolos-kontarinis.html" class="portrait" data-style="" aria-label="Apostolos Kontarinis">
+  <a href="/members/apostolos-kontarinis.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/apostolos-kontarinis.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/apostolos-kontarinis.jpg" class="portrait-image" alt="Portrait of Apostolos Kontarinis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -818,12 +821,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/athanasia-karanika.html" class="portrait" data-style="" aria-label="Athanasia Karanika">
+  <a href="/members/athanasia-karanika.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/athanasia-karanika.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/athanasia-karanika.jpg" class="portrait-image" alt="Portrait of Athanasia Karanika" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -846,12 +849,12 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/christos-koutoulis.html" class="portrait" data-style="" aria-label="Christos Koutoulis">
+  <a href="/members/christos-koutoulis.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-graduation-cap"></i>
+      <i class="icon fa-solid fa-graduation-cap" aria-hidden="true"></i>
     
 
-    <img src="/images/team/placeholder.svg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/placeholder.svg" class="portrait-image" alt="Portrait of Christos Koutoulis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -872,12 +875,12 @@
 <h2 class="center" id="ms-students">M.S. students</h2>
 
 <div class="portrait-wrapper">
-  <a href="/members/anthony-georgis.html" class="portrait" data-style="" aria-label="Anthony Georgis">
+  <a href="/members/anthony-georgis.html" class="portrait" data-style="">
     
-      <i class="icon fa-solid fa-user-graduate"></i>
+      <i class="icon fa-solid fa-user-graduate" aria-hidden="true"></i>
     
 
-    <img src="/images/team/placeholder.svg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/placeholder.svg" class="portrait-image" alt="Portrait of Anthony Georgis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -908,13 +911,13 @@
 -->
 
 <h2 id="join-trela">
-<i class="icon fa-solid fa-user-plus"></i>Join TRELA</h2>
+<i class="icon fa-solid fa-user-plus" aria-hidden="true"></i>Join TRELA</h2>
 
 <p>We are looking for motivated Ph.D., M.S. and undergraduate students interested in hardware security, machine learning for chips, and analog/RF design.</p>
 
 <div class="button-wrapper">
-    <a class="button" href="/contact" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
+    <a class="button" href="/contact" data-style="" data-flip="">
+      <i class="icon fa-solid fa-arrow-right" aria-hidden="true"></i>
       
         <span>How to join</span>
       
@@ -934,7 +937,7 @@
 -->
 
 <h2 id="alumni">
-<i class="icon fa-solid fa-user-graduate"></i>Alumni</h2>
+<i class="icon fa-solid fa-user-graduate" aria-hidden="true"></i>Alumni</h2>
 
 <p>Our alumni work in research and engineering at Apple, Intel, Google, Samsung, Advantest, NXP and many other companies, and hold faculty positions at universities around the world.</p>
 
@@ -949,7 +952,7 @@
         <span class="alumni-detail">Ph.D. NYU, 2020</span>
         <span class="alumni-topic">Design obfuscation through reconfigurable computing</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Digital Design Engineer, Codelucida</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Digital Design Engineer, Codelucida</span>
         
       </div>
     </div>
@@ -961,7 +964,7 @@
         <span class="alumni-detail">Ph.D. UT Dallas, 2021</span>
         <span class="alumni-topic">CAD flow and applications of hybrid ASIC/TRAP circuits</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Intel</span>
         
       </div>
     </div>
@@ -973,7 +976,7 @@
         <span class="alumni-detail">Ph.D. UT Dallas, 2020</span>
         <span class="alumni-topic">Robust and trustworthy analog/RF ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Analog Design Engineer, Argo Semiconductors</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Analog Design Engineer, Argo Semiconductors</span>
         
       </div>
     </div>
@@ -985,7 +988,7 @@
         <span class="alumni-detail">Ph.D. UT Dallas, 2018</span>
         <span class="alumni-topic">Proof-carrying hardware</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Security Engineer, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Security Engineer, Intel</span>
         
       </div>
     </div>
@@ -997,7 +1000,7 @@
         <span class="alumni-detail">Ph.D. UT Dallas, 2018</span>
         <span class="alumni-topic">Hardware Trojans in wireless networks</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Systems Engineer, Silicon Labs</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Systems Engineer, Silicon Labs</span>
         
       </div>
     </div>
@@ -1009,7 +1012,7 @@
         <span class="alumni-detail">Ph.D. Technical University of Crete, 2014</span>
         <span class="alumni-topic">Trusted and reliable analog/RF integrated circuits and systems</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Patent Engineer, u-blox</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Patent Engineer, u-blox</span>
         
       </div>
     </div>
@@ -1021,7 +1024,7 @@
         <span class="alumni-detail">Ph.D. University of Grenoble, 2011</span>
         <span class="alumni-topic">Machine learning in semiconductor manufacturing</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Associate Professor, San Diego State University</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Associate Professor, San Diego State University</span>
         
       </div>
     </div>
@@ -1059,7 +1062,7 @@
         <span class="alumni-detail">UT Dallas (co-advised with C. Sechen)</span>
         <span class="alumni-topic">Next generation implementation of transistor-level programming fabrics</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Postdoctoral Researcher, TRELA</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Postdoctoral Researcher, TRELA</span>
         
       </div>
     </div>
@@ -1071,7 +1074,7 @@
         <span class="alumni-detail">UT Dallas</span>
         <span class="alumni-topic">Applications of machine learning in low-cost IC trimming</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Qorvo</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Qorvo</span>
         
       </div>
     </div>
@@ -1083,7 +1086,7 @@
         <span class="alumni-detail">UT Dallas</span>
         <span class="alumni-topic">Applications of machine learning in semiconductor manufacturing</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, NXP</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, NXP</span>
         
       </div>
     </div>
@@ -1095,7 +1098,7 @@
         <span class="alumni-detail">UT Dallas (co-advised with C. Sechen)</span>
         <span class="alumni-topic">Testing and verification challenges in a transistor-level programmable fabric</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Intel</span>
         
       </div>
     </div>
@@ -1107,7 +1110,7 @@
         <span class="alumni-detail">UT Dallas</span>
         <span class="alumni-topic">Reliability-aware optimization of integrated circuits</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Apple</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Apple</span>
         
       </div>
     </div>
@@ -1119,7 +1122,7 @@
         <span class="alumni-detail">UT Dallas (co-advised with C. Sechen)</span>
         <span class="alumni-topic">Custom routing methods for transistor-level programmable fabrics</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Intel</span>
         
       </div>
     </div>
@@ -1131,7 +1134,7 @@
         <span class="alumni-detail">UT Dallas</span>
         <span class="alumni-topic">Hardware-based malware detection in modern microprocessors</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Google</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Google</span>
         
       </div>
     </div>
@@ -1143,7 +1146,7 @@
         <span class="alumni-detail">UT Dallas, 2021</span>
         <span class="alumni-topic">Intellectual property protection through transistor-level programming</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Intel</span>
         
       </div>
     </div>
@@ -1155,7 +1158,7 @@
         <span class="alumni-detail">UT Dallas</span>
         <span class="alumni-topic">Post-production performance calibration in analog/RF devices</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Advantest</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Advantest</span>
         
       </div>
     </div>
@@ -1167,7 +1170,7 @@
         <span class="alumni-detail">UT Dallas, 2020</span>
         <span class="alumni-topic">On-chip intelligence for robust and trustworthy analog/RF ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Analog Design Engineer, Argo Semiconductors</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Analog Design Engineer, Argo Semiconductors</span>
         
       </div>
     </div>
@@ -1179,7 +1182,7 @@
         <span class="alumni-detail">UT Dallas, 2020 (David Daniel Thesis Award)</span>
         <span class="alumni-topic">Machine learning-based hotspot detection: fallacies, pitfalls and marching orders</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Intel</span>
         
       </div>
     </div>
@@ -1191,7 +1194,7 @@
         <span class="alumni-detail">UT Dallas, 2019 (co-advised with C. Sechen)</span>
         <span class="alumni-topic">A transistor-level dynamically reconfigurable integrated circuit block</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>CPU Design Engineer, Apple</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>CPU Design Engineer, Apple</span>
         
       </div>
     </div>
@@ -1203,7 +1206,7 @@
         <span class="alumni-detail">UT Dallas, 2019</span>
         <span class="alumni-topic">Cross-layer power conditioning in multi-core mixed-signal SoCs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Raytheon</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Raytheon</span>
         
       </div>
     </div>
@@ -1215,7 +1218,7 @@
         <span class="alumni-detail">UT Dallas, 2019</span>
         <span class="alumni-topic">Spatial correlation extraction and decomposition in semiconductor data</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Advantest</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Advantest</span>
         
       </div>
     </div>
@@ -1227,7 +1230,7 @@
         <span class="alumni-detail">UT Dallas, 2018</span>
         <span class="alumni-topic">Microprocessor workload execution forensics</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, ASML</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, ASML</span>
         
       </div>
     </div>
@@ -1239,7 +1242,7 @@
         <span class="alumni-detail">UT Dallas, 2018</span>
         <span class="alumni-topic">Proof-carrying hardware</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Security Engineer, Intel</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Security Engineer, Intel</span>
         
       </div>
     </div>
@@ -1251,7 +1254,7 @@
         <span class="alumni-detail">UT Dallas, 2018</span>
         <span class="alumni-topic">Hardware Trojans in wireless networks</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Systems Engineer, Silicon Labs</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Systems Engineer, Silicon Labs</span>
         
       </div>
     </div>
@@ -1263,7 +1266,7 @@
         <span class="alumni-detail">UT Dallas, 2017</span>
         <span class="alumni-topic">Machine learning in test cost reduction, yield estimation and fab-of-origin attestation</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, GlobalFoundries</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, GlobalFoundries</span>
         
       </div>
     </div>
@@ -1275,7 +1278,7 @@
         <span class="alumni-detail">UT Dallas, 2017</span>
         <span class="alumni-topic">Hardware Trojans in wireless cryptographic ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Research Staff Member, Samsung Research</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Research Staff Member, Samsung Research</span>
         
       </div>
     </div>
@@ -1287,7 +1290,7 @@
         <span class="alumni-detail">Yale, 2013</span>
         <span class="alumni-topic">Neural network design and implementation for analog/RF BIST</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Researcher, Quant Labs</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Researcher, Quant Labs</span>
         
       </div>
     </div>
@@ -1299,7 +1302,7 @@
         <span class="alumni-detail">Yale, 2012</span>
         <span class="alumni-topic">Hardware Trojans in wireless cryptographic ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Associate Professor, University of Florida</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Associate Professor, University of Florida</span>
         
       </div>
     </div>
@@ -1311,7 +1314,7 @@
         <span class="alumni-detail">Yale, 2012 (IEEE TTTC E.J. McCluskey Best Doctoral Thesis Award)</span>
         <span class="alumni-topic">Statistical methods for RF-to-DC correlation in analog/RF circuit testing</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Lead Data Scientist, Thumbtack</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Lead Data Scientist, Thumbtack</span>
         
       </div>
     </div>
@@ -1323,7 +1326,7 @@
         <span class="alumni-detail">Yale, 2012</span>
         <span class="alumni-topic">Workload-cognizant resilience analysis in modern microprocessors</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Assistant Professor, NYU Abu Dhabi</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Assistant Professor, NYU Abu Dhabi</span>
         
       </div>
     </div>
@@ -1335,7 +1338,7 @@
         <span class="alumni-detail">Visiting researcher at Yale, 2007 to 2009</span>
         <span class="alumni-topic">RTL concurrent error detection in microprocessor controllers</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Assistant Professor, University of Maryland Baltimore County</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Assistant Professor, University of Maryland Baltimore County</span>
         
       </div>
     </div>
@@ -1347,7 +1350,7 @@
         <span class="alumni-detail">Yale, 2007</span>
         <span class="alumni-topic">Fault simulation and test generation strategies for asynchronous circuits</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>RF Circuit Designer, Marvell Semiconductor</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>RF Circuit Designer, Marvell Semiconductor</span>
         
       </div>
     </div>
@@ -1359,7 +1362,7 @@
         <span class="alumni-detail">Yale, 2007</span>
         <span class="alumni-topic">Optimization frameworks for designing reliable circuits</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Director, National Center for Education Development, Kuwait</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Director, National Center for Education Development, Kuwait</span>
         
       </div>
     </div>
@@ -1371,7 +1374,7 @@
         <span class="alumni-detail">Yale, 2006</span>
         <span class="alumni-topic">A machine-learning approach to analog/RF circuit testing</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>CNRS Researcher, LIP6</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>CNRS Researcher, LIP6</span>
         
       </div>
     </div>
@@ -1389,7 +1392,7 @@
         <span class="alumni-detail">UT Dallas, 2022</span>
         <span class="alumni-topic">RISC-V implementation on a hybrid TRAP/FPGA platform</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Project Engineer, Ford</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Project Engineer, Ford</span>
         
       </div>
     </div>
@@ -1401,7 +1404,7 @@
         <span class="alumni-detail">UT Dallas, 2020</span>
         <span class="alumni-topic">Hardware security of analog/RF ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Hardware Design Engineer, STMicroelectronics</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Hardware Design Engineer, STMicroelectronics</span>
         
       </div>
     </div>
@@ -1413,7 +1416,7 @@
         <span class="alumni-detail">UT Dallas, 2020</span>
         <span class="alumni-topic">Security and trust in wireless ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, ARiA</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, ARiA</span>
         
       </div>
     </div>
@@ -1425,7 +1428,7 @@
         <span class="alumni-detail">UT Dallas, 2019</span>
         <span class="alumni-topic">Custom routing solutions for TRAP</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Member of Technical Staff, Apple</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Member of Technical Staff, Apple</span>
         
       </div>
     </div>
@@ -1437,7 +1440,7 @@
         <span class="alumni-detail">UT Dallas, 2018</span>
         <span class="alumni-topic">Hardware security and trust in analog/RF ICs</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Software Engineer, Lintec</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Software Engineer, Lintec</span>
         
       </div>
     </div>
@@ -1449,7 +1452,7 @@
         <span class="alumni-detail">UT Dallas, 2015</span>
         <span class="alumni-topic">OpenSPARC emulation on an FPGA for forensics analysis</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Test Engineer, Foxconn</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Test Engineer, Foxconn</span>
         
       </div>
     </div>
@@ -1461,7 +1464,7 @@
         <span class="alumni-detail">Yale, 2009</span>
         <span class="alumni-topic">Self-healing analog/RF circuits</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Analog/RF Design Engineer, Broadcom</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Analog/RF Design Engineer, Broadcom</span>
         
       </div>
     </div>
@@ -1473,7 +1476,7 @@
         <span class="alumni-detail">Yale, 2002</span>
         <span class="alumni-topic">Concurrent error detection in asynchronous circuits</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Quantitative Equity Portfolio Manager, Cavanal Hill</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Quantitative Equity Portfolio Manager, Cavanal Hill</span>
         
       </div>
     </div>
@@ -1491,7 +1494,7 @@
         <span class="alumni-detail">B.S. UT Dallas, 2020</span>
         <span class="alumni-topic">Machine learning-based gesture recognition in THz imagers</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Analyst, Citibank</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Analyst, Citibank</span>
         
       </div>
     </div>
@@ -1503,7 +1506,7 @@
         <span class="alumni-detail">B.S. UT Dallas, 2018</span>
         <span class="alumni-topic">FEC-based hardware Trojan design and demonstration</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>FPGA Design Engineer, Raytheon</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>FPGA Design Engineer, Raytheon</span>
         
       </div>
     </div>
@@ -1525,7 +1528,7 @@
         <span class="alumni-detail">Visiting researcher from NTUA, 2014</span>
         <span class="alumni-topic">FPGA-based multi-core experimentation platform</span>
         
-          <span class="alumni-position"><i class="icon fa-solid fa-briefcase"></i>Ph.D. Student, Princeton University</span>
+          <span class="alumni-position"><i class="icon fa-solid fa-briefcase" aria-hidden="true"></i>Ph.D. Student, Princeton University</span>
         
       </div>
     </div>
@@ -1555,7 +1558,7 @@
 
   <div class="button-wrapper">
     <a class="button" href="mailto:ymakris@ucsd.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
+      <i class="icon fa-solid fa-envelope" aria-hidden="true"></i>
       
     </a>
   </div>
@@ -1573,7 +1576,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" role="switch" data-tooltip="Dark mode" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>
