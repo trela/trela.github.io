@@ -11,7 +11,8 @@
   --background: #ffffff;
   --background-alt: #f4f6fa;
   --light-gray: #dfe4ec;
-  --gray: #7a869a;
+  // At least 4.5:1 on both white and --background-alt.
+  --gray: #626f84;
   --dark-gray: #3d4b63;
   --overlay: #182b4918;
 }
