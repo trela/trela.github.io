@@ -1,5 +1,27 @@
+{% comment %}
+  sponsor logos from _data/sponsors.yaml; name on hover, website on click
+{% endcomment %}
 <div class="sponsors">
   {% for sponsor in site.data.sponsors %}
-    <span class="sponsor">{{ sponsor }}</span>
+    <a
+      class="sponsor{% if sponsor.logo %} sponsor-logo{% endif %}"
+      {% if sponsor.url %}
+        href="{{ sponsor.url }}"
+        target="_blank"
+        rel="noopener"
+      {% endif %}
+      data-tooltip="{{ sponsor.name | xml_escape }}"
+      aria-label="{{ sponsor.name | xml_escape }}"
+    >
+      {% if sponsor.logo %}
+        <img
+          src="{{ sponsor.logo | relative_url }}"
+          alt="{{ sponsor.name | xml_escape }}"
+          loading="lazy"
+        >
+      {% else %}
+        {{ sponsor.name }}
+      {% endif %}
+    </a>
   {% endfor %}
 </div>
